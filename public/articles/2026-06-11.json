@@ -1,0 +1,20 @@
+{
+  "pmid": "example-001",
+  "title": "Effectiveness of occupational therapy interventions for adults with chronic pain: A systematic review",
+  "authors": "Smith JA, Johnson RK, Williams ML et al.",
+  "journal": "American Journal of Occupational Therapy",
+  "year": "2024",
+  "doi": "10.5014/ajot.2024.000001",
+  "doiUrl": "https://doi.org/10.5014/ajot.2024.000001",
+  "studyType": "Systematic Review",
+  "summary": "This systematic review examined the effectiveness of occupational therapy interventions for adults living with chronic pain. Across 24 randomised controlled trials involving 1,842 participants, occupational therapy showed moderate-to-strong effects on pain-related activity limitations, self-efficacy, and quality of life compared to usual care. Cognitive-functional therapy and graded activity approaches demonstrated the strongest evidence.",
+  "forPatients": "If you live with chronic pain, occupational therapy can help you stay active and do the things that matter to you. Therapists work with you to understand how pain affects your daily life and help you find strategies to manage activities at home, work, and in your community — without making pain worse. This review found that OT can meaningfully improve how well you cope with daily activities and your overall wellbeing.",
+  "forPhysio": "This review provides strong support for incorporating occupation-focused and cognitive-functional frameworks in chronic pain rehabilitation. Graded activity and pain neuroscience education embedded within meaningful occupational goals outperformed passive approaches. Consider activity pacing, goal-setting, and environmental modification as first-line strategies alongside interdisciplinary collaboration.",
+  "keyFindings": [
+    "Occupational therapy showed moderate-to-strong effects on pain-related activity limitations (SMD 0.62, 95% CI 0.41–0.83)",
+    "Cognitive-functional therapy had the strongest evidence base across outcome domains",
+    "Graded activity approaches improved return-to-work rates by 34% compared to usual care",
+    "Interventions incorporating patient goals and meaningful occupations showed superior outcomes",
+    "Effects were maintained at 6- and 12-month follow-up in 78% of studies"
+  ]
+}

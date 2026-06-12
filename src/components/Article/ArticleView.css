@@ -1,0 +1,246 @@
+.article-view {
+  padding: clamp(22px, 4vw, 42px);
+}
+
+.article-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.study-type-badge {
+  border: 1px solid color-mix(in srgb, var(--tag-text) 22%, transparent);
+  border-radius: 999px;
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  font-size: 0.82rem;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 6px 11px;
+}
+
+.article-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.speech-actions {
+  display: contents;
+}
+
+.action-btn {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text-m);
+  font-size: 0.95rem;
+  font-weight: 750;
+  padding: 9px 13px;
+  transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+
+.action-btn svg,
+.article-doi svg {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+}
+
+.action-btn:hover {
+  background: var(--surface-hover);
+  border-color: var(--border-strong);
+  color: var(--text);
+}
+
+.action-btn.bookmarked {
+  background: var(--success-bg);
+  border-color: color-mix(in srgb, var(--success) 45%, var(--border));
+  color: var(--success);
+}
+
+.article-title {
+  margin: 0 0 16px;
+  color: var(--text);
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3.45rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: 0;
+  max-width: 14ch;
+}
+
+.article-byline {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 24px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--border);
+}
+
+.article-authors {
+  color: var(--text-m);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.article-journal {
+  color: var(--text-f);
+  font-size: 0.96rem;
+}
+
+.article-doi {
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--accent);
+  font-size: 0.98rem;
+  font-weight: 750;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.article-tabs {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  margin-bottom: 24px;
+  padding: 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-accent);
+  scrollbar-width: none;
+}
+
+.article-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.article-tab {
+  min-height: 44px;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--text-m);
+  font-size: 0.96rem;
+  font-weight: 780;
+  padding: 9px 14px;
+  white-space: nowrap;
+  transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.article-tab:hover {
+  background: var(--surface-hover);
+  color: var(--text);
+}
+
+.article-tab.active {
+  background: var(--surface);
+  border-color: var(--border-strong);
+  color: var(--text);
+  box-shadow: 0 4px 12px rgba(var(--shadow-color), 0.06);
+}
+
+.article-body {
+  min-height: 180px;
+}
+
+.article-text,
+.finding-item {
+  color: var(--text-b);
+  font-size: clamp(1.06rem, 1.1vw, 1.18rem);
+  line-height: 1.78;
+}
+
+.article-text {
+  margin: 0;
+  max-width: 68ch;
+}
+
+.findings-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+  max-width: 72ch;
+}
+
+.finding-item {
+  display: grid;
+  grid-template-columns: 12px minmax(0, 1fr);
+  gap: 12px;
+}
+
+.finding-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--success);
+  margin-top: 0.75em;
+}
+
+.article-disclaimer {
+  margin: 30px 0 0;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-accent);
+  color: var(--text-m);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 560px) {
+  .article-view {
+    padding: 22px 18px 26px;
+  }
+
+  .article-title {
+    max-width: none;
+    font-size: 2rem;
+  }
+
+  .article-meta-row {
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .study-type-badge {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.72rem;
+    padding: 5px 8px;
+  }
+
+  .article-actions {
+    flex: 0 0 auto;
+    flex-wrap: nowrap;
+    gap: 6px;
+  }
+
+  .action-btn {
+    min-height: 40px;
+    gap: 6px;
+    padding: 8px 9px;
+    font-size: 0.88rem;
+    white-space: nowrap;
+  }
+
+  .article-tab {
+    flex: 0 0 auto;
+  }
+}
