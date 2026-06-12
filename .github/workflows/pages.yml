@@ -37,6 +37,13 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Add legacy project-path assets
+        run: |
+          mkdir -p dist/OTDAILY
+          cp -R dist/assets dist/OTDAILY/assets
+          cp -R dist/articles dist/OTDAILY/articles
+          cp dist/crossword.json dist/favicon.jpg dist/OTDAILY/
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
