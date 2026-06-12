@@ -24,7 +24,7 @@ export function useArticle() {
   useEffect(() => {
     if (article) return;
 
-    fetch(`/articles/${today}.json`)
+    fetch(`${import.meta.env.BASE_URL}articles/${today}.json`)
       .then(r => {
         if (!r.ok) throw new Error(`No article for ${today}`);
         return r.json();

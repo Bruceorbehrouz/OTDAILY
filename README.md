@@ -15,6 +15,10 @@ npm run dev
 npm run build
 ```
 
+## Deployment
+
+The app deploys to GitHub Pages through `.github/workflows/pages.yml` when changes land on `main`.
+
 ## Feature Flags
 
 Copy `.env.example` to `.env` for local overrides.

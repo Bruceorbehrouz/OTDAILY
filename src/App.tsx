@@ -26,7 +26,7 @@ export default function App() {
   );
 
   useEffect(() => {
-    fetch('/crossword.json')
+    fetch(`${import.meta.env.BASE_URL}crossword.json`)
       .then(r => r.json())
       .then(setCrosswordData)
       .catch(console.error);
