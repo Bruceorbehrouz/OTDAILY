@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "DIAPHRAGM",
+      "clue": "Dome-shaped muscle driving breathing",
+      "starty": 1,
+      "startx": 8,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "ORBIT",
+      "clue": "Bony socket that houses the eye",
+      "starty": 1,
+      "startx": 18,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "HAMSTRING",
+      "clue": "Muscle group at the back of the thigh",
+      "starty": 2,
+      "startx": 2,
+      "orientation": "across",
+      "position": 3
+    },
+    {
+      "answer": "HOMEVISIT",
+      "clue": "Assessment carried out where the client lives",
+      "starty": 2,
+      "startx": 2,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "MYOFIBRIL",
+      "clue": "Contractile thread within a muscle fibre",
+      "starty": 2,
+      "startx": 4,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "SCAR",
+      "clue": "Mark left after a wound heals",
+      "starty": 2,
+      "startx": 15,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "SOCK",
+      "clue": "Garment applied with a special aid",
+      "starty": 3,
+      "startx": 11,
+      "orientation": "across",
+      "position": 6
+    },
+    {
+      "answer": "CAREGIVER",
+      "clue": "Family member or friend providing daily support",
+      "starty": 3,
+      "startx": 13,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "TOE",
+      "clue": "Digit of the foot",
+      "starty": 4,
+      "startx": 10,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "BRAINSTEM",
+      "clue": "Region controlling breathing and heart rate",
+      "starty": 4,
+      "startx": 15,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "SCHOOL",
+      "clue": "Where much paediatric practice happens",
+      "starty": 5,
+      "startx": 6,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "REST",
+      "clue": "Prescribed pause from activity",
+      "starty": 5,
+      "startx": 15,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "SAFE",
+      "clue": "Free from avoidable risk",
+      "starty": 5,
+      "startx": 17,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "PROSTHESIS",
+      "clue": "Artificial replacement for a missing limb",
+      "starty": 7,
+      "startx": 6,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "PARKINSONS",
+      "clue": "Condition marked by tremor, rigidity and slow movement",
+      "starty": 7,
+      "startx": 11,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "REGULATION",
+      "clue": "Self-___, managing one's own arousal and emotion",
+      "starty": 8,
+      "startx": 6,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "GRABRAIL",
+      "clue": "Bathroom bar giving something firm to hold",
+      "starty": 11,
+      "startx": 1,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "STICK",
+      "clue": "Simple walking aid",
+      "starty": 11,
+      "startx": 5,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "FATIGUE",
+      "clue": "Persistent tiredness limiting daily activity",
+      "starty": 12,
+      "startx": 18,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "CHECKLIST",
+      "clue": "Written aid supporting memory for a sequence",
+      "starty": 13,
+      "startx": 4,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "CUE",
+      "clue": "Prompt guiding the next action",
+      "starty": 13,
+      "startx": 4,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "CLIENT",
+      "clue": "The person at the centre of the therapy process",
+      "starty": 14,
+      "startx": 13,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "REMEDIATION",
+      "clue": "Restoring a lost skill rather than compensating for it",
+      "starty": 15,
+      "startx": 1,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "SHOPPING",
+      "clue": "Getting groceries, an instrumental daily activity",
+      "starty": 16,
+      "startx": 11,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "LAUNDRY",
+      "clue": "Washing clothes at home",
+      "starty": 18,
+      "startx": 1,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "OUTCOME",
+      "clue": "Measured result of an intervention",
+      "starty": 18,
+      "startx": 12,
+      "orientation": "across",
+      "position": 24
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "SHOPPING",
+      "clue": "Getting groceries, an instrumental daily activity",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "DISCHARGE",
+      "clue": "End of an episode of care",
+      "starty": 1,
+      "startx": 7,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "KITCHEN",
+      "clue": "Room assessed for meal preparation safety",
+      "starty": 1,
+      "startx": 11,
+      "orientation": "across",
+      "position": 3
+    },
+    {
+      "answer": "COOKING",
+      "clue": "Meal preparation, an instrumental daily activity",
+      "starty": 1,
+      "startx": 14,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "HAMSTRING",
+      "clue": "Muscle group at the back of the thigh",
+      "starty": 2,
+      "startx": 1,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "CHECKLIST",
+      "clue": "Written aid supporting memory for a sequence",
+      "starty": 4,
+      "startx": 4,
+      "orientation": "across",
+      "position": 6
+    },
+    {
+      "answer": "CAREGIVER",
+      "clue": "Family member or friend providing daily support",
+      "starty": 4,
+      "startx": 4,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "ARTHRITIS",
+      "clue": "Inflammation of one or more joints",
+      "starty": 4,
+      "startx": 16,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "COMMUNITY",
+      "clue": "Care setting outside hospital walls",
+      "starty": 6,
+      "startx": 9,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "FEMUR",
+      "clue": "Thigh bone — the longest bone in the body",
+      "starty": 7,
+      "startx": 3,
+      "orientation": "across",
+      "position": 9
+    },
+    {
+      "answer": "HIP",
+      "clue": "Joint connecting the leg to the pelvis",
+      "starty": 9,
+      "startx": 3,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "SPASTICITY",
+      "clue": "Velocity-dependent increase in muscle tone",
+      "starty": 9,
+      "startx": 9,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "PERIOSTEUM",
+      "clue": "Membrane covering the outer surface of bone",
+      "starty": 9,
+      "startx": 10,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "SLEEP",
+      "clue": "Restorative occupation often disrupted by pain",
+      "starty": 9,
+      "startx": 12,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "BEND",
+      "clue": "Flex at a joint",
+      "starty": 10,
+      "startx": 6,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "AXON",
+      "clue": "Long fibre carrying impulses from a nerve cell",
+      "starty": 10,
+      "startx": 8,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "BONE",
+      "clue": "Rigid tissue of the skeleton",
+      "starty": 11,
+      "startx": 1,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "RANDOMISED",
+      "clue": "___ controlled trial, the classic experimental design",
+      "starty": 12,
+      "startx": 4,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "COMMODE",
+      "clue": "Portable toileting chair",
+      "starty": 12,
+      "startx": 18,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "HEART",
+      "clue": "Muscular pump of the circulation",
+      "starty": 14,
+      "startx": 2,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "FOSSA",
+      "clue": "Shallow depression in a bone",
+      "starty": 14,
+      "startx": 4,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "HOME",
+      "clue": "Where most therapy goals are lived out",
+      "starty": 14,
+      "startx": 7,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "ANKLE",
+      "clue": "Joint linking foot to leg",
+      "starty": 14,
+      "startx": 13,
+      "orientation": "down",
+      "position": 22
+    },
+    {
+      "answer": "SHIFT",
+      "clue": "Span of a working day in hospital",
+      "starty": 14,
+      "startx": 15,
+      "orientation": "down",
+      "position": 23
+    },
+    {
+      "answer": "OPPOSITION",
+      "clue": "Thumb movement touching the other fingertips",
+      "starty": 15,
+      "startx": 4,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "GRASP",
+      "clue": "How the hand takes hold of an object",
+      "starty": 17,
+      "startx": 1,
+      "orientation": "across",
+      "position": 25
+    },
+    {
+      "answer": "MILESTONE",
+      "clue": "Expected developmental achievement",
+      "starty": 18,
+      "startx": 10,
+      "orientation": "across",
+      "position": 26
+    }
+  ]
+}

@@ -64,8 +64,8 @@ export function ArticleView({
         <div className="article-archive-note">
           <Clock aria-hidden="true" />
           <span>
-            No new article today yet — showing the most recent one, published{' '}
-            {formatDate(publishedOn)}.
+            No new article for today yet — showing the closest one instead,
+            from {formatDate(publishedOn)}.
           </span>
         </div>
       )}

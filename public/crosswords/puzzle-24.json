@@ -1,0 +1,246 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "TALUS",
+      "clue": "Ankle bone between the heel and the shin",
+      "starty": 1,
+      "startx": 3,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "STRAP",
+      "clue": "Band securing a device to the body",
+      "starty": 1,
+      "startx": 7,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "SCAPULA",
+      "clue": "Shoulder blade",
+      "starty": 1,
+      "startx": 10,
+      "orientation": "across",
+      "position": 3
+    },
+    {
+      "answer": "PALM",
+      "clue": "Inner surface of the hand",
+      "starty": 1,
+      "startx": 13,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "APRAXIA",
+      "clue": "Difficulty planning movement despite intact strength",
+      "starty": 1,
+      "startx": 16,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "SHOPPING",
+      "clue": "Getting groceries, an instrumental daily activity",
+      "starty": 2,
+      "startx": 9,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "PLAY",
+      "clue": "A child's primary occupation",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "BARTHEL",
+      "clue": "___ Index, a classic measure of daily living independence",
+      "starty": 3,
+      "startx": 5,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "LABRUM",
+      "clue": "Cartilage ring deepening the shoulder or hip socket",
+      "starty": 3,
+      "startx": 13,
+      "orientation": "across",
+      "position": 9
+    },
+    {
+      "answer": "QUADRICEPS",
+      "clue": "Four muscles at the front of the thigh",
+      "starty": 4,
+      "startx": 3,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "ACUTE",
+      "clue": "Sudden in onset and short-lived",
+      "starty": 5,
+      "startx": 1,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "CANE",
+      "clue": "Single-point walking aid",
+      "starty": 5,
+      "startx": 14,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "PERIOSTEUM",
+      "clue": "Membrane covering the outer surface of bone",
+      "starty": 5,
+      "startx": 18,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "GONIOMETER",
+      "clue": "Tool measuring a joint's angle",
+      "starty": 6,
+      "startx": 6,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "PALLIATIVE",
+      "clue": "Care focused on comfort rather than cure",
+      "starty": 6,
+      "startx": 9,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "LYMPHEDEMA",
+      "clue": "Swelling caused by impaired lymph drainage",
+      "starty": 6,
+      "startx": 12,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "PARKINSONS",
+      "clue": "Condition marked by tremor, rigidity and slow movement",
+      "starty": 8,
+      "startx": 1,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "POSTURE",
+      "clue": "How the body is held while sitting or standing",
+      "starty": 8,
+      "startx": 1,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "CONCUSSION",
+      "clue": "Mild traumatic brain injury",
+      "starty": 9,
+      "startx": 15,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "HOME",
+      "clue": "Where most therapy goals are lived out",
+      "starty": 10,
+      "startx": 5,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "BASELINE",
+      "clue": "Starting measurement used for comparison",
+      "starty": 11,
+      "startx": 9,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "SEAT",
+      "clue": "Where a person sits, adapted for comfort",
+      "starty": 13,
+      "startx": 3,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "NORM",
+      "clue": "Reference value from a comparison population",
+      "starty": 13,
+      "startx": 9,
+      "orientation": "down",
+      "position": 22
+    },
+    {
+      "answer": "ERGONOMICS",
+      "clue": "Fitting the task and workspace to the person",
+      "starty": 14,
+      "startx": 6,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "MOTOR",
+      "clue": "Relating to movement",
+      "starty": 15,
+      "startx": 2,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "TASK",
+      "clue": "Unit of activity broken into steps",
+      "starty": 15,
+      "startx": 4,
+      "orientation": "down",
+      "position": 25
+    },
+    {
+      "answer": "SCAR",
+      "clue": "Mark left after a wound heals",
+      "starty": 15,
+      "startx": 17,
+      "orientation": "down",
+      "position": 26
+    },
+    {
+      "answer": "SWITCH",
+      "clue": "Single input a user activates to control a device",
+      "starty": 16,
+      "startx": 13,
+      "orientation": "across",
+      "position": 27
+    },
+    {
+      "answer": "WALK",
+      "clue": "Move on foot",
+      "starty": 18,
+      "startx": 1,
+      "orientation": "across",
+      "position": 28
+    },
+    {
+      "answer": "ADAPTATION",
+      "clue": "Changing a task or tool to match a person's ability",
+      "starty": 18,
+      "startx": 6,
+      "orientation": "across",
+      "position": 29
+    }
+  ]
+}

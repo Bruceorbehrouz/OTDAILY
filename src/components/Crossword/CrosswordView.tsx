@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
-import { cwWeekKey } from '../../utils/date';
 import { shareCrossword } from '../../utils/share';
 import type { CrosswordData, CrosswordClue, CrosswordProgress } from '../../types';
 import { Check, Share2, Trophy } from 'lucide-react';
@@ -8,6 +7,10 @@ import './CrosswordView.css';
 
 interface Props {
   data: CrosswordData;
+  /** Where this puzzle's progress is stored. */
+  progressKey: string;
+  /** Human-readable week label shown in the header. */
+  weekLabel: string;
 }
 
 type Dir = 'across' | 'down';
@@ -47,10 +50,9 @@ function buildGrid(data: CrosswordData) {
   return { cellClues, cellNumbers };
 }
 
-export function CrosswordView({ data }: Props) {
-  const weekKey = cwWeekKey();
+export function CrosswordView({ data, progressKey, weekLabel }: Props) {
   const [progress, setProgress] = useLocalStorage<CrosswordProgress>(
-    `physio_crossword_${weekKey}`,
+    progressKey,
     { userLetters: {} }
   );
 
@@ -318,7 +320,7 @@ export function CrosswordView({ data }: Props) {
           <div className="cw-complete-btns">
             <button
               className="cw-btn cw-btn-primary"
-              onClick={() => shareCrossword(totalClues, weekKey)}
+              onClick={() => shareCrossword(totalClues, weekLabel)}
             >
               <Share2 aria-hidden="true" />
               Share
@@ -333,7 +335,7 @@ export function CrosswordView({ data }: Props) {
           <div className="cw-header">
             <div className="cw-title-row">
               <h2 className="cw-title">Crossword</h2>
-              <div className="cw-week">Week {weekKey}</div>
+              <div className="cw-week">{weekLabel}</div>
             </div>
             <div className="cw-progress-wrap">
               <div className="cw-progress-top">

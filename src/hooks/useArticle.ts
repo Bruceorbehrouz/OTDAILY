@@ -64,16 +64,18 @@ export function useArticle() {
       } catch {
         try {
           const index = await fetchJson<ArticleIndex>('articles/index.json');
-          const previous = (index.articles ?? [])
-            .filter(entry => entry.date < today)
-            .sort((a, b) => a.date.localeCompare(b.date))
-            .at(-1);
-          if (!previous) throw new Error(`No article for ${today}`);
-          const fallback = await fetchJson<Article>(`articles/${previous.date}.json`);
+          const dates = (index.articles ?? [])
+            .map(entry => entry.date)
+            .sort((a, b) => a.localeCompare(b));
+          // The most recent article already published, or failing that the
+          // earliest one there is, so the view is never left empty.
+          const chosen = dates.filter(date => date < today).at(-1) ?? dates[0];
+          if (!chosen) throw new Error(`No article for ${today}`);
+          const fallback = await fetchJson<Article>(`articles/${chosen}.json`);
           if (cancelled) return;
-          writeCache(today, { article: fallback, date: previous.date });
+          writeCache(today, { article: fallback, date: chosen });
           setArticle(fallback);
-          setArticleDate(previous.date);
+          setArticleDate(chosen);
         } catch {
           if (cancelled) return;
           setError(`No article for ${today}`);

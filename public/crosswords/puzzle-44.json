@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "ANXIETY",
+      "clue": "Persistent worry that interferes with daily life",
+      "starty": 1,
+      "startx": 2,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "PARKINSONS",
+      "clue": "Condition marked by tremor, rigidity and slow movement",
+      "starty": 1,
+      "startx": 10,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "VESTIBULAR",
+      "clue": "Inner-ear system governing balance",
+      "starty": 1,
+      "startx": 12,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "SCAR",
+      "clue": "Mark left after a wound heals",
+      "starty": 1,
+      "startx": 15,
+      "orientation": "across",
+      "position": 4
+    },
+    {
+      "answer": "COMPENSATION",
+      "clue": "Working around a deficit with a new strategy",
+      "starty": 1,
+      "startx": 16,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "ENERGY",
+      "clue": "What conservation strategies try to save",
+      "starty": 2,
+      "startx": 1,
+      "orientation": "across",
+      "position": 6
+    },
+    {
+      "answer": "OSTEOPOROSIS",
+      "clue": "Loss of bone density raising fracture risk",
+      "starty": 2,
+      "startx": 8,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "ARM",
+      "clue": "Limb from shoulder to hand",
+      "starty": 3,
+      "startx": 14,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "BUDGETING",
+      "clue": "Managing money week to week",
+      "starty": 3,
+      "startx": 18,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "LIGAMENT",
+      "clue": "Band of tissue connecting bone to bone",
+      "starty": 4,
+      "startx": 1,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "REMEDIATION",
+      "clue": "Restoring a lost skill rather than compensating for it",
+      "starty": 6,
+      "startx": 5,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "RELIABILITY",
+      "clue": "Consistency of a measure across repeats",
+      "starty": 6,
+      "startx": 14,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "BED",
+      "clue": "Furniture involved in many transfers",
+      "starty": 7,
+      "startx": 4,
+      "orientation": "across",
+      "position": 13
+    },
+    {
+      "answer": "REFLEX",
+      "clue": "Involuntary response to a stimulus",
+      "starty": 9,
+      "startx": 1,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "RAPID",
+      "clue": "___ review, a streamlined form of evidence synthesis",
+      "starty": 9,
+      "startx": 1,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "OBSERVATION",
+      "clue": "Watching a task performed to judge ability",
+      "starty": 10,
+      "startx": 8,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "PARTICIPATION",
+      "clue": "Involvement in a life situation, in ICF terms",
+      "starty": 12,
+      "startx": 4,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "SPOON",
+      "clue": "Utensil often built up for easier grip",
+      "starty": 14,
+      "startx": 3,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "STAFF",
+      "clue": "People who deliver a service",
+      "starty": 14,
+      "startx": 7,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "SENSE",
+      "clue": "Touch, sight or hearing, for example",
+      "starty": 14,
+      "startx": 9,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "BIAS",
+      "clue": "Systematic error distorting a study's findings",
+      "starty": 14,
+      "startx": 13,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "STIFF",
+      "clue": "How a joint feels after immobility",
+      "starty": 14,
+      "startx": 16,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "PROSTHESIS",
+      "clue": "Artificial replacement for a missing limb",
+      "starty": 15,
+      "startx": 3,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "HYOID",
+      "clue": "U-shaped neck bone anchoring the tongue muscles",
+      "starty": 16,
+      "startx": 13,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "SAFE",
+      "clue": "Free from avoidable risk",
+      "starty": 17,
+      "startx": 9,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "TONE",
+      "clue": "Resting tension in a muscle",
+      "starty": 18,
+      "startx": 1,
+      "orientation": "across",
+      "position": 25
+    }
+  ]
+}

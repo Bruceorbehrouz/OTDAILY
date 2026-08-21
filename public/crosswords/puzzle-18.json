@@ -1,0 +1,222 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "COMMUNITY",
+      "clue": "Care setting outside hospital walls",
+      "starty": 1,
+      "startx": 2,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "CAREGIVER",
+      "clue": "Family member or friend providing daily support",
+      "starty": 1,
+      "startx": 2,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "BURSA",
+      "clue": "Fluid-filled sac reducing friction at a joint",
+      "starty": 1,
+      "startx": 16,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "DOOR",
+      "clue": "Widened for wheelchair access",
+      "starty": 3,
+      "startx": 4,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "NERVE",
+      "clue": "Bundle of fibres carrying signals",
+      "starty": 3,
+      "startx": 14,
+      "orientation": "across",
+      "position": 4
+    },
+    {
+      "answer": "OPPOSITION",
+      "clue": "Thumb movement touching the other fingertips",
+      "starty": 4,
+      "startx": 4,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "SCREENREADER",
+      "clue": "Software that speaks on-screen text aloud",
+      "starty": 4,
+      "startx": 8,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "TWIST",
+      "clue": "Rotational movement to avoid when lifting",
+      "starty": 4,
+      "startx": 10,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "OBSERVATION",
+      "clue": "Watching a task performed to judge ability",
+      "starty": 4,
+      "startx": 12,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "BRACE",
+      "clue": "Device stabilising a joint",
+      "starty": 5,
+      "startx": 14,
+      "orientation": "across",
+      "position": 9
+    },
+    {
+      "answer": "BATH",
+      "clue": "Fixture often fitted with a board",
+      "starty": 5,
+      "startx": 14,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "ERGONOMICS",
+      "clue": "Fitting the task and workspace to the person",
+      "starty": 5,
+      "startx": 18,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "ASSESSMENT",
+      "clue": "Structured gathering of information about a client",
+      "starty": 7,
+      "startx": 5,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "ARTHRITIS",
+      "clue": "Inflammation of one or more joints",
+      "starty": 7,
+      "startx": 5,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "BREATHING",
+      "clue": "Exercises used to manage breathlessness and anxiety",
+      "starty": 9,
+      "startx": 1,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "EXTENSION",
+      "clue": "Straightening a joint",
+      "starty": 9,
+      "startx": 3,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "REMEDIATION",
+      "clue": "Restoring a lost skill rather than compensating for it",
+      "starty": 11,
+      "startx": 5,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "COSTAL",
+      "clue": "Relating to the ribs",
+      "starty": 12,
+      "startx": 16,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "RAPID",
+      "clue": "___ review, a streamlined form of evidence synthesis",
+      "starty": 13,
+      "startx": 1,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "NOTE",
+      "clue": "Brief written record",
+      "starty": 13,
+      "startx": 3,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "LABRUM",
+      "clue": "Cartilage ring deepening the shoulder or hip socket",
+      "starty": 13,
+      "startx": 10,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "CLIENT",
+      "clue": "The person at the centre of the therapy process",
+      "starty": 13,
+      "startx": 14,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "METAANALYSIS",
+      "clue": "Statistical pooling of results across studies",
+      "starty": 14,
+      "startx": 7,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "ARM",
+      "clue": "Limb from shoulder to hand",
+      "starty": 16,
+      "startx": 9,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "REHAB",
+      "clue": "Short form for restoring function after illness",
+      "starty": 16,
+      "startx": 13,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "DENDRITE",
+      "clue": "Branching part of a neuron that receives signals",
+      "starty": 17,
+      "startx": 1,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "DATA",
+      "clue": "What a study collects",
+      "starty": 18,
+      "startx": 12,
+      "orientation": "across",
+      "position": 24
+    }
+  ]
+}

@@ -1,0 +1,1625 @@
+{
+  "$comment": "Clue bank for the weekly crossword library. Add entries here and run 'npm run crosswords:build' to regenerate the puzzles. Answers must be A-Z only, 3-12 letters. 'theme' groups entries so generated puzzles stay coherent.",
+  "entries": [
+    {
+      "answer": "FEMUR",
+      "clue": "Thigh bone — the longest bone in the body",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "TIBIA",
+      "clue": "Shin bone, the weight-bearing bone of the lower leg",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "FIBULA",
+      "clue": "Slender bone running alongside the shin",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "PATELLA",
+      "clue": "Kneecap",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "SCAPULA",
+      "clue": "Shoulder blade",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "CLAVICLE",
+      "clue": "Collarbone",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "STERNUM",
+      "clue": "Breastbone at the centre of the chest",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "HUMERUS",
+      "clue": "Bone of the upper arm",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "RADIUS",
+      "clue": "Forearm bone on the thumb side",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "ULNA",
+      "clue": "Forearm bone on the little-finger side",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "CARPAL",
+      "clue": "Any of the eight small bones of the wrist",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "PHALANX",
+      "clue": "A single bone of a finger or toe",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "TALUS",
+      "clue": "Ankle bone between the heel and the shin",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "CALCANEUS",
+      "clue": "Heel bone",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "PELVIS",
+      "clue": "Bony ring joining the spine to the legs",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "ILIUM",
+      "clue": "Broad wing-shaped upper part of the hip bone",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "SACRUM",
+      "clue": "Triangular bone at the base of the spine",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "VERTEBRA",
+      "clue": "A single bone of the spinal column",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "CERVICAL",
+      "clue": "Pertaining to the seven vertebrae of the neck",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "LUMBAR",
+      "clue": "Pertaining to the lower back",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "THORACIC",
+      "clue": "Pertaining to the chest region of the spine",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "SKULL",
+      "clue": "Bony framework protecting the brain",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "MANDIBLE",
+      "clue": "Lower jaw bone",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "ORBIT",
+      "clue": "Bony socket that houses the eye",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "HYOID",
+      "clue": "U-shaped neck bone anchoring the tongue muscles",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "COSTAL",
+      "clue": "Relating to the ribs",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "FOSSA",
+      "clue": "Shallow depression in a bone",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "CONDYLE",
+      "clue": "Rounded knob at the end of a bone forming a joint",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "EPIPHYSIS",
+      "clue": "Growing end of a long bone",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "PERIOSTEUM",
+      "clue": "Membrane covering the outer surface of bone",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "TENDON",
+      "clue": "Fibrous cord attaching muscle to bone",
+      "theme": "tissue"
+    },
+    {
+      "answer": "LIGAMENT",
+      "clue": "Band of tissue connecting bone to bone",
+      "theme": "tissue"
+    },
+    {
+      "answer": "CARTILAGE",
+      "clue": "Smooth tissue cushioning the ends of bones",
+      "theme": "tissue"
+    },
+    {
+      "answer": "FASCIA",
+      "clue": "Sheet of connective tissue wrapping muscles",
+      "theme": "tissue"
+    },
+    {
+      "answer": "BURSA",
+      "clue": "Fluid-filled sac reducing friction at a joint",
+      "theme": "tissue"
+    },
+    {
+      "answer": "SYNOVIAL",
+      "clue": "Type of freely moving joint with a lubricating fluid",
+      "theme": "tissue"
+    },
+    {
+      "answer": "MENISCUS",
+      "clue": "Crescent of cartilage cushioning the knee",
+      "theme": "tissue"
+    },
+    {
+      "answer": "LABRUM",
+      "clue": "Cartilage ring deepening the shoulder or hip socket",
+      "theme": "tissue"
+    },
+    {
+      "answer": "COLLAGEN",
+      "clue": "Main structural protein of connective tissue",
+      "theme": "tissue"
+    },
+    {
+      "answer": "MYOFIBRIL",
+      "clue": "Contractile thread within a muscle fibre",
+      "theme": "tissue"
+    },
+    {
+      "answer": "DELTOID",
+      "clue": "Muscle capping the shoulder",
+      "theme": "muscle"
+    },
+    {
+      "answer": "BICEPS",
+      "clue": "Muscle at the front of the upper arm",
+      "theme": "muscle"
+    },
+    {
+      "answer": "TRICEPS",
+      "clue": "Muscle that straightens the elbow",
+      "theme": "muscle"
+    },
+    {
+      "answer": "QUADRICEPS",
+      "clue": "Four muscles at the front of the thigh",
+      "theme": "muscle"
+    },
+    {
+      "answer": "HAMSTRING",
+      "clue": "Muscle group at the back of the thigh",
+      "theme": "muscle"
+    },
+    {
+      "answer": "GLUTEUS",
+      "clue": "Muscle group forming the buttocks",
+      "theme": "muscle"
+    },
+    {
+      "answer": "SOLEUS",
+      "clue": "Deep calf muscle important for standing",
+      "theme": "muscle"
+    },
+    {
+      "answer": "PSOAS",
+      "clue": "Deep hip flexor running from the lumbar spine",
+      "theme": "muscle"
+    },
+    {
+      "answer": "TRAPEZIUS",
+      "clue": "Diamond-shaped muscle of the upper back",
+      "theme": "muscle"
+    },
+    {
+      "answer": "ROTATOR",
+      "clue": "___ cuff, the four muscles stabilising the shoulder",
+      "theme": "muscle"
+    },
+    {
+      "answer": "THENAR",
+      "clue": "Fleshy muscle mass at the base of the thumb",
+      "theme": "muscle"
+    },
+    {
+      "answer": "LUMBRICAL",
+      "clue": "Small hand muscle that bends the knuckles",
+      "theme": "muscle"
+    },
+    {
+      "answer": "DIAPHRAGM",
+      "clue": "Dome-shaped muscle driving breathing",
+      "theme": "muscle"
+    },
+    {
+      "answer": "SUPINATOR",
+      "clue": "Muscle that turns the palm upward",
+      "theme": "muscle"
+    },
+    {
+      "answer": "NEURON",
+      "clue": "Single nerve cell",
+      "theme": "neuro"
+    },
+    {
+      "answer": "AXON",
+      "clue": "Long fibre carrying impulses from a nerve cell",
+      "theme": "neuro"
+    },
+    {
+      "answer": "DENDRITE",
+      "clue": "Branching part of a neuron that receives signals",
+      "theme": "neuro"
+    },
+    {
+      "answer": "SYNAPSE",
+      "clue": "Junction where one neuron signals the next",
+      "theme": "neuro"
+    },
+    {
+      "answer": "MYELIN",
+      "clue": "Fatty sheath that speeds nerve conduction",
+      "theme": "neuro"
+    },
+    {
+      "answer": "CORTEX",
+      "clue": "Outer layer of the brain",
+      "theme": "neuro"
+    },
+    {
+      "answer": "CEREBELLUM",
+      "clue": "Brain region coordinating balance and movement",
+      "theme": "neuro"
+    },
+    {
+      "answer": "THALAMUS",
+      "clue": "Brain relay station for sensory information",
+      "theme": "neuro"
+    },
+    {
+      "answer": "BRAINSTEM",
+      "clue": "Region controlling breathing and heart rate",
+      "theme": "neuro"
+    },
+    {
+      "answer": "MEDIAN",
+      "clue": "___ nerve, compressed in carpal tunnel syndrome",
+      "theme": "neuro"
+    },
+    {
+      "answer": "SCIATIC",
+      "clue": "Largest nerve in the body, running down the leg",
+      "theme": "neuro"
+    },
+    {
+      "answer": "VAGUS",
+      "clue": "Cranial nerve regulating heart rate and digestion",
+      "theme": "neuro"
+    },
+    {
+      "answer": "PLEXUS",
+      "clue": "Network of intersecting nerves",
+      "theme": "neuro"
+    },
+    {
+      "answer": "REFLEX",
+      "clue": "Involuntary response to a stimulus",
+      "theme": "neuro"
+    },
+    {
+      "answer": "TONE",
+      "clue": "Resting tension in a muscle",
+      "theme": "neuro"
+    },
+    {
+      "answer": "SPASTICITY",
+      "clue": "Velocity-dependent increase in muscle tone",
+      "theme": "neuro"
+    },
+    {
+      "answer": "ATAXIA",
+      "clue": "Loss of coordinated movement",
+      "theme": "neuro"
+    },
+    {
+      "answer": "APRAXIA",
+      "clue": "Difficulty planning movement despite intact strength",
+      "theme": "neuro"
+    },
+    {
+      "answer": "APHASIA",
+      "clue": "Loss of language ability after brain injury",
+      "theme": "neuro"
+    },
+    {
+      "answer": "NEGLECT",
+      "clue": "Unilateral ___, inattention to one side of space",
+      "theme": "neuro"
+    },
+    {
+      "answer": "PARESIS",
+      "clue": "Partial weakness of a muscle group",
+      "theme": "neuro"
+    },
+    {
+      "answer": "TREMOR",
+      "clue": "Rhythmic involuntary shaking",
+      "theme": "neuro"
+    },
+    {
+      "answer": "PLASTICITY",
+      "clue": "Brain's capacity to reorganise after injury",
+      "theme": "neuro"
+    },
+    {
+      "answer": "OCCUPATION",
+      "clue": "Meaningful everyday activity — the core of this profession",
+      "theme": "practice"
+    },
+    {
+      "answer": "ADAPTATION",
+      "clue": "Changing a task or tool to match a person's ability",
+      "theme": "practice"
+    },
+    {
+      "answer": "GRADING",
+      "clue": "Adjusting the difficulty of an activity step by step",
+      "theme": "practice"
+    },
+    {
+      "answer": "REMEDIATION",
+      "clue": "Restoring a lost skill rather than compensating for it",
+      "theme": "practice"
+    },
+    {
+      "answer": "COMPENSATION",
+      "clue": "Working around a deficit with a new strategy",
+      "theme": "practice"
+    },
+    {
+      "answer": "GOAL",
+      "clue": "What a client and therapist agree to work toward",
+      "theme": "practice"
+    },
+    {
+      "answer": "REFERRAL",
+      "clue": "Formal request sending a client to a service",
+      "theme": "practice"
+    },
+    {
+      "answer": "DISCHARGE",
+      "clue": "End of an episode of care",
+      "theme": "practice"
+    },
+    {
+      "answer": "CASELOAD",
+      "clue": "The set of clients a therapist currently serves",
+      "theme": "practice"
+    },
+    {
+      "answer": "RAPPORT",
+      "clue": "Trusting working relationship with a client",
+      "theme": "practice"
+    },
+    {
+      "answer": "ADVOCACY",
+      "clue": "Speaking up for a client's rights and access",
+      "theme": "practice"
+    },
+    {
+      "answer": "TRIAGE",
+      "clue": "Sorting referrals by urgency",
+      "theme": "practice"
+    },
+    {
+      "answer": "CONSENT",
+      "clue": "Permission a client gives before treatment",
+      "theme": "practice"
+    },
+    {
+      "answer": "RAPID",
+      "clue": "___ review, a streamlined form of evidence synthesis",
+      "theme": "practice"
+    },
+    {
+      "answer": "EVIDENCE",
+      "clue": "Research base underpinning clinical decisions",
+      "theme": "practice"
+    },
+    {
+      "answer": "OUTCOME",
+      "clue": "Measured result of an intervention",
+      "theme": "practice"
+    },
+    {
+      "answer": "HOLISTIC",
+      "clue": "Treating the whole person, not just the diagnosis",
+      "theme": "practice"
+    },
+    {
+      "answer": "ROUTINE",
+      "clue": "Habitual sequence of daily activities",
+      "theme": "practice"
+    },
+    {
+      "answer": "HABIT",
+      "clue": "Automatic behaviour repeated in a familiar context",
+      "theme": "practice"
+    },
+    {
+      "answer": "ROLE",
+      "clue": "Parent, worker or student, in occupational terms",
+      "theme": "practice"
+    },
+    {
+      "answer": "PARTICIPATION",
+      "clue": "Involvement in a life situation, in ICF terms",
+      "theme": "practice"
+    },
+    {
+      "answer": "CLIENT",
+      "clue": "The person at the centre of the therapy process",
+      "theme": "practice"
+    },
+    {
+      "answer": "REHAB",
+      "clue": "Short form for restoring function after illness",
+      "theme": "practice"
+    },
+    {
+      "answer": "SPLINT",
+      "clue": "Custom support holding a joint in position",
+      "theme": "assistive"
+    },
+    {
+      "answer": "ORTHOSIS",
+      "clue": "External device supporting or aligning a body part",
+      "theme": "assistive"
+    },
+    {
+      "answer": "PROSTHESIS",
+      "clue": "Artificial replacement for a missing limb",
+      "theme": "assistive"
+    },
+    {
+      "answer": "WHEELCHAIR",
+      "clue": "Wheeled seating for mobility",
+      "theme": "assistive"
+    },
+    {
+      "answer": "WALKER",
+      "clue": "Framed walking aid offering broad support",
+      "theme": "assistive"
+    },
+    {
+      "answer": "CANE",
+      "clue": "Single-point walking aid",
+      "theme": "assistive"
+    },
+    {
+      "answer": "CRUTCH",
+      "clue": "Underarm or forearm walking support",
+      "theme": "assistive"
+    },
+    {
+      "answer": "GRABBER",
+      "clue": "Long-handled reaching tool",
+      "theme": "assistive"
+    },
+    {
+      "answer": "RAMP",
+      "clue": "Sloped access replacing steps",
+      "theme": "assistive"
+    },
+    {
+      "answer": "GRABRAIL",
+      "clue": "Bathroom bar giving something firm to hold",
+      "theme": "assistive"
+    },
+    {
+      "answer": "HOIST",
+      "clue": "Powered lift for transferring a person",
+      "theme": "assistive"
+    },
+    {
+      "answer": "CUSHION",
+      "clue": "Pressure-relieving seat insert",
+      "theme": "assistive"
+    },
+    {
+      "answer": "SWITCH",
+      "clue": "Single input a user activates to control a device",
+      "theme": "assistive"
+    },
+    {
+      "answer": "EYEGAZE",
+      "clue": "Control method driven by where the user looks",
+      "theme": "assistive"
+    },
+    {
+      "answer": "SCREENREADER",
+      "clue": "Software that speaks on-screen text aloud",
+      "theme": "assistive"
+    },
+    {
+      "answer": "TRANSFER",
+      "clue": "Move from bed to chair, for example",
+      "theme": "assistive"
+    },
+    {
+      "answer": "COMMODE",
+      "clue": "Portable toileting chair",
+      "theme": "assistive"
+    },
+    {
+      "answer": "ROLLATOR",
+      "clue": "Wheeled walking frame with brakes and a seat",
+      "theme": "assistive"
+    },
+    {
+      "answer": "STROKE",
+      "clue": "Interruption of blood supply to the brain",
+      "theme": "condition"
+    },
+    {
+      "answer": "ARTHRITIS",
+      "clue": "Inflammation of one or more joints",
+      "theme": "condition"
+    },
+    {
+      "answer": "DEMENTIA",
+      "clue": "Progressive decline in memory and thinking",
+      "theme": "condition"
+    },
+    {
+      "answer": "PARKINSONS",
+      "clue": "Condition marked by tremor, rigidity and slow movement",
+      "theme": "condition"
+    },
+    {
+      "answer": "AUTISM",
+      "clue": "Neurodevelopmental difference in communication and sensory processing",
+      "theme": "condition"
+    },
+    {
+      "answer": "FRACTURE",
+      "clue": "Break in a bone",
+      "theme": "condition"
+    },
+    {
+      "answer": "TENDINITIS",
+      "clue": "Inflammation of a tendon from overuse",
+      "theme": "condition"
+    },
+    {
+      "answer": "SCOLIOSIS",
+      "clue": "Sideways curvature of the spine",
+      "theme": "condition"
+    },
+    {
+      "answer": "OSTEOPOROSIS",
+      "clue": "Loss of bone density raising fracture risk",
+      "theme": "condition"
+    },
+    {
+      "answer": "AMPUTATION",
+      "clue": "Surgical removal of a limb",
+      "theme": "condition"
+    },
+    {
+      "answer": "BURNOUT",
+      "clue": "Exhaustion from prolonged occupational stress",
+      "theme": "condition"
+    },
+    {
+      "answer": "FATIGUE",
+      "clue": "Persistent tiredness limiting daily activity",
+      "theme": "condition"
+    },
+    {
+      "answer": "ANXIETY",
+      "clue": "Persistent worry that interferes with daily life",
+      "theme": "condition"
+    },
+    {
+      "answer": "DELIRIUM",
+      "clue": "Acute fluctuating confusion, often reversible",
+      "theme": "condition"
+    },
+    {
+      "answer": "EDEMA",
+      "clue": "Swelling from fluid trapped in tissues",
+      "theme": "condition"
+    },
+    {
+      "answer": "CONTRACTURE",
+      "clue": "Permanent shortening limiting a joint's range",
+      "theme": "condition"
+    },
+    {
+      "answer": "LYMPHEDEMA",
+      "clue": "Swelling caused by impaired lymph drainage",
+      "theme": "condition"
+    },
+    {
+      "answer": "DYSPHAGIA",
+      "clue": "Difficulty swallowing",
+      "theme": "condition"
+    },
+    {
+      "answer": "CONCUSSION",
+      "clue": "Mild traumatic brain injury",
+      "theme": "condition"
+    },
+    {
+      "answer": "SEPSIS",
+      "clue": "Life-threatening response to infection",
+      "theme": "condition"
+    },
+    {
+      "answer": "ASSESSMENT",
+      "clue": "Structured gathering of information about a client",
+      "theme": "assessment"
+    },
+    {
+      "answer": "GONIOMETER",
+      "clue": "Tool measuring a joint's angle",
+      "theme": "assessment"
+    },
+    {
+      "answer": "DYNAMOMETER",
+      "clue": "Device measuring grip strength",
+      "theme": "assessment"
+    },
+    {
+      "answer": "BARTHEL",
+      "clue": "___ Index, a classic measure of daily living independence",
+      "theme": "assessment"
+    },
+    {
+      "answer": "COPM",
+      "clue": "Canadian Occupational Performance Measure, in short",
+      "theme": "assessment"
+    },
+    {
+      "answer": "BASELINE",
+      "clue": "Starting measurement used for comparison",
+      "theme": "assessment"
+    },
+    {
+      "answer": "OBSERVATION",
+      "clue": "Watching a task performed to judge ability",
+      "theme": "assessment"
+    },
+    {
+      "answer": "SCREENING",
+      "clue": "Quick check for who needs fuller evaluation",
+      "theme": "assessment"
+    },
+    {
+      "answer": "RELIABILITY",
+      "clue": "Consistency of a measure across repeats",
+      "theme": "assessment"
+    },
+    {
+      "answer": "VALIDITY",
+      "clue": "Whether a measure captures what it claims to",
+      "theme": "assessment"
+    },
+    {
+      "answer": "NORM",
+      "clue": "Reference value from a comparison population",
+      "theme": "assessment"
+    },
+    {
+      "answer": "PROTOCOL",
+      "clue": "Agreed step-by-step procedure",
+      "theme": "assessment"
+    },
+    {
+      "answer": "COHORT",
+      "clue": "Group followed over time in a study",
+      "theme": "assessment"
+    },
+    {
+      "answer": "RANDOMISED",
+      "clue": "___ controlled trial, the classic experimental design",
+      "theme": "assessment"
+    },
+    {
+      "answer": "METAANALYSIS",
+      "clue": "Statistical pooling of results across studies",
+      "theme": "assessment"
+    },
+    {
+      "answer": "BIAS",
+      "clue": "Systematic error distorting a study's findings",
+      "theme": "assessment"
+    },
+    {
+      "answer": "SENSORY",
+      "clue": "___ processing, how the nervous system handles input",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "PROPRIOCEPTION",
+      "clue": "Sense of where your body is in space",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "VESTIBULAR",
+      "clue": "Inner-ear system governing balance",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "TACTILE",
+      "clue": "Relating to the sense of touch",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "MILESTONE",
+      "clue": "Expected developmental achievement",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "HANDWRITING",
+      "clue": "School skill often addressed in paediatric practice",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "PLAY",
+      "clue": "A child's primary occupation",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "GRASP",
+      "clue": "How the hand takes hold of an object",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "PINCER",
+      "clue": "___ grasp, thumb and index finger together",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "BILATERAL",
+      "clue": "Using both sides of the body together",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "MIDLINE",
+      "clue": "Imaginary line dividing the body in half",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "REGULATION",
+      "clue": "Self-___, managing one's own arousal and emotion",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "FALLS",
+      "clue": "Leading cause of injury among older adults",
+      "theme": "older"
+    },
+    {
+      "answer": "FRAILTY",
+      "clue": "Reduced reserve making recovery from illness harder",
+      "theme": "older"
+    },
+    {
+      "answer": "MOBILITY",
+      "clue": "Ability to move about one's environment",
+      "theme": "older"
+    },
+    {
+      "answer": "BALANCE",
+      "clue": "Staying upright and steady",
+      "theme": "older"
+    },
+    {
+      "answer": "GAIT",
+      "clue": "Pattern of walking",
+      "theme": "older"
+    },
+    {
+      "answer": "ENDURANCE",
+      "clue": "Capacity to sustain activity over time",
+      "theme": "older"
+    },
+    {
+      "answer": "CAREGIVER",
+      "clue": "Family member or friend providing daily support",
+      "theme": "older"
+    },
+    {
+      "answer": "RESPITE",
+      "clue": "Short break arranged for a carer",
+      "theme": "older"
+    },
+    {
+      "answer": "HOMEVISIT",
+      "clue": "Assessment carried out where the client lives",
+      "theme": "older"
+    },
+    {
+      "answer": "LIGHTING",
+      "clue": "Home factor commonly improved to reduce falls",
+      "theme": "older"
+    },
+    {
+      "answer": "CLUTTER",
+      "clue": "Trip hazard removed during a home assessment",
+      "theme": "older"
+    },
+    {
+      "answer": "ISOLATION",
+      "clue": "Lack of social contact affecting wellbeing",
+      "theme": "older"
+    },
+    {
+      "answer": "PACING",
+      "clue": "Spreading effort across the day to avoid crashes",
+      "theme": "strategy"
+    },
+    {
+      "answer": "ERGONOMICS",
+      "clue": "Fitting the task and workspace to the person",
+      "theme": "strategy"
+    },
+    {
+      "answer": "POSTURE",
+      "clue": "How the body is held while sitting or standing",
+      "theme": "strategy"
+    },
+    {
+      "answer": "MINDFULNESS",
+      "clue": "Attention practice used to manage stress and pain",
+      "theme": "strategy"
+    },
+    {
+      "answer": "BREATHING",
+      "clue": "Exercises used to manage breathlessness and anxiety",
+      "theme": "strategy"
+    },
+    {
+      "answer": "RELAXATION",
+      "clue": "Techniques lowering physical and mental tension",
+      "theme": "strategy"
+    },
+    {
+      "answer": "SLEEP",
+      "clue": "Restorative occupation often disrupted by pain",
+      "theme": "strategy"
+    },
+    {
+      "answer": "HYGIENE",
+      "clue": "Sleep ___, habits that support good rest",
+      "theme": "strategy"
+    },
+    {
+      "answer": "PRIORITY",
+      "clue": "What gets done first when energy is limited",
+      "theme": "strategy"
+    },
+    {
+      "answer": "PLANNING",
+      "clue": "Thinking a task through before starting it",
+      "theme": "strategy"
+    },
+    {
+      "answer": "RESTING",
+      "clue": "Deliberately doing nothing to conserve energy",
+      "theme": "strategy"
+    },
+    {
+      "answer": "SEATED",
+      "clue": "Doing a task sitting down to save effort",
+      "theme": "strategy"
+    },
+    {
+      "answer": "PROMPT",
+      "clue": "Cue given to help someone start or continue a step",
+      "theme": "strategy"
+    },
+    {
+      "answer": "CHECKLIST",
+      "clue": "Written aid supporting memory for a sequence",
+      "theme": "strategy"
+    },
+    {
+      "answer": "REMINDER",
+      "clue": "Alarm or note prompting a task at the right time",
+      "theme": "strategy"
+    },
+    {
+      "answer": "RANGE",
+      "clue": "___ of motion, how far a joint travels",
+      "theme": "movement"
+    },
+    {
+      "answer": "FLEXION",
+      "clue": "Bending a joint to decrease its angle",
+      "theme": "movement"
+    },
+    {
+      "answer": "EXTENSION",
+      "clue": "Straightening a joint",
+      "theme": "movement"
+    },
+    {
+      "answer": "ABDUCTION",
+      "clue": "Moving a limb away from the midline",
+      "theme": "movement"
+    },
+    {
+      "answer": "ADDUCTION",
+      "clue": "Moving a limb back toward the midline",
+      "theme": "movement"
+    },
+    {
+      "answer": "ROTATION",
+      "clue": "Turning around an axis",
+      "theme": "movement"
+    },
+    {
+      "answer": "PRONATION",
+      "clue": "Turning the palm downward",
+      "theme": "movement"
+    },
+    {
+      "answer": "SUPINATION",
+      "clue": "Turning the palm upward",
+      "theme": "movement"
+    },
+    {
+      "answer": "INVERSION",
+      "clue": "Turning the sole of the foot inward",
+      "theme": "movement"
+    },
+    {
+      "answer": "EVERSION",
+      "clue": "Turning the sole of the foot outward",
+      "theme": "movement"
+    },
+    {
+      "answer": "DORSIFLEX",
+      "clue": "Lift the foot upward at the ankle",
+      "theme": "movement"
+    },
+    {
+      "answer": "OPPOSITION",
+      "clue": "Thumb movement touching the other fingertips",
+      "theme": "movement"
+    },
+    {
+      "answer": "DRESSING",
+      "clue": "Daily activity of putting on clothes",
+      "theme": "adl"
+    },
+    {
+      "answer": "BATHING",
+      "clue": "Washing oneself, a basic daily activity",
+      "theme": "adl"
+    },
+    {
+      "answer": "GROOMING",
+      "clue": "Brushing hair and teeth, for instance",
+      "theme": "adl"
+    },
+    {
+      "answer": "FEEDING",
+      "clue": "Bringing food to the mouth",
+      "theme": "adl"
+    },
+    {
+      "answer": "TOILETING",
+      "clue": "Managing personal hygiene needs",
+      "theme": "adl"
+    },
+    {
+      "answer": "COOKING",
+      "clue": "Meal preparation, an instrumental daily activity",
+      "theme": "adl"
+    },
+    {
+      "answer": "SHOPPING",
+      "clue": "Getting groceries, an instrumental daily activity",
+      "theme": "adl"
+    },
+    {
+      "answer": "LAUNDRY",
+      "clue": "Washing clothes at home",
+      "theme": "adl"
+    },
+    {
+      "answer": "DRIVING",
+      "clue": "Community mobility skill often assessed after stroke",
+      "theme": "adl"
+    },
+    {
+      "answer": "BUDGETING",
+      "clue": "Managing money week to week",
+      "theme": "adl"
+    },
+    {
+      "answer": "MEDICATION",
+      "clue": "___ management, keeping track of doses",
+      "theme": "adl"
+    },
+    {
+      "answer": "TEAM",
+      "clue": "Group of professionals working together on care",
+      "theme": "system"
+    },
+    {
+      "answer": "CLINIC",
+      "clue": "Outpatient setting for appointments",
+      "theme": "system"
+    },
+    {
+      "answer": "WARD",
+      "clue": "Hospital unit where inpatients stay",
+      "theme": "system"
+    },
+    {
+      "answer": "COMMUNITY",
+      "clue": "Care setting outside hospital walls",
+      "theme": "system"
+    },
+    {
+      "answer": "PRIMARY",
+      "clue": "___ care, the first point of contact in health services",
+      "theme": "system"
+    },
+    {
+      "answer": "ACUTE",
+      "clue": "Sudden in onset and short-lived",
+      "theme": "system"
+    },
+    {
+      "answer": "CHRONIC",
+      "clue": "Long-lasting, as a condition",
+      "theme": "system"
+    },
+    {
+      "answer": "PALLIATIVE",
+      "clue": "Care focused on comfort rather than cure",
+      "theme": "system"
+    },
+    {
+      "answer": "TELEHEALTH",
+      "clue": "Delivering therapy at a distance",
+      "theme": "system"
+    },
+    {
+      "answer": "CASENOTE",
+      "clue": "Written record of a clinical contact",
+      "theme": "system"
+    },
+    {
+      "answer": "AUDIT",
+      "clue": "Systematic review of practice against a standard",
+      "theme": "system"
+    },
+    {
+      "answer": "PATHWAY",
+      "clue": "Planned route a patient takes through services",
+      "theme": "system"
+    },
+    {
+      "answer": "ARM",
+      "clue": "Limb from shoulder to hand",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "HIP",
+      "clue": "Joint connecting the leg to the pelvis",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "RIB",
+      "clue": "One of twelve pairs guarding the chest",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "JAW",
+      "clue": "Hinged bone used for chewing",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "TOE",
+      "clue": "Digit of the foot",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "HEEL",
+      "clue": "Back of the foot",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "PALM",
+      "clue": "Inner surface of the hand",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "WRIST",
+      "clue": "Joint linking hand to forearm",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "ANKLE",
+      "clue": "Joint linking foot to leg",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "ELBOW",
+      "clue": "Hinge joint of the arm",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "KNEE",
+      "clue": "Largest joint in the body",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "SPINE",
+      "clue": "Column of vertebrae",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "NERVE",
+      "clue": "Bundle of fibres carrying signals",
+      "theme": "neuro"
+    },
+    {
+      "answer": "BRAIN",
+      "clue": "Organ of thought and control",
+      "theme": "neuro"
+    },
+    {
+      "answer": "LOBE",
+      "clue": "Division of the brain or lung",
+      "theme": "neuro"
+    },
+    {
+      "answer": "SENSE",
+      "clue": "Touch, sight or hearing, for example",
+      "theme": "neuro"
+    },
+    {
+      "answer": "MOTOR",
+      "clue": "Relating to movement",
+      "theme": "neuro"
+    },
+    {
+      "answer": "GRIP",
+      "clue": "Strength of the hand's hold",
+      "theme": "assessment"
+    },
+    {
+      "answer": "PINCH",
+      "clue": "Thumb-to-finger strength measure",
+      "theme": "assessment"
+    },
+    {
+      "answer": "SCORE",
+      "clue": "Number a measure produces",
+      "theme": "assessment"
+    },
+    {
+      "answer": "SCALE",
+      "clue": "Rating instrument with ordered levels",
+      "theme": "assessment"
+    },
+    {
+      "answer": "TRIAL",
+      "clue": "Planned test of an intervention",
+      "theme": "assessment"
+    },
+    {
+      "answer": "DATA",
+      "clue": "What a study collects",
+      "theme": "assessment"
+    },
+    {
+      "answer": "TEST",
+      "clue": "Standardised task used in evaluation",
+      "theme": "assessment"
+    },
+    {
+      "answer": "REST",
+      "clue": "Prescribed pause from activity",
+      "theme": "strategy"
+    },
+    {
+      "answer": "ENERGY",
+      "clue": "What conservation strategies try to save",
+      "theme": "strategy"
+    },
+    {
+      "answer": "BRACE",
+      "clue": "Device stabilising a joint",
+      "theme": "assistive"
+    },
+    {
+      "answer": "STICK",
+      "clue": "Simple walking aid",
+      "theme": "assistive"
+    },
+    {
+      "answer": "SEAT",
+      "clue": "Where a person sits, adapted for comfort",
+      "theme": "assistive"
+    },
+    {
+      "answer": "RAIL",
+      "clue": "Fixed bar for support beside stairs",
+      "theme": "assistive"
+    },
+    {
+      "answer": "STRAP",
+      "clue": "Band securing a device to the body",
+      "theme": "assistive"
+    },
+    {
+      "answer": "HANDLE",
+      "clue": "Part of a tool built up for easier grip",
+      "theme": "assistive"
+    },
+    {
+      "answer": "TOOL",
+      "clue": "Implement adapted for easier use",
+      "theme": "assistive"
+    },
+    {
+      "answer": "GLOVE",
+      "clue": "Compression garment for the hand",
+      "theme": "assistive"
+    },
+    {
+      "answer": "PAIN",
+      "clue": "Symptom rated on a zero-to-ten scale",
+      "theme": "condition"
+    },
+    {
+      "answer": "SWELL",
+      "clue": "What an injured joint tends to do",
+      "theme": "condition"
+    },
+    {
+      "answer": "SCAR",
+      "clue": "Mark left after a wound heals",
+      "theme": "condition"
+    },
+    {
+      "answer": "WOUND",
+      "clue": "Break in the skin",
+      "theme": "condition"
+    },
+    {
+      "answer": "ULCER",
+      "clue": "Pressure sore",
+      "theme": "condition"
+    },
+    {
+      "answer": "SPASM",
+      "clue": "Sudden involuntary muscle contraction",
+      "theme": "condition"
+    },
+    {
+      "answer": "CRAMP",
+      "clue": "Painful muscle tightening",
+      "theme": "condition"
+    },
+    {
+      "answer": "STIFF",
+      "clue": "How a joint feels after immobility",
+      "theme": "condition"
+    },
+    {
+      "answer": "WEAK",
+      "clue": "Lacking strength",
+      "theme": "condition"
+    },
+    {
+      "answer": "DIZZY",
+      "clue": "Light-headed, a common falls risk",
+      "theme": "condition"
+    },
+    {
+      "answer": "STAIRS",
+      "clue": "Home feature often needing a rail",
+      "theme": "older"
+    },
+    {
+      "answer": "HOME",
+      "clue": "Where most therapy goals are lived out",
+      "theme": "older"
+    },
+    {
+      "answer": "CHAIR",
+      "clue": "Seat whose height affects standing up",
+      "theme": "older"
+    },
+    {
+      "answer": "BED",
+      "clue": "Furniture involved in many transfers",
+      "theme": "older"
+    },
+    {
+      "answer": "BATH",
+      "clue": "Fixture often fitted with a board",
+      "theme": "older"
+    },
+    {
+      "answer": "KITCHEN",
+      "clue": "Room assessed for meal preparation safety",
+      "theme": "older"
+    },
+    {
+      "answer": "DOOR",
+      "clue": "Widened for wheelchair access",
+      "theme": "older"
+    },
+    {
+      "answer": "STEP",
+      "clue": "Single rise that a ramp replaces",
+      "theme": "older"
+    },
+    {
+      "answer": "CARE",
+      "clue": "What a support plan provides",
+      "theme": "system"
+    },
+    {
+      "answer": "PLAN",
+      "clue": "Written statement of goals and actions",
+      "theme": "system"
+    },
+    {
+      "answer": "NOTE",
+      "clue": "Brief written record",
+      "theme": "system"
+    },
+    {
+      "answer": "NURSE",
+      "clue": "Colleague on the ward team",
+      "theme": "system"
+    },
+    {
+      "answer": "SHIFT",
+      "clue": "Span of a working day in hospital",
+      "theme": "system"
+    },
+    {
+      "answer": "VISIT",
+      "clue": "Scheduled contact with a client",
+      "theme": "system"
+    },
+    {
+      "answer": "GROUP",
+      "clue": "Several clients treated together",
+      "theme": "system"
+    },
+    {
+      "answer": "STAFF",
+      "clue": "People who deliver a service",
+      "theme": "system"
+    },
+    {
+      "answer": "TASK",
+      "clue": "Unit of activity broken into steps",
+      "theme": "practice"
+    },
+    {
+      "answer": "SKILL",
+      "clue": "Ability built through practice",
+      "theme": "practice"
+    },
+    {
+      "answer": "STEPS",
+      "clue": "What a task is broken down into",
+      "theme": "practice"
+    },
+    {
+      "answer": "CUE",
+      "clue": "Prompt guiding the next action",
+      "theme": "practice"
+    },
+    {
+      "answer": "AIM",
+      "clue": "What an intervention targets",
+      "theme": "practice"
+    },
+    {
+      "answer": "SAFE",
+      "clue": "Free from avoidable risk",
+      "theme": "practice"
+    },
+    {
+      "answer": "DAILY",
+      "clue": "Occurring every day, as with living activities",
+      "theme": "adl"
+    },
+    {
+      "answer": "MEAL",
+      "clue": "What cooking produces",
+      "theme": "adl"
+    },
+    {
+      "answer": "SPOON",
+      "clue": "Utensil often built up for easier grip",
+      "theme": "adl"
+    },
+    {
+      "answer": "SHOE",
+      "clue": "Footwear fastened with a long-handled horn",
+      "theme": "adl"
+    },
+    {
+      "answer": "SOCK",
+      "clue": "Garment applied with a special aid",
+      "theme": "adl"
+    },
+    {
+      "answer": "BUTTON",
+      "clue": "Fastener managed with a hook aid",
+      "theme": "adl"
+    },
+    {
+      "answer": "ZIPPER",
+      "clue": "Fastener fitted with a pull ring",
+      "theme": "adl"
+    },
+    {
+      "answer": "CHILD",
+      "clue": "Young client in paediatric practice",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "SCHOOL",
+      "clue": "Where much paediatric practice happens",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "TOY",
+      "clue": "Tool of a child's primary occupation",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "CRAYON",
+      "clue": "Early writing implement",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "SWING",
+      "clue": "Playground equipment giving vestibular input",
+      "theme": "paediatric"
+    },
+    {
+      "answer": "MUSCLE",
+      "clue": "Tissue that contracts to move a joint",
+      "theme": "muscle"
+    },
+    {
+      "answer": "CALF",
+      "clue": "Back of the lower leg",
+      "theme": "muscle"
+    },
+    {
+      "answer": "CORE",
+      "clue": "Trunk muscles supporting posture",
+      "theme": "muscle"
+    },
+    {
+      "answer": "THUMB",
+      "clue": "Digit essential to pinch grip",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "BONE",
+      "clue": "Rigid tissue of the skeleton",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "JOINT",
+      "clue": "Where two bones meet",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "BLOOD",
+      "clue": "What the heart circulates",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "LUNG",
+      "clue": "Organ of gas exchange",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "HEART",
+      "clue": "Muscular pump of the circulation",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "SKIN",
+      "clue": "Largest organ of the body",
+      "theme": "anatomy"
+    },
+    {
+      "answer": "LIFT",
+      "clue": "Raise a load, ideally with the legs",
+      "theme": "movement"
+    },
+    {
+      "answer": "REACH",
+      "clue": "Extend the arm toward an object",
+      "theme": "movement"
+    },
+    {
+      "answer": "BEND",
+      "clue": "Flex at a joint",
+      "theme": "movement"
+    },
+    {
+      "answer": "TWIST",
+      "clue": "Rotational movement to avoid when lifting",
+      "theme": "movement"
+    },
+    {
+      "answer": "WALK",
+      "clue": "Move on foot",
+      "theme": "movement"
+    },
+    {
+      "answer": "STAND",
+      "clue": "Rise from sitting",
+      "theme": "movement"
+    },
+    {
+      "answer": "PUSH",
+      "clue": "Force applied away from the body",
+      "theme": "movement"
+    },
+    {
+      "answer": "PULL",
+      "clue": "Force applied toward the body",
+      "theme": "movement"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "DENDRITE",
+      "clue": "Branching part of a neuron that receives signals",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "DYSPHAGIA",
+      "clue": "Difficulty swallowing",
+      "starty": 1,
+      "startx": 4,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "HEEL",
+      "clue": "Back of the foot",
+      "starty": 1,
+      "startx": 12,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "BILATERAL",
+      "clue": "Using both sides of the body together",
+      "starty": 2,
+      "startx": 15,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "EXTENSION",
+      "clue": "Straightening a joint",
+      "starty": 2,
+      "startx": 18,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "HAMSTRING",
+      "clue": "Muscle group at the back of the thigh",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "across",
+      "position": 6
+    },
+    {
+      "answer": "HOMEVISIT",
+      "clue": "Assessment carried out where the client lives",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "SEPSIS",
+      "clue": "Life-threatening response to infection",
+      "starty": 3,
+      "startx": 11,
+      "orientation": "across",
+      "position": 7
+    },
+    {
+      "answer": "PINCER",
+      "clue": "___ grasp, thumb and index finger together",
+      "starty": 5,
+      "startx": 6,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "SCREENREADER",
+      "clue": "Software that speaks on-screen text aloud",
+      "starty": 5,
+      "startx": 11,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "HABIT",
+      "clue": "Automatic behaviour repeated in a familiar context",
+      "starty": 6,
+      "startx": 3,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "OCCUPATION",
+      "clue": "Meaningful everyday activity — the core of this profession",
+      "starty": 6,
+      "startx": 9,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "PARKINSONS",
+      "clue": "Condition marked by tremor, rigidity and slow movement",
+      "starty": 6,
+      "startx": 13,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "BATH",
+      "clue": "Fixture often fitted with a board",
+      "starty": 7,
+      "startx": 8,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "DISCHARGE",
+      "clue": "End of an episode of care",
+      "starty": 8,
+      "startx": 3,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "TOE",
+      "clue": "Digit of the foot",
+      "starty": 11,
+      "startx": 1,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "ADVOCACY",
+      "clue": "Speaking up for a client's rights and access",
+      "starty": 11,
+      "startx": 7,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "QUADRICEPS",
+      "clue": "Four muscles at the front of the thigh",
+      "starty": 12,
+      "startx": 4,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "BARTHEL",
+      "clue": "___ Index, a classic measure of daily living independence",
+      "starty": 12,
+      "startx": 15,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "PLAN",
+      "clue": "Written statement of goals and actions",
+      "starty": 12,
+      "startx": 18,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "CALF",
+      "clue": "Back of the lower leg",
+      "starty": 14,
+      "startx": 1,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "CHAIR",
+      "clue": "Seat whose height affects standing up",
+      "starty": 14,
+      "startx": 1,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "COMPENSATION",
+      "clue": "Working around a deficit with a new strategy",
+      "starty": 15,
+      "startx": 7,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "APHASIA",
+      "clue": "Loss of language ability after brain injury",
+      "starty": 16,
+      "startx": 1,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "PARESIS",
+      "clue": "Partial weakness of a muscle group",
+      "starty": 17,
+      "startx": 12,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "CONDYLE",
+      "clue": "Rounded knob at the end of a bone forming a joint",
+      "starty": 18,
+      "startx": 3,
+      "orientation": "across",
+      "position": 24
+    }
+  ]
+}

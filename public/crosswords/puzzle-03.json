@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "GRASP",
+      "clue": "How the hand takes hold of an object",
+      "starty": 1,
+      "startx": 2,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "PLEXUS",
+      "clue": "Network of intersecting nerves",
+      "starty": 1,
+      "startx": 6,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "HANDWRITING",
+      "clue": "School skill often addressed in paediatric practice",
+      "starty": 1,
+      "startx": 8,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "SACRUM",
+      "clue": "Triangular bone at the base of the spine",
+      "starty": 1,
+      "startx": 11,
+      "orientation": "across",
+      "position": 4
+    },
+    {
+      "answer": "CUE",
+      "clue": "Prompt guiding the next action",
+      "starty": 1,
+      "startx": 13,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "MUSCLE",
+      "clue": "Tissue that contracts to move a joint",
+      "starty": 1,
+      "startx": 16,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "BALANCE",
+      "clue": "Staying upright and steady",
+      "starty": 1,
+      "startx": 18,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "METAANALYSIS",
+      "clue": "Statistical pooling of results across studies",
+      "starty": 2,
+      "startx": 10,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "SCREENREADER",
+      "clue": "Software that speaks on-screen text aloud",
+      "starty": 3,
+      "startx": 3,
+      "orientation": "across",
+      "position": 9
+    },
+    {
+      "answer": "PLAN",
+      "clue": "Written statement of goals and actions",
+      "starty": 5,
+      "startx": 15,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "OBSERVATION",
+      "clue": "Watching a task performed to judge ability",
+      "starty": 6,
+      "startx": 4,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "DOOR",
+      "clue": "Widened for wheelchair access",
+      "starty": 8,
+      "startx": 2,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "GONIOMETER",
+      "clue": "Tool measuring a joint's angle",
+      "starty": 8,
+      "startx": 6,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "TEAM",
+      "clue": "Group of professionals working together on care",
+      "starty": 8,
+      "startx": 8,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "REMEDIATION",
+      "clue": "Restoring a lost skill rather than compensating for it",
+      "starty": 8,
+      "startx": 13,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "REGULATION",
+      "clue": "Self-___, managing one's own arousal and emotion",
+      "starty": 8,
+      "startx": 17,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "MEDICATION",
+      "clue": "___ management, keeping track of doses",
+      "starty": 9,
+      "startx": 4,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "REMINDER",
+      "clue": "Alarm or note prompting a task at the right time",
+      "starty": 9,
+      "startx": 15,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "BONE",
+      "clue": "Rigid tissue of the skeleton",
+      "starty": 10,
+      "startx": 1,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "TEST",
+      "clue": "Standardised task used in evaluation",
+      "starty": 13,
+      "startx": 1,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "COMPENSATION",
+      "clue": "Working around a deficit with a new strategy",
+      "starty": 13,
+      "startx": 4,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "AXON",
+      "clue": "Long fibre carrying impulses from a nerve cell",
+      "starty": 13,
+      "startx": 11,
+      "orientation": "down",
+      "position": 22
+    },
+    {
+      "answer": "SEAT",
+      "clue": "Where a person sits, adapted for comfort",
+      "starty": 15,
+      "startx": 1,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "PROSTHESIS",
+      "clue": "Artificial replacement for a missing limb",
+      "starty": 15,
+      "startx": 9,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "JOINT",
+      "clue": "Where two bones meet",
+      "starty": 18,
+      "startx": 1,
+      "orientation": "across",
+      "position": 25
+    },
+    {
+      "answer": "DEMENTIA",
+      "clue": "Progressive decline in memory and thinking",
+      "starty": 18,
+      "startx": 9,
+      "orientation": "across",
+      "position": 26
+    }
+  ]
+}

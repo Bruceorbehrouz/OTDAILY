@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "GOAL",
+      "clue": "What a client and therapist agree to work toward",
+      "starty": 1,
+      "startx": 3,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "AXON",
+      "clue": "Long fibre carrying impulses from a nerve cell",
+      "starty": 1,
+      "startx": 5,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "LUMBRICAL",
+      "clue": "Small hand muscle that bends the knuckles",
+      "starty": 1,
+      "startx": 9,
+      "orientation": "across",
+      "position": 3
+    },
+    {
+      "answer": "CHECKLIST",
+      "clue": "Written aid supporting memory for a sequence",
+      "starty": 1,
+      "startx": 15,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "LIGAMENT",
+      "clue": "Band of tissue connecting bone to bone",
+      "starty": 1,
+      "startx": 17,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "HIP",
+      "clue": "Joint connecting the leg to the pelvis",
+      "starty": 2,
+      "startx": 2,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "ROLE",
+      "clue": "Parent, worker or student, in occupational terms",
+      "starty": 3,
+      "startx": 12,
+      "orientation": "across",
+      "position": 7
+    },
+    {
+      "answer": "RADIUS",
+      "clue": "Forearm bone on the thumb side",
+      "starty": 3,
+      "startx": 12,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "PRONATION",
+      "clue": "Turning the palm downward",
+      "starty": 4,
+      "startx": 2,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "RELIABILITY",
+      "clue": "Consistency of a measure across repeats",
+      "starty": 4,
+      "startx": 3,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "TOILETING",
+      "clue": "Managing personal hygiene needs",
+      "starty": 4,
+      "startx": 7,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "SKIN",
+      "clue": "Largest organ of the body",
+      "starty": 6,
+      "startx": 5,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "SCREENREADER",
+      "clue": "Software that speaks on-screen text aloud",
+      "starty": 6,
+      "startx": 5,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "ADDUCTION",
+      "clue": "Moving a limb back toward the midline",
+      "starty": 7,
+      "startx": 9,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "ASSESSMENT",
+      "clue": "Structured gathering of information about a client",
+      "starty": 7,
+      "startx": 9,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "TEST",
+      "clue": "Standardised task used in evaluation",
+      "starty": 9,
+      "startx": 7,
+      "orientation": "across",
+      "position": 13
+    },
+    {
+      "answer": "NORM",
+      "clue": "Reference value from a comparison population",
+      "starty": 9,
+      "startx": 13,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "VALIDITY",
+      "clue": "Whether a measure captures what it claims to",
+      "starty": 9,
+      "startx": 18,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "SCIATIC",
+      "clue": "Largest nerve in the body, running down the leg",
+      "starty": 10,
+      "startx": 16,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "CERVICAL",
+      "clue": "Pertaining to the seven vertebrae of the neck",
+      "starty": 11,
+      "startx": 11,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "CASENOTE",
+      "clue": "Written record of a clinical contact",
+      "starty": 11,
+      "startx": 11,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "THENAR",
+      "clue": "Fleshy muscle mass at the base of the thumb",
+      "starty": 13,
+      "startx": 14,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "DYNAMOMETER",
+      "clue": "Device measuring grip strength",
+      "starty": 14,
+      "startx": 2,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "DOOR",
+      "clue": "Widened for wheelchair access",
+      "starty": 14,
+      "startx": 2,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "COMPENSATION",
+      "clue": "Working around a deficit with a new strategy",
+      "starty": 16,
+      "startx": 1,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "DENDRITE",
+      "clue": "Branching part of a neuron that receives signals",
+      "starty": 18,
+      "startx": 10,
+      "orientation": "across",
+      "position": 21
+    }
+  ]
+}

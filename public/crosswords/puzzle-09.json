@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "ACUTE",
+      "clue": "Sudden in onset and short-lived",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "TRAPEZIUS",
+      "clue": "Diamond-shaped muscle of the upper back",
+      "starty": 1,
+      "startx": 4,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "DRESSING",
+      "clue": "Daily activity of putting on clothes",
+      "starty": 1,
+      "startx": 7,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "DISCHARGE",
+      "clue": "End of an episode of care",
+      "starty": 1,
+      "startx": 18,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "BRACE",
+      "clue": "Device stabilising a joint",
+      "starty": 2,
+      "startx": 6,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "CLIENT",
+      "clue": "The person at the centre of the therapy process",
+      "starty": 2,
+      "startx": 9,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "PALM",
+      "clue": "Inner surface of the hand",
+      "starty": 2,
+      "startx": 13,
+      "orientation": "across",
+      "position": 7
+    },
+    {
+      "answer": "MEDICATION",
+      "clue": "___ management, keeping track of doses",
+      "starty": 2,
+      "startx": 16,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "MINDFULNESS",
+      "clue": "Attention practice used to manage stress and pain",
+      "starty": 3,
+      "startx": 11,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "STAIRS",
+      "clue": "Home feature often needing a rail",
+      "starty": 4,
+      "startx": 1,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "PLASTICITY",
+      "clue": "Brain's capacity to reorganise after injury",
+      "starty": 4,
+      "startx": 4,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "TONE",
+      "clue": "Resting tension in a muscle",
+      "starty": 5,
+      "startx": 1,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "ROTATION",
+      "clue": "Turning around an axis",
+      "starty": 6,
+      "startx": 14,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "HIP",
+      "clue": "Joint connecting the leg to the pelvis",
+      "starty": 7,
+      "startx": 3,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "SEPSIS",
+      "clue": "Life-threatening response to infection",
+      "starty": 9,
+      "startx": 1,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "PALLIATIVE",
+      "clue": "Care focused on comfort rather than cure",
+      "starty": 9,
+      "startx": 9,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "PROSTHESIS",
+      "clue": "Artificial replacement for a missing limb",
+      "starty": 9,
+      "startx": 9,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "PROPRIOCEPTION",
+      "clue": "Sense of where your body is in space",
+      "starty": 11,
+      "startx": 3,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "TENDINITIS",
+      "clue": "Inflammation of a tendon from overuse",
+      "starty": 13,
+      "startx": 2,
+      "orientation": "across",
+      "position": 18
+    },
+    {
+      "answer": "ANKLE",
+      "clue": "Joint linking foot to leg",
+      "starty": 13,
+      "startx": 13,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "ELBOW",
+      "clue": "Hinge joint of the arm",
+      "starty": 13,
+      "startx": 17,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "MANDIBLE",
+      "clue": "Lower jaw bone",
+      "starty": 15,
+      "startx": 2,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "REHAB",
+      "clue": "Short form for restoring function after illness",
+      "starty": 15,
+      "startx": 13,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "HEEL",
+      "clue": "Back of the foot",
+      "starty": 15,
+      "startx": 15,
+      "orientation": "down",
+      "position": 23
+    },
+    {
+      "answer": "ARTHRITIS",
+      "clue": "Inflammation of one or more joints",
+      "starty": 17,
+      "startx": 2,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "HOME",
+      "clue": "Where most therapy goals are lived out",
+      "starty": 17,
+      "startx": 12,
+      "orientation": "across",
+      "position": 25
+    }
+  ]
+}

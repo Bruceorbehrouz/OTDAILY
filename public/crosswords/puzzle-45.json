@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "PRIORITY",
+      "clue": "What gets done first when energy is limited",
+      "starty": 1,
+      "startx": 10,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "TELEHEALTH",
+      "clue": "Delivering therapy at a distance",
+      "starty": 1,
+      "startx": 16,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "BICEPS",
+      "clue": "Muscle at the front of the upper arm",
+      "starty": 2,
+      "startx": 7,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "COMPENSATION",
+      "clue": "Working around a deficit with a new strategy",
+      "starty": 2,
+      "startx": 18,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "ORBIT",
+      "clue": "Bony socket that houses the eye",
+      "starty": 3,
+      "startx": 4,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "ROTATOR",
+      "clue": "___ cuff, the four muscles stabilising the shoulder",
+      "starty": 3,
+      "startx": 5,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "HEEL",
+      "clue": "Back of the foot",
+      "starty": 3,
+      "startx": 10,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "CONTRACTURE",
+      "clue": "Permanent shortening limiting a joint's range",
+      "starty": 3,
+      "startx": 13,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "BILATERAL",
+      "clue": "Using both sides of the body together",
+      "starty": 4,
+      "startx": 2,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "PERIOSTEUM",
+      "clue": "Membrane covering the outer surface of bone",
+      "starty": 4,
+      "startx": 9,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "VISIT",
+      "clue": "Scheduled contact with a client",
+      "starty": 5,
+      "startx": 1,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "PALLIATIVE",
+      "clue": "Care focused on comfort rather than cure",
+      "starty": 6,
+      "startx": 7,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "PLAN",
+      "clue": "Written statement of goals and actions",
+      "starty": 8,
+      "startx": 11,
+      "orientation": "across",
+      "position": 13
+    },
+    {
+      "answer": "DELIRIUM",
+      "clue": "Acute fluctuating confusion, often reversible",
+      "starty": 9,
+      "startx": 1,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "TENDINITIS",
+      "clue": "Inflammation of a tendon from overuse",
+      "starty": 9,
+      "startx": 10,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "ABDUCTION",
+      "clue": "Moving a limb away from the midline",
+      "starty": 11,
+      "startx": 2,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "ORTHOSIS",
+      "clue": "External device supporting or aligning a body part",
+      "starty": 11,
+      "startx": 15,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "PROPRIOCEPTION",
+      "clue": "Sense of where your body is in space",
+      "starty": 13,
+      "startx": 5,
+      "orientation": "across",
+      "position": 18
+    },
+    {
+      "answer": "DATA",
+      "clue": "What a study collects",
+      "starty": 14,
+      "startx": 1,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "ACUTE",
+      "clue": "Sudden in onset and short-lived",
+      "starty": 14,
+      "startx": 2,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "AIM",
+      "clue": "What an intervention targets",
+      "starty": 14,
+      "startx": 4,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "ISOLATION",
+      "clue": "Lack of social contact affecting wellbeing",
+      "starty": 15,
+      "startx": 4,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "CANE",
+      "clue": "Single-point walking aid",
+      "starty": 15,
+      "startx": 17,
+      "orientation": "down",
+      "position": 23
+    },
+    {
+      "answer": "PSOAS",
+      "clue": "Deep hip flexor running from the lumbar spine",
+      "starty": 16,
+      "startx": 14,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "LUMBRICAL",
+      "clue": "Small hand muscle that bends the knuckles",
+      "starty": 17,
+      "startx": 5,
+      "orientation": "across",
+      "position": 25
+    },
+    {
+      "answer": "WEAK",
+      "clue": "Lacking strength",
+      "starty": 18,
+      "startx": 1,
+      "orientation": "across",
+      "position": 26
+    }
+  ]
+}

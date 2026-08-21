@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "PLAN",
+      "clue": "Written statement of goals and actions",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "CONCUSSION",
+      "clue": "Mild traumatic brain injury",
+      "starty": 1,
+      "startx": 4,
+      "orientation": "across",
+      "position": 2
+    },
+    {
+      "answer": "OSTEOPOROSIS",
+      "clue": "Loss of bone density raising fracture risk",
+      "starty": 1,
+      "startx": 5,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "CANE",
+      "clue": "Single-point walking aid",
+      "starty": 1,
+      "startx": 15,
+      "orientation": "across",
+      "position": 4
+    },
+    {
+      "answer": "EXTENSION",
+      "clue": "Straightening a joint",
+      "starty": 1,
+      "startx": 18,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "AMPUTATION",
+      "clue": "Surgical removal of a limb",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "across",
+      "position": 6
+    },
+    {
+      "answer": "MINDFULNESS",
+      "clue": "Attention practice used to manage stress and pain",
+      "starty": 4,
+      "startx": 13,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "NOTE",
+      "clue": "Brief written record",
+      "starty": 4,
+      "startx": 15,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "OPPOSITION",
+      "clue": "Thumb movement touching the other fingertips",
+      "starty": 4,
+      "startx": 16,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "ERGONOMICS",
+      "clue": "Fitting the task and workspace to the person",
+      "starty": 5,
+      "startx": 2,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "ORTHOSIS",
+      "clue": "External device supporting or aligning a body part",
+      "starty": 5,
+      "startx": 7,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "GRASP",
+      "clue": "How the hand takes hold of an object",
+      "starty": 7,
+      "startx": 1,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "QUADRICEPS",
+      "clue": "Four muscles at the front of the thigh",
+      "starty": 7,
+      "startx": 3,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "BLOOD",
+      "clue": "What the heart circulates",
+      "starty": 7,
+      "startx": 9,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "ABDUCTION",
+      "clue": "Moving a limb away from the midline",
+      "starty": 9,
+      "startx": 10,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "PARTICIPATION",
+      "clue": "Involvement in a life situation, in ICF terms",
+      "starty": 11,
+      "startx": 1,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "SOCK",
+      "clue": "Garment applied with a special aid",
+      "starty": 13,
+      "startx": 1,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "CRAYON",
+      "clue": "Early writing implement",
+      "starty": 13,
+      "startx": 6,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "ASSESSMENT",
+      "clue": "Structured gathering of information about a client",
+      "starty": 13,
+      "startx": 8,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "TIBIA",
+      "clue": "Shin bone, the weight-bearing bone of the lower leg",
+      "starty": 13,
+      "startx": 17,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "SUPINATION",
+      "clue": "Turning the palm upward",
+      "starty": 15,
+      "startx": 1,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "BED",
+      "clue": "Furniture involved in many transfers",
+      "starty": 15,
+      "startx": 14,
+      "orientation": "down",
+      "position": 22
+    },
+    {
+      "answer": "TOE",
+      "clue": "Digit of the foot",
+      "starty": 16,
+      "startx": 12,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "ORBIT",
+      "clue": "Bony socket that houses the eye",
+      "starty": 17,
+      "startx": 6,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "DATA",
+      "clue": "What a study collects",
+      "starty": 17,
+      "startx": 14,
+      "orientation": "across",
+      "position": 25
+    },
+    {
+      "answer": "BRAIN",
+      "clue": "Organ of thought and control",
+      "starty": 18,
+      "startx": 2,
+      "orientation": "across",
+      "position": 26
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "CERVICAL",
+      "clue": "Pertaining to the seven vertebrae of the neck",
+      "starty": 1,
+      "startx": 2,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "BUDGETING",
+      "clue": "Managing money week to week",
+      "starty": 1,
+      "startx": 5,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "REST",
+      "clue": "Prescribed pause from activity",
+      "starty": 1,
+      "startx": 14,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "LABRUM",
+      "clue": "Cartilage ring deepening the shoulder or hip socket",
+      "starty": 1,
+      "startx": 18,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "ENDURANCE",
+      "clue": "Capacity to sustain activity over time",
+      "starty": 2,
+      "startx": 2,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "EDEMA",
+      "clue": "Swelling from fluid trapped in tissues",
+      "starty": 2,
+      "startx": 14,
+      "orientation": "across",
+      "position": 6
+    },
+    {
+      "answer": "LIFT",
+      "clue": "Raise a load, ideally with the legs",
+      "starty": 4,
+      "startx": 8,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "BURNOUT",
+      "clue": "Exhaustion from prolonged occupational stress",
+      "starty": 4,
+      "startx": 10,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "PARKINSONS",
+      "clue": "Condition marked by tremor, rigidity and slow movement",
+      "starty": 4,
+      "startx": 12,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "TOY",
+      "clue": "Tool of a child's primary occupation",
+      "starty": 4,
+      "startx": 14,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "VESTIBULAR",
+      "clue": "Inner-ear system governing balance",
+      "starty": 5,
+      "startx": 4,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "LYMPHEDEMA",
+      "clue": "Swelling caused by impaired lymph drainage",
+      "starty": 6,
+      "startx": 14,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "ARM",
+      "clue": "Limb from shoulder to hand",
+      "starty": 6,
+      "startx": 16,
+      "orientation": "across",
+      "position": 13
+    },
+    {
+      "answer": "ARTHRITIS",
+      "clue": "Inflammation of one or more joints",
+      "starty": 6,
+      "startx": 16,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "CLIENT",
+      "clue": "The person at the centre of the therapy process",
+      "starty": 8,
+      "startx": 1,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "COSTAL",
+      "clue": "Relating to the ribs",
+      "starty": 8,
+      "startx": 1,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "GONIOMETER",
+      "clue": "Tool measuring a joint's angle",
+      "starty": 8,
+      "startx": 9,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "REMEDIATION",
+      "clue": "Restoring a lost skill rather than compensating for it",
+      "starty": 8,
+      "startx": 18,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "GRABRAIL",
+      "clue": "Bathroom bar giving something firm to hold",
+      "starty": 10,
+      "startx": 4,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "HEART",
+      "clue": "Muscular pump of the circulation",
+      "starty": 10,
+      "startx": 6,
+      "orientation": "across",
+      "position": 18
+    },
+    {
+      "answer": "ABDUCTION",
+      "clue": "Moving a limb away from the midline",
+      "starty": 12,
+      "startx": 4,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "PAIN",
+      "clue": "Symptom rated on a zero-to-ten scale",
+      "starty": 14,
+      "startx": 2,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "DYSPHAGIA",
+      "clue": "Difficulty swallowing",
+      "starty": 15,
+      "startx": 6,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "STEP",
+      "clue": "Single rise that a ramp replaces",
+      "starty": 15,
+      "startx": 8,
+      "orientation": "down",
+      "position": 22
+    },
+    {
+      "answer": "VISIT",
+      "clue": "Scheduled contact with a client",
+      "starty": 16,
+      "startx": 1,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "PROPRIOCEPTION",
+      "clue": "Sense of where your body is in space",
+      "starty": 18,
+      "startx": 5,
+      "orientation": "across",
+      "position": 24
+    }
+  ]
+}

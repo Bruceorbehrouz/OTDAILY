@@ -1,0 +1,238 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "SCIATIC",
+      "clue": "Largest nerve in the body, running down the leg",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "CARPAL",
+      "clue": "Any of the eight small bones of the wrist",
+      "starty": 1,
+      "startx": 7,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "BREATHING",
+      "clue": "Exercises used to manage breathlessness and anxiety",
+      "starty": 1,
+      "startx": 9,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "CALCANEUS",
+      "clue": "Heel bone",
+      "starty": 1,
+      "startx": 12,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "SCREENING",
+      "clue": "Quick check for who needs fuller evaluation",
+      "starty": 1,
+      "startx": 14,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "FALLS",
+      "clue": "Leading cause of injury among older adults",
+      "starty": 1,
+      "startx": 16,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "SPINE",
+      "clue": "Column of vertebrae",
+      "starty": 1,
+      "startx": 18,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "CRAMP",
+      "clue": "Painful muscle tightening",
+      "starty": 2,
+      "startx": 14,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "DISCHARGE",
+      "clue": "End of an episode of care",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "across",
+      "position": 9
+    },
+    {
+      "answer": "DORSIFLEX",
+      "clue": "Lift the foot upward at the ankle",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "CLAVICLE",
+      "clue": "Collarbone",
+      "starty": 3,
+      "startx": 4,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "CARTILAGE",
+      "clue": "Smooth tissue cushioning the ends of bones",
+      "starty": 5,
+      "startx": 6,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "BIAS",
+      "clue": "Systematic error distorting a study's findings",
+      "starty": 7,
+      "startx": 3,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "OSTEOPOROSIS",
+      "clue": "Loss of bone density raising fracture risk",
+      "starty": 7,
+      "startx": 16,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "MINDFULNESS",
+      "clue": "Attention practice used to manage stress and pain",
+      "starty": 8,
+      "startx": 7,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "ULNA",
+      "clue": "Forearm bone on the little-finger side",
+      "starty": 9,
+      "startx": 6,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "MEAL",
+      "clue": "What cooking produces",
+      "starty": 10,
+      "startx": 3,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "OPPOSITION",
+      "clue": "Thumb movement touching the other fingertips",
+      "starty": 11,
+      "startx": 8,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "PALM",
+      "clue": "Inner surface of the hand",
+      "starty": 11,
+      "startx": 10,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "SCHOOL",
+      "clue": "Where much paediatric practice happens",
+      "starty": 12,
+      "startx": 3,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "NOTE",
+      "clue": "Brief written record",
+      "starty": 13,
+      "startx": 1,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "ATAXIA",
+      "clue": "Loss of coordinated movement",
+      "starty": 13,
+      "startx": 5,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "RELAXATION",
+      "clue": "Techniques lowering physical and mental tension",
+      "starty": 13,
+      "startx": 8,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "TEST",
+      "clue": "Standardised task used in evaluation",
+      "starty": 13,
+      "startx": 14,
+      "orientation": "down",
+      "position": 23
+    },
+    {
+      "answer": "VAGUS",
+      "clue": "Cranial nerve regulating heart rate and digestion",
+      "starty": 14,
+      "startx": 18,
+      "orientation": "down",
+      "position": 24
+    },
+    {
+      "answer": "THORACIC",
+      "clue": "Pertaining to the chest region of the spine",
+      "starty": 15,
+      "startx": 1,
+      "orientation": "across",
+      "position": 25
+    },
+    {
+      "answer": "CARE",
+      "clue": "What a support plan provides",
+      "starty": 15,
+      "startx": 8,
+      "orientation": "down",
+      "position": 26
+    },
+    {
+      "answer": "ARTHRITIS",
+      "clue": "Inflammation of one or more joints",
+      "starty": 16,
+      "startx": 8,
+      "orientation": "across",
+      "position": 27
+    },
+    {
+      "answer": "METAANALYSIS",
+      "clue": "Statistical pooling of results across studies",
+      "starty": 18,
+      "startx": 7,
+      "orientation": "across",
+      "position": 28
+    }
+  ]
+}

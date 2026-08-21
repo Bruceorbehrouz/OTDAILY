@@ -1,0 +1,222 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "SHOPPING",
+      "clue": "Getting groceries, an instrumental daily activity",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "SCAPULA",
+      "clue": "Shoulder blade",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "OUTCOME",
+      "clue": "Measured result of an intervention",
+      "starty": 1,
+      "startx": 3,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "PROTOCOL",
+      "clue": "Agreed step-by-step procedure",
+      "starty": 1,
+      "startx": 5,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "NOTE",
+      "clue": "Brief written record",
+      "starty": 1,
+      "startx": 7,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "FASCIA",
+      "clue": "Sheet of connective tissue wrapping muscles",
+      "starty": 1,
+      "startx": 12,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "SENSORY",
+      "clue": "___ processing, how the nervous system handles input",
+      "starty": 1,
+      "startx": 14,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "TOILETING",
+      "clue": "Managing personal hygiene needs",
+      "starty": 3,
+      "startx": 7,
+      "orientation": "across",
+      "position": 7
+    },
+    {
+      "answer": "EXTENSION",
+      "clue": "Straightening a joint",
+      "starty": 3,
+      "startx": 11,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "ADVOCACY",
+      "clue": "Speaking up for a client's rights and access",
+      "starty": 4,
+      "startx": 16,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "CANE",
+      "clue": "Single-point walking aid",
+      "starty": 5,
+      "startx": 9,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "COLLAGEN",
+      "clue": "Main structural protein of connective tissue",
+      "starty": 6,
+      "startx": 5,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "REMINDER",
+      "clue": "Alarm or note prompting a task at the right time",
+      "starty": 7,
+      "startx": 18,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "BILATERAL",
+      "clue": "Using both sides of the body together",
+      "starty": 9,
+      "startx": 2,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "BRACE",
+      "clue": "Device stabilising a joint",
+      "starty": 9,
+      "startx": 6,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "MEDICATION",
+      "clue": "___ management, keeping track of doses",
+      "starty": 9,
+      "startx": 8,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "DIAPHRAGM",
+      "clue": "Dome-shaped muscle driving breathing",
+      "starty": 9,
+      "startx": 10,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "PARKINSONS",
+      "clue": "Condition marked by tremor, rigidity and slow movement",
+      "starty": 9,
+      "startx": 13,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "CORTEX",
+      "clue": "Outer layer of the brain",
+      "starty": 10,
+      "startx": 4,
+      "orientation": "across",
+      "position": 18
+    },
+    {
+      "answer": "ABDUCTION",
+      "clue": "Moving a limb away from the midline",
+      "starty": 12,
+      "startx": 2,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "BONE",
+      "clue": "Rigid tissue of the skeleton",
+      "starty": 13,
+      "startx": 15,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "HEART",
+      "clue": "Muscular pump of the circulation",
+      "starty": 14,
+      "startx": 1,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "BASELINE",
+      "clue": "Starting measurement used for comparison",
+      "starty": 14,
+      "startx": 7,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "LUNG",
+      "clue": "Organ of gas exchange",
+      "starty": 15,
+      "startx": 6,
+      "orientation": "down",
+      "position": 23
+    },
+    {
+      "answer": "SUPINATION",
+      "clue": "Turning the palm upward",
+      "starty": 16,
+      "startx": 5,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "AIM",
+      "clue": "What an intervention targets",
+      "starty": 16,
+      "startx": 10,
+      "orientation": "down",
+      "position": 25
+    },
+    {
+      "answer": "ERGONOMICS",
+      "clue": "Fitting the task and workspace to the person",
+      "starty": 18,
+      "startx": 4,
+      "orientation": "across",
+      "position": 26
+    }
+  ]
+}

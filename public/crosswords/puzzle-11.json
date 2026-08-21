@@ -1,0 +1,238 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "PRIMARY",
+      "clue": "___ care, the first point of contact in health services",
+      "starty": 1,
+      "startx": 2,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "WEAK",
+      "clue": "Lacking strength",
+      "starty": 1,
+      "startx": 8,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "COPM",
+      "clue": "Canadian Occupational Performance Measure, in short",
+      "starty": 1,
+      "startx": 15,
+      "orientation": "across",
+      "position": 3
+    },
+    {
+      "answer": "PROSTHESIS",
+      "clue": "Artificial replacement for a missing limb",
+      "starty": 1,
+      "startx": 17,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "ASSESSMENT",
+      "clue": "Structured gathering of information about a client",
+      "starty": 2,
+      "startx": 5,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "SCREENREADER",
+      "clue": "Software that speaks on-screen text aloud",
+      "starty": 2,
+      "startx": 6,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "BIAS",
+      "clue": "Systematic error distorting a study's findings",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "across",
+      "position": 7
+    },
+    {
+      "answer": "AXON",
+      "clue": "Long fibre carrying impulses from a nerve cell",
+      "starty": 3,
+      "startx": 15,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "SLEEP",
+      "clue": "Restorative occupation often disrupted by pain",
+      "starty": 4,
+      "startx": 10,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "BARTHEL",
+      "clue": "___ Index, a classic measure of daily living independence",
+      "starty": 5,
+      "startx": 1,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "PLASTICITY",
+      "clue": "Brain's capacity to reorganise after injury",
+      "starty": 5,
+      "startx": 9,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "CONCUSSION",
+      "clue": "Mild traumatic brain injury",
+      "starty": 5,
+      "startx": 15,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "GONIOMETER",
+      "clue": "Tool measuring a joint's angle",
+      "starty": 7,
+      "startx": 4,
+      "orientation": "across",
+      "position": 13
+    },
+    {
+      "answer": "OCCUPATION",
+      "clue": "Meaningful everyday activity — the core of this profession",
+      "starty": 7,
+      "startx": 8,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "KNEE",
+      "clue": "Largest joint in the body",
+      "starty": 9,
+      "startx": 1,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "EVERSION",
+      "clue": "Turning the sole of the foot outward",
+      "starty": 9,
+      "startx": 3,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "BILATERAL",
+      "clue": "Using both sides of the body together",
+      "starty": 9,
+      "startx": 11,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "AUDIT",
+      "clue": "Systematic review of practice against a standard",
+      "starty": 9,
+      "startx": 14,
+      "orientation": "across",
+      "position": 18
+    },
+    {
+      "answer": "TALUS",
+      "clue": "Ankle bone between the heel and the shin",
+      "starty": 10,
+      "startx": 5,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "ORTHOSIS",
+      "clue": "External device supporting or aligning a body part",
+      "starty": 11,
+      "startx": 18,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "STEPS",
+      "clue": "What a task is broken down into",
+      "starty": 12,
+      "startx": 1,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "METAANALYSIS",
+      "clue": "Statistical pooling of results across studies",
+      "starty": 12,
+      "startx": 5,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "TASK",
+      "clue": "Unit of activity broken into steps",
+      "starty": 13,
+      "startx": 1,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "FALLS",
+      "clue": "Leading cause of injury among older adults",
+      "starty": 14,
+      "startx": 5,
+      "orientation": "down",
+      "position": 24
+    },
+    {
+      "answer": "FEEDING",
+      "clue": "Bringing food to the mouth",
+      "starty": 14,
+      "startx": 10,
+      "orientation": "across",
+      "position": 25
+    },
+    {
+      "answer": "PRONATION",
+      "clue": "Turning the palm downward",
+      "starty": 15,
+      "startx": 1,
+      "orientation": "across",
+      "position": 26
+    },
+    {
+      "answer": "CALCANEUS",
+      "clue": "Heel bone",
+      "starty": 16,
+      "startx": 10,
+      "orientation": "across",
+      "position": 27
+    },
+    {
+      "answer": "SCORE",
+      "clue": "Number a measure produces",
+      "starty": 18,
+      "startx": 5,
+      "orientation": "across",
+      "position": 28
+    },
+    {
+      "answer": "GLUTEUS",
+      "clue": "Muscle group forming the buttocks",
+      "starty": 18,
+      "startx": 12,
+      "orientation": "across",
+      "position": 29
+    }
+  ]
+}

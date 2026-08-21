@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "KNEE",
+      "clue": "Largest joint in the body",
+      "starty": 1,
+      "startx": 4,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "BARTHEL",
+      "clue": "___ Index, a classic measure of daily living independence",
+      "starty": 1,
+      "startx": 7,
+      "orientation": "across",
+      "position": 2
+    },
+    {
+      "answer": "BRAIN",
+      "clue": "Organ of thought and control",
+      "starty": 1,
+      "startx": 7,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "TONE",
+      "clue": "Resting tension in a muscle",
+      "starty": 1,
+      "startx": 10,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "EDEMA",
+      "clue": "Swelling from fluid trapped in tissues",
+      "starty": 1,
+      "startx": 12,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "AIM",
+      "clue": "What an intervention targets",
+      "starty": 1,
+      "startx": 16,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "MOTOR",
+      "clue": "Relating to movement",
+      "starty": 1,
+      "startx": 18,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "HOIST",
+      "clue": "Powered lift for transferring a person",
+      "starty": 2,
+      "startx": 15,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "CASELOAD",
+      "clue": "The set of clients a therapist currently serves",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "ADVOCACY",
+      "clue": "Speaking up for a client's rights and access",
+      "starty": 3,
+      "startx": 2,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "JOINT",
+      "clue": "Where two bones meet",
+      "starty": 3,
+      "startx": 14,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "FALLS",
+      "clue": "Leading cause of injury among older adults",
+      "starty": 5,
+      "startx": 11,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "COSTAL",
+      "clue": "Relating to the ribs",
+      "starty": 6,
+      "startx": 1,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "MINDFULNESS",
+      "clue": "Attention practice used to manage stress and pain",
+      "starty": 6,
+      "startx": 8,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "OBSERVATION",
+      "clue": "Watching a task performed to judge ability",
+      "starty": 7,
+      "startx": 11,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "REMEDIATION",
+      "clue": "Restoring a lost skill rather than compensating for it",
+      "starty": 7,
+      "startx": 13,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "HAMSTRING",
+      "clue": "Muscle group at the back of the thigh",
+      "starty": 8,
+      "startx": 1,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "MEDICATION",
+      "clue": "___ management, keeping track of doses",
+      "starty": 8,
+      "startx": 15,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "RELIABILITY",
+      "clue": "Consistency of a measure across repeats",
+      "starty": 8,
+      "startx": 17,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "CALF",
+      "clue": "Back of the lower leg",
+      "starty": 10,
+      "startx": 5,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "CERVICAL",
+      "clue": "Pertaining to the seven vertebrae of the neck",
+      "starty": 10,
+      "startx": 5,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "EVERSION",
+      "clue": "Turning the sole of the foot outward",
+      "starty": 11,
+      "startx": 3,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "DORSIFLEX",
+      "clue": "Lift the foot upward at the ankle",
+      "starty": 14,
+      "startx": 1,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "DAILY",
+      "clue": "Occurring every day, as with living activities",
+      "starty": 14,
+      "startx": 1,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "OSTEOPOROSIS",
+      "clue": "Loss of bone density raising fracture risk",
+      "starty": 16,
+      "startx": 7,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "TOY",
+      "clue": "Tool of a child's primary occupation",
+      "starty": 16,
+      "startx": 9,
+      "orientation": "down",
+      "position": 23
+    }
+  ]
+}

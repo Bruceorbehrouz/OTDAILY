@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "EPIPHYSIS",
+      "clue": "Growing end of a long bone",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "SCOLIOSIS",
+      "clue": "Sideways curvature of the spine",
+      "starty": 1,
+      "startx": 7,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "SPASTICITY",
+      "clue": "Velocity-dependent increase in muscle tone",
+      "starty": 1,
+      "startx": 9,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "PARKINSONS",
+      "clue": "Condition marked by tremor, rigidity and slow movement",
+      "starty": 1,
+      "startx": 13,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "CALF",
+      "clue": "Back of the lower leg",
+      "starty": 1,
+      "startx": 15,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "THALAMUS",
+      "clue": "Brain relay station for sensory information",
+      "starty": 2,
+      "startx": 11,
+      "orientation": "across",
+      "position": 6
+    },
+    {
+      "answer": "TENDINITIS",
+      "clue": "Inflammation of a tendon from overuse",
+      "starty": 2,
+      "startx": 11,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "SENSORY",
+      "clue": "___ processing, how the nervous system handles input",
+      "starty": 2,
+      "startx": 18,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "FALLS",
+      "clue": "Leading cause of injury among older adults",
+      "starty": 4,
+      "startx": 5,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "BRAINSTEM",
+      "clue": "Region controlling breathing and heart rate",
+      "starty": 5,
+      "startx": 2,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "GONIOMETER",
+      "clue": "Tool measuring a joint's angle",
+      "starty": 5,
+      "startx": 4,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "AMPUTATION",
+      "clue": "Surgical removal of a limb",
+      "starty": 5,
+      "startx": 16,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "OPPOSITION",
+      "clue": "Thumb movement touching the other fingertips",
+      "starty": 6,
+      "startx": 4,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "TIBIA",
+      "clue": "Shin bone, the weight-bearing bone of the lower leg",
+      "starty": 8,
+      "startx": 1,
+      "orientation": "across",
+      "position": 13
+    },
+    {
+      "answer": "TONE",
+      "clue": "Resting tension in a muscle",
+      "starty": 9,
+      "startx": 11,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "TENDON",
+      "clue": "Fibrous cord attaching muscle to bone",
+      "starty": 10,
+      "startx": 18,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "DELIRIUM",
+      "clue": "Acute fluctuating confusion, often reversible",
+      "starty": 11,
+      "startx": 14,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "VESTIBULAR",
+      "clue": "Inner-ear system governing balance",
+      "starty": 12,
+      "startx": 1,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "AXON",
+      "clue": "Long fibre carrying impulses from a nerve cell",
+      "starty": 12,
+      "startx": 9,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "MEDIAN",
+      "clue": "___ nerve, compressed in carpal tunnel syndrome",
+      "starty": 12,
+      "startx": 13,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "PROPRIOCEPTION",
+      "clue": "Sense of where your body is in space",
+      "starty": 14,
+      "startx": 3,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "ORBIT",
+      "clue": "Bony socket that houses the eye",
+      "starty": 14,
+      "startx": 5,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "PINCH",
+      "clue": "Thumb-to-finger strength measure",
+      "starty": 14,
+      "startx": 12,
+      "orientation": "down",
+      "position": 22
+    },
+    {
+      "answer": "BED",
+      "clue": "Furniture involved in many transfers",
+      "starty": 16,
+      "startx": 16,
+      "orientation": "down",
+      "position": 23
+    },
+    {
+      "answer": "SKILL",
+      "clue": "Ability built through practice",
+      "starty": 17,
+      "startx": 3,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "FRACTURE",
+      "clue": "Break in a bone",
+      "starty": 17,
+      "startx": 9,
+      "orientation": "across",
+      "position": 25
+    }
+  ]
+}

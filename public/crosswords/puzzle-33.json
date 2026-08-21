@@ -1,0 +1,222 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "GROOMING",
+      "clue": "Brushing hair and teeth, for instance",
+      "starty": 1,
+      "startx": 4,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "PALLIATIVE",
+      "clue": "Care focused on comfort rather than cure",
+      "starty": 1,
+      "startx": 6,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "CARPAL",
+      "clue": "Any of the eight small bones of the wrist",
+      "starty": 1,
+      "startx": 8,
+      "orientation": "across",
+      "position": 3
+    },
+    {
+      "answer": "ASSESSMENT",
+      "clue": "Structured gathering of information about a client",
+      "starty": 1,
+      "startx": 12,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "MEAL",
+      "clue": "What cooking produces",
+      "starty": 1,
+      "startx": 15,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "MEDICATION",
+      "clue": "___ management, keeping track of doses",
+      "starty": 1,
+      "startx": 15,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "COLLAGEN",
+      "clue": "Main structural protein of connective tissue",
+      "starty": 3,
+      "startx": 3,
+      "orientation": "across",
+      "position": 6
+    },
+    {
+      "answer": "DOOR",
+      "clue": "Widened for wheelchair access",
+      "starty": 3,
+      "startx": 15,
+      "orientation": "across",
+      "position": 7
+    },
+    {
+      "answer": "ORTHOSIS",
+      "clue": "External device supporting or aligning a body part",
+      "starty": 3,
+      "startx": 17,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "ROLE",
+      "clue": "Parent, worker or student, in occupational terms",
+      "starty": 4,
+      "startx": 2,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "NORM",
+      "clue": "Reference value from a comparison population",
+      "starty": 5,
+      "startx": 1,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "PLASTICITY",
+      "clue": "Brain's capacity to reorganise after injury",
+      "starty": 5,
+      "startx": 9,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "NOTE",
+      "clue": "Brief written record",
+      "starty": 7,
+      "startx": 4,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "NERVE",
+      "clue": "Bundle of fibres carrying signals",
+      "starty": 8,
+      "startx": 8,
+      "orientation": "across",
+      "position": 13
+    },
+    {
+      "answer": "ENDURANCE",
+      "clue": "Capacity to sustain activity over time",
+      "starty": 8,
+      "startx": 9,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "BIAS",
+      "clue": "Systematic error distorting a study's findings",
+      "starty": 8,
+      "startx": 14,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "HUMERUS",
+      "clue": "Bone of the upper arm",
+      "starty": 10,
+      "startx": 2,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "REMEDIATION",
+      "clue": "Restoring a lost skill rather than compensating for it",
+      "starty": 10,
+      "startx": 5,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "PLANNING",
+      "clue": "Thinking a task through before starting it",
+      "starty": 11,
+      "startx": 4,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "SLEEP",
+      "clue": "Restorative occupation often disrupted by pain",
+      "starty": 11,
+      "startx": 16,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "FLEXION",
+      "clue": "Bending a joint to decrease its angle",
+      "starty": 12,
+      "startx": 13,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "PATHWAY",
+      "clue": "Planned route a patient takes through services",
+      "starty": 12,
+      "startx": 18,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "ADVOCACY",
+      "clue": "Speaking up for a client's rights and access",
+      "starty": 13,
+      "startx": 4,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "NEGLECT",
+      "clue": "Unilateral ___, inattention to one side of space",
+      "starty": 14,
+      "startx": 12,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "BURNOUT",
+      "clue": "Exhaustion from prolonged occupational stress",
+      "starty": 15,
+      "startx": 1,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "DELIRIUM",
+      "clue": "Acute fluctuating confusion, often reversible",
+      "starty": 16,
+      "startx": 8,
+      "orientation": "across",
+      "position": 25
+    },
+    {
+      "answer": "KITCHEN",
+      "clue": "Room assessed for meal preparation safety",
+      "starty": 18,
+      "startx": 7,
+      "orientation": "across",
+      "position": 26
+    }
+  ]
+}

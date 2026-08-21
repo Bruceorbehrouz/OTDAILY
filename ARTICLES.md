@@ -64,8 +64,9 @@ published a second time, so re-running the scheduler is always safe.
 
 ## Missed days
 
-If today has no article, the app falls back to the most recent earlier one and
-shows a note saying so, instead of an empty page. This relies on
+If today has no article, the app shows the closest one it has — the most recent
+earlier article, or the earliest one available if there is nothing earlier —
+with a note saying so, instead of an empty page. This relies on
 `public/articles/index.json`, which the scheduler regenerates on every run —
 don't edit it by hand.
 
@@ -105,29 +106,80 @@ missing, so a malformed article can't reach the site.
 Articles are cached in localStorage for the day, so readers don't re-fetch the
 same one.
 
-## Adding new Physle words
+## Adding new daily words
 
 Edit `src/data/words.ts`:
-- Add the word to `PHYSLE_WORDS` array
-- Add its definition to `WORD_DEFS` object
+- Add the word to the `PHYSLE_WORDS` array
+- Add its definition to the `WORD_DEFS` object
 
-Words must be exactly 5 letters. The daily word rotates deterministically
-using `(dayOfYear() + PHYSLE_WORD_OFFSET) % PHYSLE_WORDS.length`.
-Changing the order of existing words will alter the rotation schedule.
-Safe to append new words to the end of the array.
+Words must be exactly 5 letters and every word needs a definition —
+`npm run content:check` fails the build otherwise. The daily word rotates using
+`(dayOfYear() + PHYSLE_WORD_OFFSET) % PHYSLE_WORDS.length`, so appending to the
+end is safe, but reordering existing entries shifts the schedule.
 
-## Adding a new weekly crossword
+There are currently 198 words: over six months before one comes round again.
 
-Replace `public/crossword.json` with a new puzzle in this format:
+## The weekly crossword library
+
+Puzzles are generated from a clue bank, not written by hand. The app rotates
+through `public/crosswords/` a puzzle a week, so a new crossword appears every
+Monday with nothing to publish.
+
+### Adding clues
+
+Add entries to `content/crossword-bank.json`:
+
+```json
+{ "answer": "SCAPULA", "clue": "Shoulder blade", "theme": "anatomy" }
+```
+
+Answers are 3–14 letters, A–Z only. `theme` is a free-form grouping label. Then
+rebuild:
+
+```bash
+npm run crosswords:build   # regenerate the library
+npm run crosswords:check   # validate what's committed
+```
+
+Generation is seeded by puzzle number, so rebuilding is byte-identical:
+**adding clues to the bank does not reshuffle existing puzzles**, and nobody
+loses progress to a rebuild. Shorter answers pack more tightly than long ones,
+so a bank with plenty of 4–6 letter entries produces denser grids.
+
+To change how many puzzles the library holds:
+
+```bash
+node scripts/build-crosswords.mjs --count 52
+```
+
+### What the generator guarantees
+
+Every puzzle is validated before it is written, and the build fails rather than
+shipping a broken grid. Each one must:
+
+- keep every answer inside the grid, with all crossing letters in agreement
+- have every run of two or more adjacent squares be a real declared entry —
+  no accidental two-letter words formed by words sitting side by side
+- number squares in standard scan order, sharing a number between an Across and
+  a Down that start on the same square
+- interlock every answer with at least one other
+- carry at least 26 clues and no repeated answer
+
+`npm run crosswords:check` re-runs all of that against the committed library.
+
+`public/crossword.json` holds a copy of the first puzzle and is the fallback the
+app loads if the library index cannot be fetched.
+
+### Puzzle format
 
 ```json
 {
-  "rows": 16,
-  "cols": 17,
+  "rows": 18,
+  "cols": 18,
   "result": [
     {
       "answer": "FEMUR",
-      "clue": "The longest bone in the body.",
+      "clue": "Thigh bone — the longest bone in the body",
       "startx": 1,
       "starty": 1,
       "orientation": "across",
@@ -140,6 +192,21 @@ Replace `public/crossword.json` with a new puzzle in this format:
 `startx`/`starty` are 1-based. Across and Down clues may share a number — the
 app tells them apart by number *and* orientation.
 
-Puzzle progress is saved per week. A new `crossword.json` file automatically
-becomes the active puzzle. Previous weeks' progress is preserved in localStorage
-under the old week key.
+Progress is saved per week and per puzzle, so each week starts fresh and
+earlier weeks stay in localStorage under their own key.
+
+## Keeping the site stocked
+
+`npm run content:check` reports how much runway each rotating surface has and
+fails the build if any of them is broken or empty. It runs automatically as
+part of `npm run build`:
+
+```
+Daily word: 198 words, 198 definitions — 198 days before a repeat.
+Weekly crossword: 52 puzzles — 52 weeks before a repeat.
+Articles: 2 published, 1 dated today or later.
+Content check passed.
+```
+
+The word game and the crossword look after themselves. Articles are the one
+surface that needs new material from you — everything else rotates on its own.

@@ -34,6 +34,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Every feature defaults to on in src/config/features.ts, so there is
+      # nothing to set here. To take one off the live site for a deploy, add
+      # e.g. "env: { VITE_ENABLE_WORDLE: false }" to this step.
       - name: Build
         run: npm run build
 
@@ -42,6 +45,7 @@ jobs:
           mkdir -p dist/OTDAILY
           cp -R dist/assets dist/OTDAILY/assets
           cp -R dist/articles dist/OTDAILY/articles
+          cp -R dist/crosswords dist/OTDAILY/crosswords
           cp dist/crossword.json dist/favicon.jpg dist/OTDAILY/
 
       - name: Setup Pages

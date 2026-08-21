@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "TOY",
+      "clue": "Tool of a child's primary occupation",
+      "starty": 1,
+      "startx": 7,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "REHAB",
+      "clue": "Short form for restoring function after illness",
+      "starty": 1,
+      "startx": 10,
+      "orientation": "across",
+      "position": 2
+    },
+    {
+      "answer": "BRAINSTEM",
+      "clue": "Region controlling breathing and heart rate",
+      "starty": 1,
+      "startx": 14,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "EYEGAZE",
+      "clue": "Control method driven by where the user looks",
+      "starty": 1,
+      "startx": 17,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "MILESTONE",
+      "clue": "Expected developmental achievement",
+      "starty": 2,
+      "startx": 1,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "ENDURANCE",
+      "clue": "Capacity to sustain activity over time",
+      "starty": 2,
+      "startx": 9,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "BALANCE",
+      "clue": "Staying upright and steady",
+      "starty": 3,
+      "startx": 11,
+      "orientation": "across",
+      "position": 7
+    },
+    {
+      "answer": "SCREENREADER",
+      "clue": "Software that speaks on-screen text aloud",
+      "starty": 4,
+      "startx": 2,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "LYMPHEDEMA",
+      "clue": "Swelling caused by impaired lymph drainage",
+      "starty": 5,
+      "startx": 4,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "ADDUCTION",
+      "clue": "Moving a limb back toward the midline",
+      "starty": 5,
+      "startx": 6,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "AMPUTATION",
+      "clue": "Surgical removal of a limb",
+      "starty": 5,
+      "startx": 6,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "JAW",
+      "clue": "Hinged bone used for chewing",
+      "starty": 5,
+      "startx": 16,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "OCCUPATION",
+      "clue": "Meaningful everyday activity — the core of this profession",
+      "starty": 7,
+      "startx": 11,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "ISOLATION",
+      "clue": "Lack of social contact affecting wellbeing",
+      "starty": 8,
+      "startx": 16,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "FEMUR",
+      "clue": "Thigh bone — the longest bone in the body",
+      "starty": 10,
+      "startx": 8,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "SOCK",
+      "clue": "Garment applied with a special aid",
+      "starty": 10,
+      "startx": 15,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "BASELINE",
+      "clue": "Starting measurement used for comparison",
+      "starty": 12,
+      "startx": 1,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "CASELOAD",
+      "clue": "The set of clients a therapist currently serves",
+      "starty": 12,
+      "startx": 10,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "STAFF",
+      "clue": "People who deliver a service",
+      "starty": 13,
+      "startx": 18,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "METAANALYSIS",
+      "clue": "Statistical pooling of results across studies",
+      "starty": 14,
+      "startx": 1,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "AUDIT",
+      "clue": "Systematic review of practice against a standard",
+      "starty": 14,
+      "startx": 5,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "JOINT",
+      "clue": "Where two bones meet",
+      "starty": 14,
+      "startx": 14,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "STEP",
+      "clue": "Single rise that a ramp replaces",
+      "starty": 15,
+      "startx": 13,
+      "orientation": "down",
+      "position": 22
+    },
+    {
+      "answer": "SUPINATION",
+      "clue": "Turning the palm upward",
+      "starty": 16,
+      "startx": 7,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "BRAIN",
+      "clue": "Organ of thought and control",
+      "starty": 17,
+      "startx": 2,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "ZIPPER",
+      "clue": "Fastener fitted with a pull ring",
+      "starty": 18,
+      "startx": 10,
+      "orientation": "across",
+      "position": 25
+    }
+  ]
+}

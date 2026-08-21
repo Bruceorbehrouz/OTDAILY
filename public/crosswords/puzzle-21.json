@@ -1,0 +1,222 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "ENERGY",
+      "clue": "What conservation strategies try to save",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "ENDURANCE",
+      "clue": "Capacity to sustain activity over time",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "STEP",
+      "clue": "Single rise that a ramp replaces",
+      "starty": 1,
+      "startx": 8,
+      "orientation": "across",
+      "position": 2
+    },
+    {
+      "answer": "PAIN",
+      "clue": "Symptom rated on a zero-to-ten scale",
+      "starty": 1,
+      "startx": 11,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "BICEPS",
+      "clue": "Muscle at the front of the upper arm",
+      "starty": 1,
+      "startx": 13,
+      "orientation": "across",
+      "position": 4
+    },
+    {
+      "answer": "STERNUM",
+      "clue": "Breastbone at the centre of the chest",
+      "starty": 1,
+      "startx": 18,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "ERGONOMICS",
+      "clue": "Fitting the task and workspace to the person",
+      "starty": 3,
+      "startx": 4,
+      "orientation": "across",
+      "position": 6
+    },
+    {
+      "answer": "OSTEOPOROSIS",
+      "clue": "Loss of bone density raising fracture risk",
+      "starty": 3,
+      "startx": 7,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "SKIN",
+      "clue": "Largest organ of the body",
+      "starty": 3,
+      "startx": 13,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "ULNA",
+      "clue": "Forearm bone on the little-finger side",
+      "starty": 4,
+      "startx": 3,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "OCCUPATION",
+      "clue": "Meaningful everyday activity — the core of this profession",
+      "starty": 4,
+      "startx": 15,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "RELAXATION",
+      "clue": "Techniques lowering physical and mental tension",
+      "starty": 5,
+      "startx": 1,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "KITCHEN",
+      "clue": "Room assessed for meal preparation safety",
+      "starty": 5,
+      "startx": 12,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "MYOFIBRIL",
+      "clue": "Contractile thread within a muscle fibre",
+      "starty": 7,
+      "startx": 5,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "TENDINITIS",
+      "clue": "Inflammation of a tendon from overuse",
+      "starty": 7,
+      "startx": 9,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "REFERRAL",
+      "clue": "Formal request sending a client to a service",
+      "starty": 7,
+      "startx": 11,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "LYMPHEDEMA",
+      "clue": "Swelling caused by impaired lymph drainage",
+      "starty": 8,
+      "startx": 4,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "MUSCLE",
+      "clue": "Tissue that contracts to move a joint",
+      "starty": 8,
+      "startx": 17,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "TRAPEZIUS",
+      "clue": "Diamond-shaped muscle of the upper back",
+      "starty": 10,
+      "startx": 3,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "AUTISM",
+      "clue": "Neurodevelopmental difference in communication and sensory processing",
+      "starty": 10,
+      "startx": 13,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "HIP",
+      "clue": "Joint connecting the leg to the pelvis",
+      "starty": 12,
+      "startx": 13,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "PARTICIPATION",
+      "clue": "Involvement in a life situation, in ICF terms",
+      "starty": 13,
+      "startx": 3,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "THUMB",
+      "clue": "Digit essential to pinch grip",
+      "starty": 14,
+      "startx": 1,
+      "orientation": "down",
+      "position": 22
+    },
+    {
+      "answer": "STRAP",
+      "clue": "Band securing a device to the body",
+      "starty": 14,
+      "startx": 16,
+      "orientation": "down",
+      "position": 23
+    },
+    {
+      "answer": "VESTIBULAR",
+      "clue": "Inner-ear system governing balance",
+      "starty": 16,
+      "startx": 7,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "BASELINE",
+      "clue": "Starting measurement used for comparison",
+      "starty": 18,
+      "startx": 1,
+      "orientation": "across",
+      "position": 25
+    },
+    {
+      "answer": "COPM",
+      "clue": "Canadian Occupational Performance Measure, in short",
+      "starty": 18,
+      "startx": 14,
+      "orientation": "across",
+      "position": 26
+    }
+  ]
+}

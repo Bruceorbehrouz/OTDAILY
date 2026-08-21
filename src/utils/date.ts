@@ -26,15 +26,35 @@ export function dayOfYear(dateStr: string = vancouverDateStr()): number {
   return Math.floor((d.getTime() - new Date(year, 0, 0).getTime()) / 86400000);
 }
 
+/**
+ * Monday anchoring the week count. Fixed so the weekly rotation keeps
+ * advancing across new years instead of resetting every January.
+ */
+const WEEK_EPOCH = '2026-01-05';
+
+/** Whole weeks elapsed since the epoch Monday; may be negative before it. */
+export function weekIndex(dateStr: string = vancouverDateStr()): number {
+  const days = Math.floor(
+    (parseDateStr(dateStr).getTime() - parseDateStr(WEEK_EPOCH).getTime()) / 86400000
+  );
+  return Math.floor(days / 7);
+}
+
+/** Picks an item from a rotating library, safe for negative week indexes. */
+export function rotationIndex(length: number, dateStr: string = vancouverDateStr()): number {
+  if (length <= 0) return 0;
+  return ((weekIndex(dateStr) % length) + length) % length;
+}
+
 export function weekOfYear(dateStr: string = vancouverDateStr()): number {
   const [year] = dateStr.split('-').map(Number);
   const d = parseDateStr(dateStr);
   return Math.ceil((d.getTime() - new Date(year, 0, 1).getTime()) / 604800000);
 }
 
+/** Identifies the current puzzle week for saving progress. */
 export function cwWeekKey(dateStr: string = vancouverDateStr()): string {
-  const [year] = dateStr.split('-').map(Number);
-  return `${year}_w${weekOfYear(dateStr)}`;
+  return `w${weekIndex(dateStr)}`;
 }
 
 export function formatDate(dateStr: string): string {
@@ -48,6 +68,14 @@ export function getDaysBefore(n: number, today: string = vancouverDateStr()): st
   const result: string[] = [];
   for (let i = n - 1; i >= 0; i--) result.push(addDays(today, -i));
   return result;
+}
+
+/** Reader-facing label for the current puzzle week, e.g. "Week of 17 August". */
+export function weekLabel(dateStr: string = vancouverDateStr()): string {
+  const dow = parseDateStr(dateStr).getDay(); // 0 = Sunday
+  const monday = addDays(dateStr, -((dow + 6) % 7));
+  const shown = parseDateStr(monday).toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
+  return `Week of ${shown}`;
 }
 
 /** Monday-to-Sunday of the week containing today, in Vancouver time. */

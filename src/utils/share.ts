@@ -18,8 +18,8 @@ export function sharePhysle(guesses: LetterResult[][], won: boolean, streak: num
   }
 }
 
-export function shareCrossword(clueCount: number, weekKey: string): void {
-  const text = `OT Research Daily Crossword | Week ${weekKey}\n${clueCount} clues solved\n\nPlay at OT Research Daily`;
+export function shareCrossword(clueCount: number, weekLabel: string): void {
+  const text = `OT Research Daily Crossword | ${weekLabel}\n${clueCount} clues solved\n\nPlay at OT Research Daily`;
   if (navigator.share) {
     navigator.share({ text }).catch(() => copyToClipboard(text));
   } else {

@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "FOSSA",
+      "clue": "Shallow depression in a bone",
+      "starty": 1,
+      "startx": 2,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "SCREENREADER",
+      "clue": "Software that speaks on-screen text aloud",
+      "starty": 1,
+      "startx": 5,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "GLOVE",
+      "clue": "Compression garment for the hand",
+      "starty": 1,
+      "startx": 8,
+      "orientation": "across",
+      "position": 3
+    },
+    {
+      "answer": "VALIDITY",
+      "clue": "Whether a measure captures what it claims to",
+      "starty": 1,
+      "startx": 11,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "OSTEOPOROSIS",
+      "clue": "Loss of bone density raising fracture risk",
+      "starty": 2,
+      "startx": 7,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "CHAIR",
+      "clue": "Seat whose height affects standing up",
+      "starty": 2,
+      "startx": 13,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "FEMUR",
+      "clue": "Thigh bone — the longest bone in the body",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "across",
+      "position": 7
+    },
+    {
+      "answer": "TELEHEALTH",
+      "clue": "Delivering therapy at a distance",
+      "starty": 3,
+      "startx": 9,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "AMPUTATION",
+      "clue": "Surgical removal of a limb",
+      "starty": 3,
+      "startx": 15,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "TENDINITIS",
+      "clue": "Inflammation of a tendon from overuse",
+      "starty": 3,
+      "startx": 17,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "RANGE",
+      "clue": "___ of motion, how far a joint travels",
+      "starty": 5,
+      "startx": 1,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "RAMP",
+      "clue": "Sloped access replacing steps",
+      "starty": 5,
+      "startx": 1,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "CONCUSSION",
+      "clue": "Mild traumatic brain injury",
+      "starty": 5,
+      "startx": 9,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "NOTE",
+      "clue": "Brief written record",
+      "starty": 7,
+      "startx": 9,
+      "orientation": "across",
+      "position": 13
+    },
+    {
+      "answer": "PARKINSONS",
+      "clue": "Condition marked by tremor, rigidity and slow movement",
+      "starty": 8,
+      "startx": 13,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "DYSPHAGIA",
+      "clue": "Difficulty swallowing",
+      "starty": 9,
+      "startx": 3,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "DIAPHRAGM",
+      "clue": "Dome-shaped muscle driving breathing",
+      "starty": 10,
+      "startx": 11,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "PARTICIPATION",
+      "clue": "Involvement in a life situation, in ICF terms",
+      "starty": 12,
+      "startx": 3,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "BICEPS",
+      "clue": "Muscle at the front of the upper arm",
+      "starty": 13,
+      "startx": 16,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "CRAMP",
+      "clue": "Painful muscle tightening",
+      "starty": 14,
+      "startx": 1,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "BIAS",
+      "clue": "Systematic error distorting a study's findings",
+      "starty": 14,
+      "startx": 15,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "PLAY",
+      "clue": "A child's primary occupation",
+      "starty": 15,
+      "startx": 6,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "BRAINSTEM",
+      "clue": "Region controlling breathing and heart rate",
+      "starty": 16,
+      "startx": 9,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "GRABRAIL",
+      "clue": "Bathroom bar giving something firm to hold",
+      "starty": 17,
+      "startx": 1,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "ARM",
+      "clue": "Limb from shoulder to hand",
+      "starty": 18,
+      "startx": 9,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "VISIT",
+      "clue": "Scheduled contact with a client",
+      "starty": 18,
+      "startx": 14,
+      "orientation": "across",
+      "position": 25
+    }
+  ]
+}

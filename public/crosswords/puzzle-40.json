@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "CUE",
+      "clue": "Prompt guiding the next action",
+      "starty": 1,
+      "startx": 4,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "BASELINE",
+      "clue": "Starting measurement used for comparison",
+      "starty": 1,
+      "startx": 8,
+      "orientation": "across",
+      "position": 2
+    },
+    {
+      "answer": "ADVOCACY",
+      "clue": "Speaking up for a client's rights and access",
+      "starty": 1,
+      "startx": 9,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "HOMEVISIT",
+      "clue": "Assessment carried out where the client lives",
+      "starty": 1,
+      "startx": 17,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "TOY",
+      "clue": "Tool of a child's primary occupation",
+      "starty": 2,
+      "startx": 16,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "SAFE",
+      "clue": "Free from avoidable risk",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "across",
+      "position": 6
+    },
+    {
+      "answer": "SCAR",
+      "clue": "Mark left after a wound heals",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "FLEXION",
+      "clue": "Bending a joint to decrease its angle",
+      "starty": 3,
+      "startx": 3,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "ADAPTATION",
+      "clue": "Changing a task or tool to match a person's ability",
+      "starty": 3,
+      "startx": 7,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "MEDICATION",
+      "clue": "___ management, keeping track of doses",
+      "starty": 3,
+      "startx": 12,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "ERGONOMICS",
+      "clue": "Fitting the task and workspace to the person",
+      "starty": 3,
+      "startx": 14,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "LYMPHEDEMA",
+      "clue": "Swelling caused by impaired lymph drainage",
+      "starty": 4,
+      "startx": 5,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "BED",
+      "clue": "Furniture involved in many transfers",
+      "starty": 4,
+      "startx": 16,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "CALCANEUS",
+      "clue": "Heel bone",
+      "starty": 7,
+      "startx": 9,
+      "orientation": "across",
+      "position": 13
+    },
+    {
+      "answer": "CONSENT",
+      "clue": "Permission a client gives before treatment",
+      "starty": 9,
+      "startx": 1,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "CARPAL",
+      "clue": "Any of the eight small bones of the wrist",
+      "starty": 9,
+      "startx": 1,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "REGULATION",
+      "clue": "Self-___, managing one's own arousal and emotion",
+      "starty": 9,
+      "startx": 10,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "RANGE",
+      "clue": "___ of motion, how far a joint travels",
+      "starty": 11,
+      "startx": 1,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "CRAYON",
+      "clue": "Early writing implement",
+      "starty": 11,
+      "startx": 17,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "MINDFULNESS",
+      "clue": "Attention practice used to manage stress and pain",
+      "starty": 12,
+      "startx": 5,
+      "orientation": "across",
+      "position": 18
+    },
+    {
+      "answer": "SWITCH",
+      "clue": "Single input a user activates to control a device",
+      "starty": 12,
+      "startx": 15,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "BATH",
+      "clue": "Fixture often fitted with a board",
+      "starty": 13,
+      "startx": 3,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "SPASTICITY",
+      "clue": "Velocity-dependent increase in muscle tone",
+      "starty": 14,
+      "startx": 8,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "WHEELCHAIR",
+      "clue": "Wheeled seating for mobility",
+      "starty": 16,
+      "startx": 2,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "PACING",
+      "clue": "Spreading effort across the day to avoid crashes",
+      "starty": 16,
+      "startx": 13,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "ABDUCTION",
+      "clue": "Moving a limb away from the midline",
+      "starty": 18,
+      "startx": 2,
+      "orientation": "across",
+      "position": 24
+    }
+  ]
+}

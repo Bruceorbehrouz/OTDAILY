@@ -1,0 +1,222 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "STEP",
+      "clue": "Single rise that a ramp replaces",
+      "starty": 1,
+      "startx": 5,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "PRONATION",
+      "clue": "Turning the palm downward",
+      "starty": 1,
+      "startx": 9,
+      "orientation": "across",
+      "position": 2
+    },
+    {
+      "answer": "PALM",
+      "clue": "Inner surface of the hand",
+      "starty": 1,
+      "startx": 9,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "ISOLATION",
+      "clue": "Lack of social contact affecting wellbeing",
+      "starty": 1,
+      "startx": 15,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "RIB",
+      "clue": "One of twelve pairs guarding the chest",
+      "starty": 2,
+      "startx": 1,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "PATELLA",
+      "clue": "Kneecap",
+      "starty": 2,
+      "startx": 3,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "OUTCOME",
+      "clue": "Measured result of an intervention",
+      "starty": 3,
+      "startx": 11,
+      "orientation": "across",
+      "position": 6
+    },
+    {
+      "answer": "EPIPHYSIS",
+      "clue": "Growing end of a long bone",
+      "starty": 3,
+      "startx": 17,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "BED",
+      "clue": "Furniture involved in many transfers",
+      "starty": 4,
+      "startx": 1,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "ERGONOMICS",
+      "clue": "Fitting the task and workspace to the person",
+      "starty": 4,
+      "startx": 2,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "ARM",
+      "clue": "Limb from shoulder to hand",
+      "starty": 4,
+      "startx": 7,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "MINDFULNESS",
+      "clue": "Attention practice used to manage stress and pain",
+      "starty": 5,
+      "startx": 4,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "TRAPEZIUS",
+      "clue": "Diamond-shaped muscle of the upper back",
+      "starty": 5,
+      "startx": 6,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "DYSPHAGIA",
+      "clue": "Difficulty swallowing",
+      "starty": 5,
+      "startx": 10,
+      "orientation": "across",
+      "position": 13
+    },
+    {
+      "answer": "DYNAMOMETER",
+      "clue": "Device measuring grip strength",
+      "starty": 5,
+      "startx": 10,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "MANDIBLE",
+      "clue": "Lower jaw bone",
+      "starty": 6,
+      "startx": 8,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "RELIABILITY",
+      "clue": "Consistency of a measure across repeats",
+      "starty": 7,
+      "startx": 13,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "CANE",
+      "clue": "Single-point walking aid",
+      "starty": 11,
+      "startx": 12,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "ASSESSMENT",
+      "clue": "Structured gathering of information about a client",
+      "starty": 13,
+      "startx": 1,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "ACUTE",
+      "clue": "Sudden in onset and short-lived",
+      "starty": 13,
+      "startx": 1,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "BICEPS",
+      "clue": "Muscle at the front of the upper arm",
+      "starty": 13,
+      "startx": 12,
+      "orientation": "across",
+      "position": 18
+    },
+    {
+      "answer": "PELVIS",
+      "clue": "Bony ring joining the spine to the legs",
+      "starty": 13,
+      "startx": 16,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "BURSA",
+      "clue": "Fluid-filled sac reducing friction at a joint",
+      "starty": 14,
+      "startx": 18,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "OSTEOPOROSIS",
+      "clue": "Loss of bone density raising fracture risk",
+      "starty": 15,
+      "startx": 3,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "EDEMA",
+      "clue": "Swelling from fluid trapped in tissues",
+      "starty": 17,
+      "startx": 1,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "FRAILTY",
+      "clue": "Reduced reserve making recovery from illness harder",
+      "starty": 17,
+      "startx": 7,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "BIAS",
+      "clue": "Systematic error distorting a study's findings",
+      "starty": 17,
+      "startx": 15,
+      "orientation": "across",
+      "position": 24
+    }
+  ]
+}
