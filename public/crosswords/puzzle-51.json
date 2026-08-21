@@ -1,0 +1,238 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "LIGAMENT",
+      "clue": "Band of tissue connecting bone to bone",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "NORM",
+      "clue": "Reference value from a comparison population",
+      "starty": 1,
+      "startx": 3,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "CANE",
+      "clue": "Single-point walking aid",
+      "starty": 1,
+      "startx": 5,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "RAIL",
+      "clue": "Fixed bar for support beside stairs",
+      "starty": 1,
+      "startx": 9,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "HEEL",
+      "clue": "Back of the foot",
+      "starty": 1,
+      "startx": 15,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "EXTENSION",
+      "clue": "Straightening a joint",
+      "starty": 1,
+      "startx": 16,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "LOBE",
+      "clue": "Division of the brain or lung",
+      "starty": 1,
+      "startx": 18,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "RELIABILITY",
+      "clue": "Consistency of a measure across repeats",
+      "starty": 2,
+      "startx": 11,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "OCCUPATION",
+      "clue": "Meaningful everyday activity — the core of this profession",
+      "starty": 2,
+      "startx": 14,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "RANDOMISED",
+      "clue": "___ controlled trial, the classic experimental design",
+      "starty": 3,
+      "startx": 3,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "ORBIT",
+      "clue": "Bony socket that houses the eye",
+      "starty": 3,
+      "startx": 7,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "AIM",
+      "clue": "What an intervention targets",
+      "starty": 4,
+      "startx": 1,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "SEAT",
+      "clue": "Where a person sits, adapted for comfort",
+      "starty": 5,
+      "startx": 4,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "ULNA",
+      "clue": "Forearm bone on the little-finger side",
+      "starty": 5,
+      "startx": 14,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "VESTIBULAR",
+      "clue": "Inner-ear system governing balance",
+      "starty": 6,
+      "startx": 3,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "SUPINATION",
+      "clue": "Turning the palm upward",
+      "starty": 8,
+      "startx": 8,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "CAREGIVER",
+      "clue": "Family member or friend providing daily support",
+      "starty": 9,
+      "startx": 2,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "CARTILAGE",
+      "clue": "Smooth tissue cushioning the ends of bones",
+      "starty": 9,
+      "startx": 5,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "TRANSFER",
+      "clue": "Move from bed to chair, for example",
+      "starty": 9,
+      "startx": 18,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "HOMEVISIT",
+      "clue": "Assessment carried out where the client lives",
+      "starty": 10,
+      "startx": 7,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "TEAM",
+      "clue": "Group of professionals working together on care",
+      "starty": 10,
+      "startx": 9,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "PROPRIOCEPTION",
+      "clue": "Sense of where your body is in space",
+      "starty": 11,
+      "startx": 1,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "LAUNDRY",
+      "clue": "Washing clothes at home",
+      "starty": 12,
+      "startx": 15,
+      "orientation": "down",
+      "position": 23
+    },
+    {
+      "answer": "PSOAS",
+      "clue": "Deep hip flexor running from the lumbar spine",
+      "starty": 13,
+      "startx": 12,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "PLAY",
+      "clue": "A child's primary occupation",
+      "starty": 14,
+      "startx": 10,
+      "orientation": "down",
+      "position": 25
+    },
+    {
+      "answer": "ISOLATION",
+      "clue": "Lack of social contact affecting wellbeing",
+      "starty": 15,
+      "startx": 7,
+      "orientation": "across",
+      "position": 26
+    },
+    {
+      "answer": "DOOR",
+      "clue": "Widened for wheelchair access",
+      "starty": 16,
+      "startx": 15,
+      "orientation": "across",
+      "position": 27
+    },
+    {
+      "answer": "EPIPHYSIS",
+      "clue": "Growing end of a long bone",
+      "starty": 17,
+      "startx": 5,
+      "orientation": "across",
+      "position": 28
+    },
+    {
+      "answer": "HYOID",
+      "clue": "U-shaped neck bone anchoring the tongue muscles",
+      "starty": 18,
+      "startx": 14,
+      "orientation": "across",
+      "position": 29
+    }
+  ]
+}

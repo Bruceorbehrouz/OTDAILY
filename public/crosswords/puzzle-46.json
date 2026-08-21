@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "DRESSING",
+      "clue": "Daily activity of putting on clothes",
+      "starty": 1,
+      "startx": 12,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "CERVICAL",
+      "clue": "Pertaining to the seven vertebrae of the neck",
+      "starty": 2,
+      "startx": 10,
+      "orientation": "across",
+      "position": 2
+    },
+    {
+      "answer": "ADAPTATION",
+      "clue": "Changing a task or tool to match a person's ability",
+      "starty": 2,
+      "startx": 16,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "QUADRICEPS",
+      "clue": "Four muscles at the front of the thigh",
+      "starty": 3,
+      "startx": 3,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "OCCUPATION",
+      "clue": "Meaningful everyday activity — the core of this profession",
+      "starty": 3,
+      "startx": 5,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "BARTHEL",
+      "clue": "___ Index, a classic measure of daily living independence",
+      "starty": 3,
+      "startx": 7,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "REGULATION",
+      "clue": "Self-___, managing one's own arousal and emotion",
+      "starty": 3,
+      "startx": 9,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "RELAXATION",
+      "clue": "Techniques lowering physical and mental tension",
+      "starty": 4,
+      "startx": 14,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "SLEEP",
+      "clue": "Restorative occupation often disrupted by pain",
+      "starty": 5,
+      "startx": 12,
+      "orientation": "across",
+      "position": 9
+    },
+    {
+      "answer": "SWING",
+      "clue": "Playground equipment giving vestibular input",
+      "starty": 5,
+      "startx": 18,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "BILATERAL",
+      "clue": "Using both sides of the body together",
+      "starty": 8,
+      "startx": 2,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "CHECKLIST",
+      "clue": "Written aid supporting memory for a sequence",
+      "starty": 9,
+      "startx": 11,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "PACING",
+      "clue": "Spreading effort across the day to avoid crashes",
+      "starty": 9,
+      "startx": 13,
+      "orientation": "across",
+      "position": 13
+    },
+    {
+      "answer": "CUE",
+      "clue": "Prompt guiding the next action",
+      "starty": 10,
+      "startx": 1,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "CALCANEUS",
+      "clue": "Heel bone",
+      "starty": 10,
+      "startx": 1,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "PROPRIOCEPTION",
+      "clue": "Sense of where your body is in space",
+      "starty": 11,
+      "startx": 3,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "REST",
+      "clue": "Prescribed pause from activity",
+      "starty": 12,
+      "startx": 17,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "MOTOR",
+      "clue": "Relating to movement",
+      "starty": 13,
+      "startx": 6,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "NOTE",
+      "clue": "Brief written record",
+      "starty": 13,
+      "startx": 14,
+      "orientation": "across",
+      "position": 18
+    },
+    {
+      "answer": "TIBIA",
+      "clue": "Shin bone, the weight-bearing bone of the lower leg",
+      "starty": 14,
+      "startx": 3,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "DORSIFLEX",
+      "clue": "Lift the foot upward at the ankle",
+      "starty": 14,
+      "startx": 5,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "DATA",
+      "clue": "What a study collects",
+      "starty": 15,
+      "startx": 15,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "HOMEVISIT",
+      "clue": "Assessment carried out where the client lives",
+      "starty": 16,
+      "startx": 5,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "TOY",
+      "clue": "Tool of a child's primary occupation",
+      "starty": 16,
+      "startx": 13,
+      "orientation": "down",
+      "position": 23
+    },
+    {
+      "answer": "STAFF",
+      "clue": "People who deliver a service",
+      "starty": 18,
+      "startx": 1,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "EYEGAZE",
+      "clue": "Control method driven by where the user looks",
+      "starty": 18,
+      "startx": 12,
+      "orientation": "across",
+      "position": 25
+    }
+  ]
+}

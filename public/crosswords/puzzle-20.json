@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "ELBOW",
+      "clue": "Hinge joint of the arm",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "BRACE",
+      "clue": "Device stabilising a joint",
+      "starty": 1,
+      "startx": 3,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "BALANCE",
+      "clue": "Staying upright and steady",
+      "starty": 1,
+      "startx": 18,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "PROSTHESIS",
+      "clue": "Artificial replacement for a missing limb",
+      "starty": 2,
+      "startx": 8,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "VERTEBRA",
+      "clue": "A single bone of the spinal column",
+      "starty": 2,
+      "startx": 11,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "RELAXATION",
+      "clue": "Techniques lowering physical and mental tension",
+      "starty": 2,
+      "startx": 13,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "BURNOUT",
+      "clue": "Exhaustion from prolonged occupational stress",
+      "starty": 2,
+      "startx": 16,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "TRANSFER",
+      "clue": "Move from bed to chair, for example",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "TOE",
+      "clue": "Digit of the foot",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "TENDINITIS",
+      "clue": "Inflammation of a tendon from overuse",
+      "starty": 4,
+      "startx": 10,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "ULCER",
+      "clue": "Pressure sore",
+      "starty": 4,
+      "startx": 12,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "HIP",
+      "clue": "Joint connecting the leg to the pelvis",
+      "starty": 5,
+      "startx": 5,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "EPIPHYSIS",
+      "clue": "Growing end of a long bone",
+      "starty": 6,
+      "startx": 2,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "LIGHTING",
+      "clue": "Home factor commonly improved to reduce falls",
+      "starty": 6,
+      "startx": 4,
+      "orientation": "across",
+      "position": 13
+    },
+    {
+      "answer": "JAW",
+      "clue": "Hinged bone used for chewing",
+      "starty": 7,
+      "startx": 12,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "ERGONOMICS",
+      "clue": "Fitting the task and workspace to the person",
+      "starty": 8,
+      "startx": 4,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "PARKINSONS",
+      "clue": "Condition marked by tremor, rigidity and slow movement",
+      "starty": 9,
+      "startx": 2,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "HOMEVISIT",
+      "clue": "Assessment carried out where the client lives",
+      "starty": 10,
+      "startx": 16,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "OPPOSITION",
+      "clue": "Thumb movement touching the other fingertips",
+      "starty": 11,
+      "startx": 4,
+      "orientation": "across",
+      "position": 18
+    },
+    {
+      "answer": "CORE",
+      "clue": "Trunk muscles supporting posture",
+      "starty": 11,
+      "startx": 15,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "ENERGY",
+      "clue": "What conservation strategies try to save",
+      "starty": 13,
+      "startx": 6,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "DISCHARGE",
+      "clue": "End of an episode of care",
+      "starty": 13,
+      "startx": 8,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "STEPS",
+      "clue": "What a task is broken down into",
+      "starty": 13,
+      "startx": 18,
+      "orientation": "down",
+      "position": 22
+    },
+    {
+      "answer": "SPINE",
+      "clue": "Column of vertebrae",
+      "starty": 15,
+      "startx": 14,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "CEREBELLUM",
+      "clue": "Brain region coordinating balance and movement",
+      "starty": 16,
+      "startx": 4,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "CASENOTE",
+      "clue": "Written record of a clinical contact",
+      "starty": 18,
+      "startx": 10,
+      "orientation": "across",
+      "position": 25
+    }
+  ]
+}

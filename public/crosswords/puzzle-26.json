@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "COMMODE",
+      "clue": "Portable toileting chair",
+      "starty": 1,
+      "startx": 5,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "COLLAGEN",
+      "clue": "Main structural protein of connective tissue",
+      "starty": 1,
+      "startx": 5,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "SCAPULA",
+      "clue": "Shoulder blade",
+      "starty": 2,
+      "startx": 1,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "CASELOAD",
+      "clue": "The set of clients a therapist currently serves",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "across",
+      "position": 3
+    },
+    {
+      "answer": "DYNAMOMETER",
+      "clue": "Device measuring grip strength",
+      "starty": 3,
+      "startx": 8,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "OSTEOPOROSIS",
+      "clue": "Loss of bone density raising fracture risk",
+      "starty": 3,
+      "startx": 10,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "ASSESSMENT",
+      "clue": "Structured gathering of information about a client",
+      "starty": 4,
+      "startx": 15,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "HANDWRITING",
+      "clue": "School skill often addressed in paediatric practice",
+      "starty": 4,
+      "startx": 18,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "PROSTHESIS",
+      "clue": "Artificial replacement for a missing limb",
+      "starty": 5,
+      "startx": 3,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "AXON",
+      "clue": "Long fibre carrying impulses from a nerve cell",
+      "starty": 5,
+      "startx": 5,
+      "orientation": "across",
+      "position": 9
+    },
+    {
+      "answer": "QUADRICEPS",
+      "clue": "Four muscles at the front of the thigh",
+      "starty": 5,
+      "startx": 13,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "NURSE",
+      "clue": "Colleague on the ward team",
+      "starty": 6,
+      "startx": 12,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "OCCUPATION",
+      "clue": "Meaningful everyday activity — the core of this profession",
+      "starty": 9,
+      "startx": 6,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "GRASP",
+      "clue": "How the hand takes hold of an object",
+      "starty": 9,
+      "startx": 12,
+      "orientation": "across",
+      "position": 13
+    },
+    {
+      "answer": "MEDICATION",
+      "clue": "___ management, keeping track of doses",
+      "starty": 11,
+      "startx": 2,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "GAIT",
+      "clue": "Pattern of walking",
+      "starty": 13,
+      "startx": 1,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "GRIP",
+      "clue": "Strength of the hand's hold",
+      "starty": 13,
+      "startx": 1,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "PARTICIPATION",
+      "clue": "Involvement in a life situation, in ICF terms",
+      "starty": 13,
+      "startx": 6,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "AUTISM",
+      "clue": "Neurodevelopmental difference in communication and sensory processing",
+      "starty": 15,
+      "startx": 4,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "SKIN",
+      "clue": "Largest organ of the body",
+      "starty": 15,
+      "startx": 8,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "CANE",
+      "clue": "Single-point walking aid",
+      "starty": 15,
+      "startx": 12,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "BATH",
+      "clue": "Fixture often fitted with a board",
+      "starty": 15,
+      "startx": 15,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "RIB",
+      "clue": "One of twelve pairs guarding the chest",
+      "starty": 16,
+      "startx": 10,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "APRAXIA",
+      "clue": "Difficulty planning movement despite intact strength",
+      "starty": 16,
+      "startx": 12,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "OPPOSITION",
+      "clue": "Thumb movement touching the other fingertips",
+      "starty": 17,
+      "startx": 3,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "HOME",
+      "clue": "Where most therapy goals are lived out",
+      "starty": 18,
+      "startx": 15,
+      "orientation": "across",
+      "position": 24
+    }
+  ]
+}

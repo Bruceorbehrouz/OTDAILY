@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "FIBULA",
+      "clue": "Slender bone running alongside the shin",
+      "starty": 1,
+      "startx": 6,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "CHECKLIST",
+      "clue": "Written aid supporting memory for a sequence",
+      "starty": 1,
+      "startx": 9,
+      "orientation": "across",
+      "position": 2
+    },
+    {
+      "answer": "SPASTICITY",
+      "clue": "Velocity-dependent increase in muscle tone",
+      "starty": 1,
+      "startx": 16,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "PACING",
+      "clue": "Spreading effort across the day to avoid crashes",
+      "starty": 2,
+      "startx": 3,
+      "orientation": "across",
+      "position": 4
+    },
+    {
+      "answer": "LUMBRICAL",
+      "clue": "Small hand muscle that bends the knuckles",
+      "starty": 3,
+      "startx": 9,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "BATH",
+      "clue": "Fixture often fitted with a board",
+      "starty": 3,
+      "startx": 12,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "CUE",
+      "clue": "Prompt guiding the next action",
+      "starty": 4,
+      "startx": 5,
+      "orientation": "across",
+      "position": 7
+    },
+    {
+      "answer": "CARE",
+      "clue": "What a support plan provides",
+      "starty": 5,
+      "startx": 4,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "PLASTICITY",
+      "clue": "Brain's capacity to reorganise after injury",
+      "starty": 5,
+      "startx": 8,
+      "orientation": "across",
+      "position": 9
+    },
+    {
+      "answer": "COMPENSATION",
+      "clue": "Working around a deficit with a new strategy",
+      "starty": 5,
+      "startx": 14,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "DATA",
+      "clue": "What a study collects",
+      "starty": 6,
+      "startx": 3,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "GONIOMETER",
+      "clue": "Tool measuring a joint's angle",
+      "starty": 7,
+      "startx": 2,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "ASSESSMENT",
+      "clue": "Structured gathering of information about a client",
+      "starty": 7,
+      "startx": 11,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "BONE",
+      "clue": "Rigid tissue of the skeleton",
+      "starty": 8,
+      "startx": 1,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "OPPOSITION",
+      "clue": "Thumb movement touching the other fingertips",
+      "starty": 8,
+      "startx": 7,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "MINDFULNESS",
+      "clue": "Attention practice used to manage stress and pain",
+      "starty": 8,
+      "startx": 9,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "SHOPPING",
+      "clue": "Getting groceries, an instrumental daily activity",
+      "starty": 8,
+      "startx": 11,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "GRADING",
+      "clue": "Adjusting the difficulty of an activity step by step",
+      "starty": 8,
+      "startx": 18,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "REMINDER",
+      "clue": "Alarm or note prompting a task at the right time",
+      "starty": 9,
+      "startx": 5,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "AIM",
+      "clue": "What an intervention targets",
+      "starty": 10,
+      "startx": 1,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "SENSE",
+      "clue": "Touch, sight or hearing, for example",
+      "starty": 11,
+      "startx": 11,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "BIAS",
+      "clue": "Systematic error distorting a study's findings",
+      "starty": 12,
+      "startx": 4,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "SEPSIS",
+      "clue": "Life-threatening response to infection",
+      "starty": 12,
+      "startx": 16,
+      "orientation": "down",
+      "position": 23
+    },
+    {
+      "answer": "TOE",
+      "clue": "Digit of the foot",
+      "starty": 13,
+      "startx": 14,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "PROPRIOCEPTION",
+      "clue": "Sense of where your body is in space",
+      "starty": 16,
+      "startx": 1,
+      "orientation": "across",
+      "position": 25
+    },
+    {
+      "answer": "SCAPULA",
+      "clue": "Shoulder blade",
+      "starty": 18,
+      "startx": 9,
+      "orientation": "across",
+      "position": 26
+    }
+  ]
+}

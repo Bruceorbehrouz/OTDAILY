@@ -1,0 +1,222 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "CERVICAL",
+      "clue": "Pertaining to the seven vertebrae of the neck",
+      "starty": 1,
+      "startx": 3,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "CALCANEUS",
+      "clue": "Heel bone",
+      "starty": 1,
+      "startx": 3,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "VESTIBULAR",
+      "clue": "Inner-ear system governing balance",
+      "starty": 1,
+      "startx": 12,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "HABIT",
+      "clue": "Automatic behaviour repeated in a familiar context",
+      "starty": 1,
+      "startx": 14,
+      "orientation": "across",
+      "position": 3
+    },
+    {
+      "answer": "TOY",
+      "clue": "Tool of a child's primary occupation",
+      "starty": 1,
+      "startx": 18,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "BILATERAL",
+      "clue": "Using both sides of the body together",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "BUDGETING",
+      "clue": "Managing money week to week",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "RELIABILITY",
+      "clue": "Consistency of a measure across repeats",
+      "starty": 3,
+      "startx": 7,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "SENSORY",
+      "clue": "___ processing, how the nervous system handles input",
+      "starty": 3,
+      "startx": 12,
+      "orientation": "across",
+      "position": 7
+    },
+    {
+      "answer": "OPPOSITION",
+      "clue": "Thumb movement touching the other fingertips",
+      "starty": 3,
+      "startx": 16,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "GAIT",
+      "clue": "Pattern of walking",
+      "starty": 4,
+      "startx": 10,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "RELAXATION",
+      "clue": "Techniques lowering physical and mental tension",
+      "starty": 5,
+      "startx": 5,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "MEAL",
+      "clue": "What cooking produces",
+      "starty": 5,
+      "startx": 18,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "LOBE",
+      "clue": "Division of the brain or lung",
+      "starty": 6,
+      "startx": 15,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "ADVOCACY",
+      "clue": "Speaking up for a client's rights and access",
+      "starty": 7,
+      "startx": 5,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "LUMBRICAL",
+      "clue": "Small hand muscle that bends the knuckles",
+      "starty": 7,
+      "startx": 14,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "ADDUCTION",
+      "clue": "Moving a limb back toward the midline",
+      "starty": 8,
+      "startx": 9,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "RIB",
+      "clue": "One of twelve pairs guarding the chest",
+      "starty": 10,
+      "startx": 12,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "PARTICIPATION",
+      "clue": "Involvement in a life situation, in ICF terms",
+      "starty": 12,
+      "startx": 4,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "APHASIA",
+      "clue": "Loss of language ability after brain injury",
+      "starty": 12,
+      "startx": 12,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "BUTTON",
+      "clue": "Fastener managed with a hook aid",
+      "starty": 13,
+      "startx": 2,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "CUE",
+      "clue": "Prompt guiding the next action",
+      "starty": 14,
+      "startx": 1,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "DIAPHRAGM",
+      "clue": "Dome-shaped muscle driving breathing",
+      "starty": 14,
+      "startx": 8,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "REST",
+      "clue": "Prescribed pause from activity",
+      "starty": 15,
+      "startx": 6,
+      "orientation": "down",
+      "position": 22
+    },
+    {
+      "answer": "TOILETING",
+      "clue": "Managing personal hygiene needs",
+      "starty": 16,
+      "startx": 2,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "TASK",
+      "clue": "Unit of activity broken into steps",
+      "starty": 18,
+      "startx": 6,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "BATHING",
+      "clue": "Washing oneself, a basic daily activity",
+      "starty": 18,
+      "startx": 11,
+      "orientation": "across",
+      "position": 25
+    }
+  ]
+}

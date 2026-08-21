@@ -9,7 +9,7 @@ export function sharePhysle(guesses: LetterResult[][], won: boolean, streak: num
   ).join('\n');
 
   const result = won ? `${guesses.length}/6` : 'X/6';
-  const text = `Wordle ${result} | Streak ${streak}\n\n${lines}\n\nPlay at OT Research Daily`;
+  const text = `OT Research Daily Wordle ${result} | Streak ${streak}\n\n${lines}\n\nPlay at OT Research Daily`;
 
   if (navigator.share) {
     navigator.share({ text }).catch(() => copyToClipboard(text));
@@ -18,8 +18,8 @@ export function sharePhysle(guesses: LetterResult[][], won: boolean, streak: num
   }
 }
 
-export function shareCrossword(clueCount: number, weekKey: string): void {
-  const text = `OT Research Daily Crossword | Week ${weekKey}\n${clueCount} clues solved\n\nPlay at OT Research Daily`;
+export function shareCrossword(clueCount: number, weekLabel: string): void {
+  const text = `OT Research Daily Crossword | ${weekLabel}\n${clueCount} clues solved\n\nPlay at OT Research Daily`;
   if (navigator.share) {
     navigator.share({ text }).catch(() => copyToClipboard(text));
   } else {

@@ -1,0 +1,222 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "SHOPPING",
+      "clue": "Getting groceries, an instrumental daily activity",
+      "starty": 1,
+      "startx": 3,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "REFLEX",
+      "clue": "Involuntary response to a stimulus",
+      "starty": 1,
+      "startx": 13,
+      "orientation": "across",
+      "position": 2
+    },
+    {
+      "answer": "RIB",
+      "clue": "One of twelve pairs guarding the chest",
+      "starty": 1,
+      "startx": 13,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "LUMBAR",
+      "clue": "Pertaining to the lower back",
+      "starty": 1,
+      "startx": 16,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "HAMSTRING",
+      "clue": "Muscle group at the back of the thigh",
+      "starty": 2,
+      "startx": 1,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "HYGIENE",
+      "clue": "Sleep ___, habits that support good rest",
+      "starty": 2,
+      "startx": 3,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "CRAYON",
+      "clue": "Early writing implement",
+      "starty": 3,
+      "startx": 18,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "CALF",
+      "clue": "Back of the lower leg",
+      "starty": 4,
+      "startx": 6,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "MINDFULNESS",
+      "clue": "Attention practice used to manage stress and pain",
+      "starty": 4,
+      "startx": 8,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "DYNAMOMETER",
+      "clue": "Device measuring grip strength",
+      "starty": 4,
+      "startx": 14,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "SUPINATION",
+      "clue": "Turning the palm upward",
+      "starty": 5,
+      "startx": 1,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "AMPUTATION",
+      "clue": "Surgical removal of a limb",
+      "starty": 6,
+      "startx": 11,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "ENERGY",
+      "clue": "What conservation strategies try to save",
+      "starty": 6,
+      "startx": 13,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "WHEELCHAIR",
+      "clue": "Wheeled seating for mobility",
+      "starty": 8,
+      "startx": 5,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "SPASM",
+      "clue": "Sudden involuntary muscle contraction",
+      "starty": 8,
+      "startx": 10,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "CUE",
+      "clue": "Prompt guiding the next action",
+      "starty": 9,
+      "startx": 7,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "PERIOSTEUM",
+      "clue": "Membrane covering the outer surface of bone",
+      "starty": 9,
+      "startx": 16,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "HEEL",
+      "clue": "Back of the foot",
+      "starty": 10,
+      "startx": 3,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "TEAM",
+      "clue": "Group of professionals working together on care",
+      "starty": 10,
+      "startx": 11,
+      "orientation": "across",
+      "position": 18
+    },
+    {
+      "answer": "DRESSING",
+      "clue": "Daily activity of putting on clothes",
+      "starty": 10,
+      "startx": 18,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "TELEHEALTH",
+      "clue": "Delivering therapy at a distance",
+      "starty": 12,
+      "startx": 3,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "ACUTE",
+      "clue": "Sudden in onset and short-lived",
+      "starty": 14,
+      "startx": 3,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "OSTEOPOROSIS",
+      "clue": "Loss of bone density raising fracture risk",
+      "starty": 14,
+      "startx": 7,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "SUPINATOR",
+      "clue": "Muscle that turns the palm upward",
+      "starty": 16,
+      "startx": 2,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "ANKLE",
+      "clue": "Joint linking foot to leg",
+      "starty": 16,
+      "startx": 12,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "STEP",
+      "clue": "Single rise that a ramp replaces",
+      "starty": 18,
+      "startx": 1,
+      "orientation": "across",
+      "position": 25
+    },
+    {
+      "answer": "THUMB",
+      "clue": "Digit essential to pinch grip",
+      "starty": 18,
+      "startx": 13,
+      "orientation": "across",
+      "position": 26
+    }
+  ]
+}

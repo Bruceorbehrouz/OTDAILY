@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "BASELINE",
+      "clue": "Starting measurement used for comparison",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "DORSIFLEX",
+      "clue": "Lift the foot upward at the ankle",
+      "starty": 1,
+      "startx": 3,
+      "orientation": "across",
+      "position": 2
+    },
+    {
+      "answer": "RANDOMISED",
+      "clue": "___ controlled trial, the classic experimental design",
+      "starty": 1,
+      "startx": 5,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "RAMP",
+      "clue": "Sloped access replacing steps",
+      "starty": 1,
+      "startx": 13,
+      "orientation": "across",
+      "position": 4
+    },
+    {
+      "answer": "PARESIS",
+      "clue": "Partial weakness of a muscle group",
+      "starty": 1,
+      "startx": 16,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "PHALANX",
+      "clue": "A single bone of a finger or toe",
+      "starty": 1,
+      "startx": 18,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "SUPINATION",
+      "clue": "Turning the palm upward",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "across",
+      "position": 7
+    },
+    {
+      "answer": "BURSA",
+      "clue": "Fluid-filled sac reducing friction at a joint",
+      "starty": 3,
+      "startx": 14,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "PSOAS",
+      "clue": "Deep hip flexor running from the lumbar spine",
+      "starty": 5,
+      "startx": 3,
+      "orientation": "across",
+      "position": 9
+    },
+    {
+      "answer": "SPASTICITY",
+      "clue": "Velocity-dependent increase in muscle tone",
+      "starty": 5,
+      "startx": 7,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "LYMPHEDEMA",
+      "clue": "Swelling caused by impaired lymph drainage",
+      "starty": 5,
+      "startx": 9,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "APHASIA",
+      "clue": "Loss of language ability after brain injury",
+      "starty": 5,
+      "startx": 12,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "PALLIATIVE",
+      "clue": "Care focused on comfort rather than cure",
+      "starty": 5,
+      "startx": 13,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "OPPOSITION",
+      "clue": "Thumb movement touching the other fingertips",
+      "starty": 6,
+      "startx": 11,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "ADDUCTION",
+      "clue": "Moving a limb back toward the midline",
+      "starty": 7,
+      "startx": 3,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "PELVIS",
+      "clue": "Bony ring joining the spine to the legs",
+      "starty": 7,
+      "startx": 11,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "TELEHEALTH",
+      "clue": "Delivering therapy at a distance",
+      "starty": 9,
+      "startx": 15,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "QUADRICEPS",
+      "clue": "Four muscles at the front of the thigh",
+      "starty": 10,
+      "startx": 2,
+      "orientation": "across",
+      "position": 18
+    },
+    {
+      "answer": "SHOPPING",
+      "clue": "Getting groceries, an instrumental daily activity",
+      "starty": 10,
+      "startx": 18,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "EDEMA",
+      "clue": "Swelling from fluid trapped in tissues",
+      "starty": 12,
+      "startx": 1,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "DAILY",
+      "clue": "Occurring every day, as with living activities",
+      "starty": 13,
+      "startx": 1,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "DYNAMOMETER",
+      "clue": "Device measuring grip strength",
+      "starty": 14,
+      "startx": 6,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "NERVE",
+      "clue": "Bundle of fibres carrying signals",
+      "starty": 14,
+      "startx": 8,
+      "orientation": "down",
+      "position": 23
+    },
+    {
+      "answer": "SCORE",
+      "clue": "Number a measure produces",
+      "starty": 16,
+      "startx": 5,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "BUDGETING",
+      "clue": "Managing money week to week",
+      "starty": 17,
+      "startx": 10,
+      "orientation": "across",
+      "position": 25
+    },
+    {
+      "answer": "NURSE",
+      "clue": "Colleague on the ward team",
+      "starty": 18,
+      "startx": 4,
+      "orientation": "across",
+      "position": 26
+    }
+  ]
+}

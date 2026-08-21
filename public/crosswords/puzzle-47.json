@@ -1,0 +1,222 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "ARTHRITIS",
+      "clue": "Inflammation of one or more joints",
+      "starty": 1,
+      "startx": 3,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "TELEHEALTH",
+      "clue": "Delivering therapy at a distance",
+      "starty": 1,
+      "startx": 9,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "STEPS",
+      "clue": "What a task is broken down into",
+      "starty": 1,
+      "startx": 11,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "BEND",
+      "clue": "Flex at a joint",
+      "starty": 1,
+      "startx": 16,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "BILATERAL",
+      "clue": "Using both sides of the body together",
+      "starty": 2,
+      "startx": 13,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "REMINDER",
+      "clue": "Alarm or note prompting a task at the right time",
+      "starty": 2,
+      "startx": 18,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "BATH",
+      "clue": "Fixture often fitted with a board",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "across",
+      "position": 7
+    },
+    {
+      "answer": "HEEL",
+      "clue": "Back of the foot",
+      "starty": 3,
+      "startx": 4,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "EVIDENCE",
+      "clue": "Research base underpinning clinical decisions",
+      "starty": 3,
+      "startx": 11,
+      "orientation": "across",
+      "position": 9
+    },
+    {
+      "answer": "QUADRICEPS",
+      "clue": "Four muscles at the front of the thigh",
+      "starty": 4,
+      "startx": 6,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "HUMERUS",
+      "clue": "Bone of the upper arm",
+      "starty": 5,
+      "startx": 1,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "HOIST",
+      "clue": "Powered lift for transferring a person",
+      "starty": 5,
+      "startx": 1,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "STAFF",
+      "clue": "People who deliver a service",
+      "starty": 5,
+      "startx": 11,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "ERGONOMICS",
+      "clue": "Fitting the task and workspace to the person",
+      "starty": 6,
+      "startx": 16,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "DYNAMOMETER",
+      "clue": "Device measuring grip strength",
+      "starty": 7,
+      "startx": 6,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "OSTEOPOROSIS",
+      "clue": "Loss of bone density raising fracture risk",
+      "starty": 7,
+      "startx": 11,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "CONTRACTURE",
+      "clue": "Permanent shortening limiting a joint's range",
+      "starty": 8,
+      "startx": 3,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "HIP",
+      "clue": "Joint connecting the leg to the pelvis",
+      "starty": 9,
+      "startx": 5,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "PLAY",
+      "clue": "A child's primary occupation",
+      "starty": 11,
+      "startx": 8,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "LUMBAR",
+      "clue": "Pertaining to the lower back",
+      "starty": 12,
+      "startx": 1,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "LYMPHEDEMA",
+      "clue": "Swelling caused by impaired lymph drainage",
+      "starty": 12,
+      "startx": 8,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "MUSCLE",
+      "clue": "Tissue that contracts to move a joint",
+      "starty": 13,
+      "startx": 18,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "BATHING",
+      "clue": "Washing oneself, a basic daily activity",
+      "starty": 15,
+      "startx": 1,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "PROSTHESIS",
+      "clue": "Artificial replacement for a missing limb",
+      "starty": 15,
+      "startx": 9,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "PULL",
+      "clue": "Force applied toward the body",
+      "starty": 15,
+      "startx": 9,
+      "orientation": "down",
+      "position": 23
+    },
+    {
+      "answer": "METAANALYSIS",
+      "clue": "Statistical pooling of results across studies",
+      "starty": 18,
+      "startx": 2,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "CARE",
+      "clue": "What a support plan provides",
+      "starty": 18,
+      "startx": 15,
+      "orientation": "across",
+      "position": 25
+    }
+  ]
+}

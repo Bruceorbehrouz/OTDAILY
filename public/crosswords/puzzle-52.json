@@ -1,0 +1,230 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "FRACTURE",
+      "clue": "Break in a bone",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "TOILETING",
+      "clue": "Managing personal hygiene needs",
+      "starty": 1,
+      "startx": 5,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "CRAMP",
+      "clue": "Painful muscle tightening",
+      "starty": 1,
+      "startx": 10,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "GROUP",
+      "clue": "Several clients treated together",
+      "starty": 2,
+      "startx": 9,
+      "orientation": "across",
+      "position": 4
+    },
+    {
+      "answer": "FALLS",
+      "clue": "Leading cause of injury among older adults",
+      "starty": 3,
+      "startx": 2,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "BED",
+      "clue": "Furniture involved in many transfers",
+      "starty": 3,
+      "startx": 8,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "PALM",
+      "clue": "Inner surface of the hand",
+      "starty": 3,
+      "startx": 17,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "BASELINE",
+      "clue": "Starting measurement used for comparison",
+      "starty": 4,
+      "startx": 1,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "BILATERAL",
+      "clue": "Using both sides of the body together",
+      "starty": 4,
+      "startx": 12,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "PAIN",
+      "clue": "Symptom rated on a zero-to-ten scale",
+      "starty": 5,
+      "startx": 10,
+      "orientation": "across",
+      "position": 10
+    },
+    {
+      "answer": "WHEELCHAIR",
+      "clue": "Wheeled seating for mobility",
+      "starty": 5,
+      "startx": 15,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "CALF",
+      "clue": "Back of the lower leg",
+      "starty": 6,
+      "startx": 7,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "CONCUSSION",
+      "clue": "Mild traumatic brain injury",
+      "starty": 6,
+      "startx": 9,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "THUMB",
+      "clue": "Digit essential to pinch grip",
+      "starty": 6,
+      "startx": 14,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "SUPINATOR",
+      "clue": "Muscle that turns the palm upward",
+      "starty": 7,
+      "startx": 2,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "AMPUTATION",
+      "clue": "Surgical removal of a limb",
+      "starty": 8,
+      "startx": 18,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "CEREBELLUM",
+      "clue": "Brain region coordinating balance and movement",
+      "starty": 9,
+      "startx": 9,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "HOMEVISIT",
+      "clue": "Assessment carried out where the client lives",
+      "starty": 10,
+      "startx": 2,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "BICEPS",
+      "clue": "Muscle at the front of the upper arm",
+      "starty": 11,
+      "startx": 4,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "EPIPHYSIS",
+      "clue": "Growing end of a long bone",
+      "starty": 13,
+      "startx": 2,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "RAIL",
+      "clue": "Fixed bar for support beside stairs",
+      "starty": 13,
+      "startx": 13,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "HYOID",
+      "clue": "U-shaped neck bone anchoring the tongue muscles",
+      "starty": 14,
+      "startx": 12,
+      "orientation": "down",
+      "position": 22
+    },
+    {
+      "answer": "COMMUNITY",
+      "clue": "Care setting outside hospital walls",
+      "starty": 15,
+      "startx": 4,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "MEAL",
+      "clue": "What cooking produces",
+      "starty": 15,
+      "startx": 7,
+      "orientation": "down",
+      "position": 24
+    },
+    {
+      "answer": "PLAN",
+      "clue": "Written statement of goals and actions",
+      "starty": 15,
+      "startx": 14,
+      "orientation": "down",
+      "position": 25
+    },
+    {
+      "answer": "RIB",
+      "clue": "One of twelve pairs guarding the chest",
+      "starty": 16,
+      "startx": 16,
+      "orientation": "down",
+      "position": 26
+    },
+    {
+      "answer": "PARTICIPATION",
+      "clue": "Involvement in a life situation, in ICF terms",
+      "starty": 17,
+      "startx": 6,
+      "orientation": "across",
+      "position": 27
+    },
+    {
+      "answer": "STICK",
+      "clue": "Simple walking aid",
+      "starty": 18,
+      "startx": 1,
+      "orientation": "across",
+      "position": 28
+    }
+  ]
+}

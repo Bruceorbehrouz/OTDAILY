@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "EXTENSION",
+      "clue": "Straightening a joint",
+      "starty": 1,
+      "startx": 5,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "OBSERVATION",
+      "clue": "Watching a task performed to judge ability",
+      "starty": 1,
+      "startx": 12,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "MINDFULNESS",
+      "clue": "Attention practice used to manage stress and pain",
+      "starty": 1,
+      "startx": 16,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "ASSESSMENT",
+      "clue": "Structured gathering of information about a client",
+      "starty": 3,
+      "startx": 8,
+      "orientation": "across",
+      "position": 4
+    },
+    {
+      "answer": "SCAR",
+      "clue": "Mark left after a wound heals",
+      "starty": 4,
+      "startx": 2,
+      "orientation": "across",
+      "position": 5
+    },
+    {
+      "answer": "CHECKLIST",
+      "clue": "Written aid supporting memory for a sequence",
+      "starty": 4,
+      "startx": 3,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "BREATHING",
+      "clue": "Exercises used to manage breathlessness and anxiety",
+      "starty": 5,
+      "startx": 1,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "BILATERAL",
+      "clue": "Using both sides of the body together",
+      "starty": 5,
+      "startx": 6,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "AMPUTATION",
+      "clue": "Surgical removal of a limb",
+      "starty": 5,
+      "startx": 9,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "PARKINSONS",
+      "clue": "Condition marked by tremor, rigidity and slow movement",
+      "starty": 5,
+      "startx": 18,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "DIAPHRAGM",
+      "clue": "Dome-shaped muscle driving breathing",
+      "starty": 7,
+      "startx": 6,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "TELEHEALTH",
+      "clue": "Delivering therapy at a distance",
+      "starty": 9,
+      "startx": 1,
+      "orientation": "across",
+      "position": 12
+    },
+    {
+      "answer": "HOMEVISIT",
+      "clue": "Assessment carried out where the client lives",
+      "starty": 9,
+      "startx": 5,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "METAANALYSIS",
+      "clue": "Statistical pooling of results across studies",
+      "starty": 11,
+      "startx": 7,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "TOE",
+      "clue": "Digit of the foot",
+      "starty": 12,
+      "startx": 3,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "OCCUPATION",
+      "clue": "Meaningful everyday activity — the core of this profession",
+      "starty": 13,
+      "startx": 9,
+      "orientation": "across",
+      "position": 16
+    },
+    {
+      "answer": "TREMOR",
+      "clue": "Rhythmic involuntary shaking",
+      "starty": 13,
+      "startx": 15,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "RADIUS",
+      "clue": "Forearm bone on the thumb side",
+      "starty": 14,
+      "startx": 2,
+      "orientation": "across",
+      "position": 18
+    },
+    {
+      "answer": "SHOE",
+      "clue": "Footwear fastened with a long-handled horn",
+      "starty": 14,
+      "startx": 7,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "AXON",
+      "clue": "Long fibre carrying impulses from a nerve cell",
+      "starty": 15,
+      "startx": 1,
+      "orientation": "down",
+      "position": 20
+    },
+    {
+      "answer": "CORE",
+      "clue": "Trunk muscles supporting posture",
+      "starty": 15,
+      "startx": 12,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "BEND",
+      "clue": "Flex at a joint",
+      "starty": 15,
+      "startx": 14,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "ISOLATION",
+      "clue": "Lack of social contact affecting wellbeing",
+      "starty": 16,
+      "startx": 5,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "ORBIT",
+      "clue": "Bony socket that houses the eye",
+      "starty": 17,
+      "startx": 1,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "HOME",
+      "clue": "Where most therapy goals are lived out",
+      "starty": 18,
+      "startx": 9,
+      "orientation": "across",
+      "position": 25
+    },
+    {
+      "answer": "GRASP",
+      "clue": "How the hand takes hold of an object",
+      "starty": 18,
+      "startx": 14,
+      "orientation": "across",
+      "position": 26
+    }
+  ]
+}

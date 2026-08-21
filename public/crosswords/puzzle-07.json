@@ -1,0 +1,214 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "COLLAGEN",
+      "clue": "Main structural protein of connective tissue",
+      "starty": 1,
+      "startx": 3,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "EPIPHYSIS",
+      "clue": "Growing end of a long bone",
+      "starty": 1,
+      "startx": 9,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "PINCH",
+      "clue": "Thumb-to-finger strength measure",
+      "starty": 1,
+      "startx": 12,
+      "orientation": "across",
+      "position": 3
+    },
+    {
+      "answer": "CHECKLIST",
+      "clue": "Written aid supporting memory for a sequence",
+      "starty": 1,
+      "startx": 15,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "SUPINATOR",
+      "clue": "Muscle that turns the palm upward",
+      "starty": 2,
+      "startx": 17,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "SPINE",
+      "clue": "Column of vertebrae",
+      "starty": 3,
+      "startx": 7,
+      "orientation": "across",
+      "position": 6
+    },
+    {
+      "answer": "DRESSING",
+      "clue": "Daily activity of putting on clothes",
+      "starty": 3,
+      "startx": 13,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "CEREBELLUM",
+      "clue": "Brain region coordinating balance and movement",
+      "starty": 4,
+      "startx": 1,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "LYMPHEDEMA",
+      "clue": "Swelling caused by impaired lymph drainage",
+      "starty": 4,
+      "startx": 4,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "ADAPTATION",
+      "clue": "Changing a task or tool to match a person's ability",
+      "starty": 4,
+      "startx": 6,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "TRICEPS",
+      "clue": "Muscle that straightens the elbow",
+      "starty": 4,
+      "startx": 12,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "OPPOSITION",
+      "clue": "Thumb movement touching the other fingertips",
+      "starty": 8,
+      "startx": 11,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "SUPINATION",
+      "clue": "Turning the palm upward",
+      "starty": 9,
+      "startx": 9,
+      "orientation": "across",
+      "position": 13
+    },
+    {
+      "answer": "DAILY",
+      "clue": "Occurring every day, as with living activities",
+      "starty": 10,
+      "startx": 8,
+      "orientation": "down",
+      "position": 14
+    },
+    {
+      "answer": "MEDICATION",
+      "clue": "___ management, keeping track of doses",
+      "starty": 11,
+      "startx": 3,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "FATIGUE",
+      "clue": "Persistent tiredness limiting daily activity",
+      "starty": 11,
+      "startx": 15,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "CRAYON",
+      "clue": "Early writing implement",
+      "starty": 12,
+      "startx": 13,
+      "orientation": "across",
+      "position": 17
+    },
+    {
+      "answer": "METAANALYSIS",
+      "clue": "Statistical pooling of results across studies",
+      "starty": 13,
+      "startx": 1,
+      "orientation": "across",
+      "position": 18
+    },
+    {
+      "answer": "ENERGY",
+      "clue": "What conservation strategies try to save",
+      "starty": 13,
+      "startx": 2,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "CLIENT",
+      "clue": "The person at the centre of the therapy process",
+      "starty": 14,
+      "startx": 13,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "TWIST",
+      "clue": "Rotational movement to avoid when lifting",
+      "starty": 14,
+      "startx": 18,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "PELVIS",
+      "clue": "Bony ring joining the spine to the legs",
+      "starty": 15,
+      "startx": 1,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "GRIP",
+      "clue": "Strength of the hand's hold",
+      "starty": 15,
+      "startx": 9,
+      "orientation": "down",
+      "position": 23
+    },
+    {
+      "answer": "PERIOSTEUM",
+      "clue": "Membrane covering the outer surface of bone",
+      "starty": 16,
+      "startx": 7,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "GAIT",
+      "clue": "Pattern of walking",
+      "starty": 17,
+      "startx": 2,
+      "orientation": "across",
+      "position": 25
+    },
+    {
+      "answer": "STEPS",
+      "clue": "What a task is broken down into",
+      "starty": 18,
+      "startx": 6,
+      "orientation": "across",
+      "position": 26
+    }
+  ]
+}

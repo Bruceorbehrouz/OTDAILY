@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Header } from './components/Header/Header';
 import { ArticleView } from './components/Article/ArticleView';
 import { PhysleView } from './components/Physle/PhysleView';
@@ -7,30 +7,25 @@ import { Sidebar } from './components/Sidebar/Sidebar';
 import { SavedView } from './components/Views/SavedView';
 import { AboutView } from './components/Views/AboutView';
 import { useArticle } from './hooks/useArticle';
+import { useCrossword } from './hooks/useCrossword';
 import { useBookmarks } from './hooks/useBookmarks';
 import { useLocalStorage } from './hooks/useLocalStorage';
-import type { AppView, CrosswordData, PhysleState } from './types';
+import type { AppView, PhysleState } from './types';
 import { FileText } from 'lucide-react';
 import { FEATURES } from './config/features';
+import { weekLabel } from './utils/date';
 import './App.css';
 
 export default function App() {
   const [activeView, setActiveView] = useState<AppView>('research');
-  const [crosswordData, setCrosswordData] = useState<CrosswordData | null>(null);
-  const { article, loading, error, today } = useArticle();
+  const { article, articleDate, isArchive, loading, error, today } = useArticle();
+  const crossword = useCrossword(FEATURES.crossword);
   const { bookmarks, toggle, isBookmarked } = useBookmarks();
 
   const [physleState] = useLocalStorage<PhysleState>(
     `physle_v2_${today}`,
     { guesses: [], current: '', done: false, won: false }
   );
-
-  useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}crossword.json`)
-      .then(r => r.json())
-      .then(setCrosswordData)
-      .catch(console.error);
-  }, []);
 
   function renderMain() {
     switch (activeView) {
@@ -44,15 +39,18 @@ export default function App() {
         if (error || !article) return (
           <div className="card-empty">
             <div className="card-empty-icon" aria-hidden="true"><FileText /></div>
-            <div className="card-empty-title">No article today</div>
+            <div className="card-empty-title">No article to show yet</div>
             <div className="card-empty-sub">
-              Add <code>public/articles/{today}.json</code> to publish today's article.
+              Today's summary isn't available right now. Please check back shortly —
+              in the meantime, the crossword and word game are ready to play.
             </div>
           </div>
         );
         return (
           <ArticleView
             article={article}
+            publishedOn={articleDate}
+            isArchive={isArchive}
             isBookmarked={isBookmarked(article, 'daily')}
             onBookmark={() => toggle(article, 'daily')}
             savedEnabled={FEATURES.saved}
@@ -63,8 +61,28 @@ export default function App() {
         return FEATURES.wordle ? <PhysleView /> : null;
       case 'crossword':
         if (!FEATURES.crossword) return null;
-        if (!crosswordData) return <div className="card-loading"><div className="spinner" /></div>;
-        return <CrosswordView data={crosswordData} />;
+        if (crossword.error) return (
+          <div className="card-empty">
+            <div className="card-empty-icon" aria-hidden="true"><FileText /></div>
+            <div className="card-empty-title">Crossword unavailable</div>
+            <div className="card-empty-sub">
+              This week's puzzle could not be loaded. Please try again later.
+            </div>
+          </div>
+        );
+        if (!crossword.data || !crossword.progressKey) return (
+          <div className="card-loading">
+            <div className="spinner" />
+            <p>Loading this week's crossword…</p>
+          </div>
+        );
+        return (
+          <CrosswordView
+            data={crossword.data}
+            progressKey={crossword.progressKey}
+            weekLabel={weekLabel()}
+          />
+        );
       case 'saved':
         if (!FEATURES.saved) return null;
         return (

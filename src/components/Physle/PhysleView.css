@@ -1,6 +1,10 @@
 .physle-wrap {
-  padding: 20px 16px 24px;
-  max-width: 420px;
+  --physle-gap: 5px;
+  /* Widest row is the 10-key top keyboard row, so size everything from that. */
+  --physle-key: min(40px, calc((100% - 9 * var(--physle-gap) - 1px) / 10));
+  --physle-tile: min(52px, calc((100% - 4 * var(--physle-gap) - 1px) / 5));
+  padding: 20px clamp(10px, 3vw, 16px) 24px;
+  max-width: 460px;
   margin: 0 auto;
   position: relative;
 }
@@ -11,8 +15,8 @@
   left: 50%;
   transform: translateX(-50%);
   background: var(--text);
-  color: var(--bg);
-  font-size: 13px;
+  color: var(--surface);
+  font-size: 0.85rem;
   font-weight: 600;
   padding: 8px 18px;
   border-radius: 99px;
@@ -50,19 +54,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 14px;
+  gap: clamp(8px, 3vw, 14px);
   margin-bottom: 18px;
+  flex-wrap: wrap;
 }
 
 .streak-stat {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 36px;
+  min-width: 40px;
 }
 
 .streak-num {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--text);
   letter-spacing: -0.02em;
@@ -80,6 +85,8 @@
 .physle-calendar {
   display: flex;
   gap: 4px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .cal-day {
@@ -111,14 +118,16 @@
 .physle-grid {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: var(--physle-gap);
   align-items: center;
   margin-bottom: 18px;
 }
 
 .physle-row {
   display: flex;
-  gap: 5px;
+  gap: var(--physle-gap);
+  width: 100%;
+  justify-content: center;
 }
 
 .physle-row.shake {
@@ -135,14 +144,16 @@
 }
 
 .physle-cell {
-  width: 52px;
-  height: 52px;
+  width: var(--physle-tile);
+  /* aspect-ratio, not a height: the tile width is a percentage, and a
+     percentage height would resolve against an auto-height parent. */
+  aspect-ratio: 1;
   border: 2px solid var(--border);
   border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 22px;
+  font-size: clamp(1rem, calc(var(--physle-tile) * 0.42), 1.4rem);
   font-weight: 700;
   color: var(--text);
   text-transform: uppercase;
@@ -207,13 +218,13 @@
 
 .physle-def-word {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.9rem;
   color: var(--success);
   letter-spacing: 0.04em;
 }
 
 .physle-def-text {
-  font-size: 12px;
+  font-size: 0.92rem;
   line-height: 1.65;
   color: var(--text-b);
 }
@@ -246,10 +257,14 @@
   border-color: var(--primary-hover);
 }
 
-.physle-share-btn svg,
-.kb-key svg {
+.physle-share-btn svg {
   width: 20px;
   height: 20px;
+}
+
+.kb-key svg {
+  width: 18px;
+  height: 18px;
 }
 
 .physle-keyboard {
@@ -257,22 +272,27 @@
   flex-direction: column;
   gap: 6px;
   align-items: center;
+  width: 100%;
 }
 
 .kb-row {
   display: flex;
-  gap: 5px;
+  gap: var(--physle-gap);
+  justify-content: center;
+  width: 100%;
 }
 
 .kb-key {
   height: 54px;
-  min-width: 36px;
-  padding: 0 4px;
+  width: var(--physle-key);
+  min-width: 0;
+  flex: 0 0 auto;
+  padding: 0 2px;
   border-radius: 6px;
   border: none;
   background: var(--key-bg, #818384);
   color: var(--key-text, #fff);
-  font-size: 13px;
+  font-size: clamp(0.7rem, calc(var(--physle-key) * 0.36), 0.9rem);
   font-weight: 700;
   cursor: pointer;
   transition: background 0.1s, transform 0.08s;
@@ -284,8 +304,8 @@
 }
 
 .kb-key.wide {
-  min-width: 58px;
-  font-size: 11px;
+  width: calc(var(--physle-key) * 1.5 + var(--physle-gap) / 2);
+  font-size: clamp(0.6rem, calc(var(--physle-key) * 0.28), 0.72rem);
 }
 
 .kb-key:active {
@@ -308,7 +328,12 @@
 }
 
 @media (max-width: 400px) {
-  .physle-cell { width: 44px; height: 44px; font-size: 18px; }
-  .kb-key { height: 46px; min-width: 29px; font-size: 12px; }
-  .kb-key.wide { min-width: 46px; }
+  .physle-wrap { --physle-gap: 4px; }
+  .kb-key { height: 48px; }
+  /* Keeps streak / week strip / best on one line down to 320px. */
+  .cal-day { width: 22px; height: 22px; }
+  .physle-calendar { gap: 3px; }
+  .streak-stat { min-width: 0; }
+  .streak-label { font-size: 0.68rem; letter-spacing: 0.03em; }
+  .physle-subtitle { font-size: 0.94rem; }
 }

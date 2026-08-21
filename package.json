@@ -5,9 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "npm run content:check && node scripts/schedule-articles.mjs --build",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "articles:schedule": "node scripts/schedule-articles.mjs --consume",
+    "articles:plan": "node scripts/schedule-articles.mjs --dry-run",
+    "crosswords:build": "node scripts/build-crosswords.mjs",
+    "crosswords:check": "node scripts/build-crosswords.mjs --check",
+    "content:check": "node scripts/build-crosswords.mjs --check && node scripts/check-content.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.17.0",

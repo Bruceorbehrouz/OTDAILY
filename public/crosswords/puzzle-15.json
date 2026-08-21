@@ -1,0 +1,230 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "NORM",
+      "clue": "Reference value from a comparison population",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "down",
+      "position": 1
+    },
+    {
+      "answer": "ACUTE",
+      "clue": "Sudden in onset and short-lived",
+      "starty": 1,
+      "startx": 3,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "APHASIA",
+      "clue": "Loss of language ability after brain injury",
+      "starty": 1,
+      "startx": 13,
+      "orientation": "down",
+      "position": 3
+    },
+    {
+      "answer": "CLINIC",
+      "clue": "Outpatient setting for appointments",
+      "starty": 2,
+      "startx": 3,
+      "orientation": "across",
+      "position": 4
+    },
+    {
+      "answer": "COPM",
+      "clue": "Canadian Occupational Performance Measure, in short",
+      "starty": 2,
+      "startx": 8,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "DYSPHAGIA",
+      "clue": "Difficulty swallowing",
+      "starty": 2,
+      "startx": 10,
+      "orientation": "across",
+      "position": 6
+    },
+    {
+      "answer": "ARTHRITIS",
+      "clue": "Inflammation of one or more joints",
+      "starty": 2,
+      "startx": 18,
+      "orientation": "down",
+      "position": 7
+    },
+    {
+      "answer": "MOTOR",
+      "clue": "Relating to movement",
+      "starty": 4,
+      "startx": 1,
+      "orientation": "across",
+      "position": 8
+    },
+    {
+      "answer": "APRAXIA",
+      "clue": "Difficulty planning movement despite intact strength",
+      "starty": 4,
+      "startx": 7,
+      "orientation": "across",
+      "position": 9
+    },
+    {
+      "answer": "CALCANEUS",
+      "clue": "Heel bone",
+      "starty": 4,
+      "startx": 16,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "DELTOID",
+      "clue": "Muscle capping the shoulder",
+      "starty": 6,
+      "startx": 1,
+      "orientation": "down",
+      "position": 11
+    },
+    {
+      "answer": "BREATHING",
+      "clue": "Exercises used to manage breathlessness and anxiety",
+      "starty": 6,
+      "startx": 4,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "TRAPEZIUS",
+      "clue": "Diamond-shaped muscle of the upper back",
+      "starty": 7,
+      "startx": 3,
+      "orientation": "across",
+      "position": 13
+    },
+    {
+      "answer": "HEART",
+      "clue": "Muscular pump of the circulation",
+      "starty": 8,
+      "startx": 14,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "TRIAL",
+      "clue": "Planned test of an intervention",
+      "starty": 9,
+      "startx": 1,
+      "orientation": "across",
+      "position": 15
+    },
+    {
+      "answer": "OCCUPATION",
+      "clue": "Meaningful everyday activity — the core of this profession",
+      "starty": 9,
+      "startx": 7,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "PARKINSONS",
+      "clue": "Condition marked by tremor, rigidity and slow movement",
+      "starty": 9,
+      "startx": 11,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "PROSTHESIS",
+      "clue": "Artificial replacement for a missing limb",
+      "starty": 9,
+      "startx": 13,
+      "orientation": "down",
+      "position": 18
+    },
+    {
+      "answer": "QUADRICEPS",
+      "clue": "Four muscles at the front of the thigh",
+      "starty": 10,
+      "startx": 9,
+      "orientation": "across",
+      "position": 19
+    },
+    {
+      "answer": "DELIRIUM",
+      "clue": "Acute fluctuating confusion, often reversible",
+      "starty": 12,
+      "startx": 1,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "SENSE",
+      "clue": "Touch, sight or hearing, for example",
+      "starty": 12,
+      "startx": 13,
+      "orientation": "across",
+      "position": 21
+    },
+    {
+      "answer": "LIFT",
+      "clue": "Raise a load, ideally with the legs",
+      "starty": 13,
+      "startx": 9,
+      "orientation": "down",
+      "position": 22
+    },
+    {
+      "answer": "GRASP",
+      "clue": "How the hand takes hold of an object",
+      "starty": 13,
+      "startx": 18,
+      "orientation": "down",
+      "position": 23
+    },
+    {
+      "answer": "REGULATION",
+      "clue": "Self-___, managing one's own arousal and emotion",
+      "starty": 14,
+      "startx": 2,
+      "orientation": "across",
+      "position": 24
+    },
+    {
+      "answer": "REACH",
+      "clue": "Extend the arm toward an object",
+      "starty": 14,
+      "startx": 15,
+      "orientation": "down",
+      "position": 25
+    },
+    {
+      "answer": "CHECKLIST",
+      "clue": "Written aid supporting memory for a sequence",
+      "starty": 16,
+      "startx": 1,
+      "orientation": "across",
+      "position": 26
+    },
+    {
+      "answer": "STAIRS",
+      "clue": "Home feature often needing a rail",
+      "starty": 16,
+      "startx": 13,
+      "orientation": "across",
+      "position": 27
+    },
+    {
+      "answer": "METAANALYSIS",
+      "clue": "Statistical pooling of results across studies",
+      "starty": 18,
+      "startx": 2,
+      "orientation": "across",
+      "position": 28
+    }
+  ]
+}

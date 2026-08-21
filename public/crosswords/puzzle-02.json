@@ -1,0 +1,230 @@
+{
+  "rows": 18,
+  "cols": 18,
+  "result": [
+    {
+      "answer": "GLOVE",
+      "clue": "Compression garment for the hand",
+      "starty": 1,
+      "startx": 1,
+      "orientation": "across",
+      "position": 1
+    },
+    {
+      "answer": "ELBOW",
+      "clue": "Hinge joint of the arm",
+      "starty": 1,
+      "startx": 5,
+      "orientation": "down",
+      "position": 2
+    },
+    {
+      "answer": "MYOFIBRIL",
+      "clue": "Contractile thread within a muscle fibre",
+      "starty": 1,
+      "startx": 7,
+      "orientation": "across",
+      "position": 3
+    },
+    {
+      "answer": "INVERSION",
+      "clue": "Turning the sole of the foot inward",
+      "starty": 1,
+      "startx": 14,
+      "orientation": "down",
+      "position": 4
+    },
+    {
+      "answer": "CRAMP",
+      "clue": "Painful muscle tightening",
+      "starty": 3,
+      "startx": 1,
+      "orientation": "down",
+      "position": 5
+    },
+    {
+      "answer": "TOE",
+      "clue": "Digit of the foot",
+      "starty": 3,
+      "startx": 7,
+      "orientation": "down",
+      "position": 6
+    },
+    {
+      "answer": "NERVE",
+      "clue": "Bundle of fibres carrying signals",
+      "starty": 3,
+      "startx": 11,
+      "orientation": "across",
+      "position": 7
+    },
+    {
+      "answer": "EPIPHYSIS",
+      "clue": "Growing end of a long bone",
+      "starty": 3,
+      "startx": 18,
+      "orientation": "down",
+      "position": 8
+    },
+    {
+      "answer": "COMMUNITY",
+      "clue": "Care setting outside hospital walls",
+      "starty": 4,
+      "startx": 16,
+      "orientation": "down",
+      "position": 9
+    },
+    {
+      "answer": "CEREBELLUM",
+      "clue": "Brain region coordinating balance and movement",
+      "starty": 5,
+      "startx": 3,
+      "orientation": "down",
+      "position": 10
+    },
+    {
+      "answer": "WHEELCHAIR",
+      "clue": "Wheeled seating for mobility",
+      "starty": 5,
+      "startx": 5,
+      "orientation": "across",
+      "position": 11
+    },
+    {
+      "answer": "HANDWRITING",
+      "clue": "School skill often addressed in paediatric practice",
+      "starty": 5,
+      "startx": 6,
+      "orientation": "down",
+      "position": 12
+    },
+    {
+      "answer": "AMPUTATION",
+      "clue": "Surgical removal of a limb",
+      "starty": 5,
+      "startx": 12,
+      "orientation": "down",
+      "position": 13
+    },
+    {
+      "answer": "PARKINSONS",
+      "clue": "Condition marked by tremor, rigidity and slow movement",
+      "starty": 7,
+      "startx": 1,
+      "orientation": "across",
+      "position": 14
+    },
+    {
+      "answer": "SUPINATION",
+      "clue": "Turning the palm upward",
+      "starty": 9,
+      "startx": 8,
+      "orientation": "down",
+      "position": 15
+    },
+    {
+      "answer": "PLASTICITY",
+      "clue": "Brain's capacity to reorganise after injury",
+      "starty": 9,
+      "startx": 10,
+      "orientation": "down",
+      "position": 16
+    },
+    {
+      "answer": "ABDUCTION",
+      "clue": "Moving a limb away from the midline",
+      "starty": 10,
+      "startx": 1,
+      "orientation": "down",
+      "position": 17
+    },
+    {
+      "answer": "ARTHRITIS",
+      "clue": "Inflammation of one or more joints",
+      "starty": 11,
+      "startx": 10,
+      "orientation": "across",
+      "position": 18
+    },
+    {
+      "answer": "ROTATION",
+      "clue": "Turning around an axis",
+      "starty": 11,
+      "startx": 14,
+      "orientation": "down",
+      "position": 19
+    },
+    {
+      "answer": "STAIRS",
+      "clue": "Home feature often needing a rail",
+      "starty": 12,
+      "startx": 5,
+      "orientation": "across",
+      "position": 20
+    },
+    {
+      "answer": "SEATED",
+      "clue": "Doing a task sitting down to save effort",
+      "starty": 13,
+      "startx": 17,
+      "orientation": "down",
+      "position": 21
+    },
+    {
+      "answer": "COMPENSATION",
+      "clue": "Working around a deficit with a new strategy",
+      "starty": 14,
+      "startx": 1,
+      "orientation": "across",
+      "position": 22
+    },
+    {
+      "answer": "JAW",
+      "clue": "Hinged bone used for chewing",
+      "starty": 16,
+      "startx": 3,
+      "orientation": "across",
+      "position": 23
+    },
+    {
+      "answer": "ARM",
+      "clue": "Limb from shoulder to hand",
+      "starty": 16,
+      "startx": 4,
+      "orientation": "down",
+      "position": 24
+    },
+    {
+      "answer": "CLIENT",
+      "clue": "The person at the centre of the therapy process",
+      "starty": 16,
+      "startx": 12,
+      "orientation": "across",
+      "position": 25
+    },
+    {
+      "answer": "CUE",
+      "clue": "Prompt guiding the next action",
+      "starty": 16,
+      "startx": 12,
+      "orientation": "down",
+      "position": 25
+    },
+    {
+      "answer": "NORM",
+      "clue": "Reference value from a comparison population",
+      "starty": 18,
+      "startx": 1,
+      "orientation": "across",
+      "position": 26
+    },
+    {
+      "answer": "CONDYLE",
+      "clue": "Rounded knob at the end of a bone forming a joint",
+      "starty": 18,
+      "startx": 6,
+      "orientation": "across",
+      "position": 27
+    }
+  ]
+}
