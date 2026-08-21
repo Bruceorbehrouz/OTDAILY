@@ -78,7 +78,11 @@ export function Sidebar({
       <AccessibilitySettings />
 
       {/* About */}
-      <div className="sidebar-card sidebar-card-clickable" onClick={() => onViewChange('about')}>
+      <button
+        type="button"
+        className="sidebar-card sidebar-card-clickable"
+        onClick={() => onViewChange('about')}
+      >
         <div className="sidebar-card-body sidebar-about-row">
           <div className="sidebar-about-icon">
             <Info aria-hidden="true" />
@@ -88,7 +92,7 @@ export function Sidebar({
             <div className="sidebar-about-sub">About this app</div>
           </div>
         </div>
-      </div>
+      </button>
     </aside>
   );
 }

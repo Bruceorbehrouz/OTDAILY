@@ -9,7 +9,7 @@ export function sharePhysle(guesses: LetterResult[][], won: boolean, streak: num
   ).join('\n');
 
   const result = won ? `${guesses.length}/6` : 'X/6';
-  const text = `Wordle ${result} | Streak ${streak}\n\n${lines}\n\nPlay at OT Research Daily`;
+  const text = `OT Research Daily Wordle ${result} | Streak ${streak}\n\n${lines}\n\nPlay at OT Research Daily`;
 
   if (navigator.share) {
     navigator.share({ text }).catch(() => copyToClipboard(text));

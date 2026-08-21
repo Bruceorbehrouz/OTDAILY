@@ -2,11 +2,16 @@ import { useState } from 'react';
 import { useSpeech } from 'react-text-to-speech';
 import type { Article } from '../../types';
 import { copyArticle } from '../../utils/share';
-import { Bookmark, Check, Copy, ExternalLink, Pause, Square, Volume2 } from 'lucide-react';
+import { formatDate } from '../../utils/date';
+import { Bookmark, Check, Clock, Copy, ExternalLink, Pause, Square, Volume2 } from 'lucide-react';
 import './ArticleView.css';
 
 interface Props {
   article: Article;
+  /** Date the shown article was published under, if known. */
+  publishedOn?: string | null;
+  /** True when today has no article yet and an earlier one is shown instead. */
+  isArchive?: boolean;
   isBookmarked: boolean;
   onBookmark: () => void;
   savedEnabled: boolean;
@@ -24,6 +29,8 @@ const TABS: { id: Tab; label: string }[] = [
 
 export function ArticleView({
   article,
+  publishedOn,
+  isArchive = false,
   isBookmarked,
   onBookmark,
   savedEnabled,
@@ -53,6 +60,16 @@ export function ArticleView({
 
   return (
     <div className="article-view">
+      {isArchive && publishedOn && (
+        <div className="article-archive-note">
+          <Clock aria-hidden="true" />
+          <span>
+            No new article today yet — showing the most recent one, published{' '}
+            {formatDate(publishedOn)}.
+          </span>
+        </div>
+      )}
+
       <div className="article-meta-row">
         {article.studyType && (
           <span className="study-type-badge">{article.studyType}</span>
@@ -86,10 +103,12 @@ export function ArticleView({
                   <span>Pause</span>
                 </button>
               )}
-              <button className="action-btn" onClick={stop} title="Stop reading">
-                <Square aria-hidden="true" />
-                <span>Stop</span>
-              </button>
+              {speechStatus !== 'stopped' && (
+                <button className="action-btn" onClick={stop} title="Stop reading">
+                  <Square aria-hidden="true" />
+                  <span>Stop</span>
+                </button>
+              )}
             </div>
           )}
         </div>
@@ -115,7 +134,10 @@ export function ArticleView({
           <button
             key={id}
             role="tab"
+            id={`article-tab-${id}`}
             aria-selected={tab === id}
+            aria-controls="article-tabpanel"
+            tabIndex={tab === id ? 0 : -1}
             className={`article-tab${tab === id ? ' active' : ''}`}
             onClick={() => setTab(id)}
           >
@@ -124,7 +146,13 @@ export function ArticleView({
         ))}
       </div>
 
-      <div className="article-body" role="tabpanel">
+      <div
+        className="article-body"
+        role="tabpanel"
+        id="article-tabpanel"
+        aria-labelledby={`article-tab-${tab}`}
+        tabIndex={0}
+      >
         {tab === 'summary' && (
           <p className="article-text">{article.summary}</p>
         )}

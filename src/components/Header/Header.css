@@ -75,6 +75,17 @@
   overflow-x: auto;
   padding-bottom: 10px;
   scrollbar-width: none;
+  /* Fades the trailing edge so it reads as scrollable when tabs run off. */
+  mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+}
+
+/* No fade needed once every tab fits. */
+@media (min-width: 560px) {
+  .hero-nav {
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
 }
 
 .hero-nav::-webkit-scrollbar {

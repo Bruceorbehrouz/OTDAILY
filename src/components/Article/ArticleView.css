@@ -2,6 +2,28 @@
   padding: clamp(22px, 4vw, 42px);
 }
 
+.article-archive-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 18px;
+  padding: 12px 14px;
+  border: 1px solid color-mix(in srgb, var(--warning) 35%, var(--border));
+  border-radius: var(--radius);
+  background: var(--warning-bg);
+  color: var(--text-b);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.article-archive-note svg {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  margin-top: 2px;
+  color: var(--warning);
+}
+
 .article-meta-row {
   display: flex;
   align-items: center;
@@ -100,6 +122,7 @@
 
 .article-doi {
   width: fit-content;
+  min-height: 44px;
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -211,24 +234,22 @@
     font-size: 2rem;
   }
 
+  /* Wrapping keeps every control reachable; the old nowrap rule pushed the
+     last buttons past the edge of the card once read-aloud was enabled. */
   .article-meta-row {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
   }
 
   .study-type-badge {
-    min-width: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 0.72rem;
-    padding: 5px 8px;
+    font-size: 0.74rem;
+    padding: 5px 9px;
   }
 
   .article-actions {
-    flex: 0 0 auto;
-    flex-wrap: nowrap;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
     gap: 6px;
   }
 

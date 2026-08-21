@@ -17,7 +17,8 @@ import './App.css';
 export default function App() {
   const [activeView, setActiveView] = useState<AppView>('research');
   const [crosswordData, setCrosswordData] = useState<CrosswordData | null>(null);
-  const { article, loading, error, today } = useArticle();
+  const [crosswordError, setCrosswordError] = useState(false);
+  const { article, articleDate, isArchive, loading, error, today } = useArticle();
   const { bookmarks, toggle, isBookmarked } = useBookmarks();
 
   const [physleState] = useLocalStorage<PhysleState>(
@@ -26,10 +27,16 @@ export default function App() {
   );
 
   useEffect(() => {
+    if (!FEATURES.crossword) return;
+    let cancelled = false;
     fetch(`${import.meta.env.BASE_URL}crossword.json`)
-      .then(r => r.json())
-      .then(setCrosswordData)
-      .catch(console.error);
+      .then(r => {
+        if (!r.ok) throw new Error(`crossword.json: ${r.status}`);
+        return r.json();
+      })
+      .then(data => { if (!cancelled) setCrosswordData(data); })
+      .catch(() => { if (!cancelled) setCrosswordError(true); });
+    return () => { cancelled = true; };
   }, []);
 
   function renderMain() {
@@ -53,6 +60,8 @@ export default function App() {
         return (
           <ArticleView
             article={article}
+            publishedOn={articleDate}
+            isArchive={isArchive}
             isBookmarked={isBookmarked(article, 'daily')}
             onBookmark={() => toggle(article, 'daily')}
             savedEnabled={FEATURES.saved}
@@ -63,7 +72,21 @@ export default function App() {
         return FEATURES.wordle ? <PhysleView /> : null;
       case 'crossword':
         if (!FEATURES.crossword) return null;
-        if (!crosswordData) return <div className="card-loading"><div className="spinner" /></div>;
+        if (crosswordError) return (
+          <div className="card-empty">
+            <div className="card-empty-icon" aria-hidden="true"><FileText /></div>
+            <div className="card-empty-title">Crossword unavailable</div>
+            <div className="card-empty-sub">
+              This week's puzzle could not be loaded. Please try again later.
+            </div>
+          </div>
+        );
+        if (!crosswordData) return (
+          <div className="card-loading">
+            <div className="spinner" />
+            <p>Loading this week's crossword…</p>
+          </div>
+        );
         return <CrosswordView data={crosswordData} />;
       case 'saved':
         if (!FEATURES.saved) return null;

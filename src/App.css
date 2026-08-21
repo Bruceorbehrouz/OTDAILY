@@ -28,6 +28,11 @@
   --key-bg: #4c2934;
   --key-text: #ffffff;
   --absent-bg: #4d4448;
+  --cw-open: #ffffff;
+  --cw-block: #2b1d22;
+  --cw-selected: #2255c3;
+  --cw-selected-text: #ffffff;
+  --cw-in-word: #dbe6fb;
   --tag-bg: #ebf2ff;
   --tag-text: #173b86;
   --focus: #2255c3;
@@ -51,6 +56,10 @@
   --text-f: #4c2934;
   --accent: #003f9e;
   --focus: #003f9e;
+  --cw-open: #ffffff;
+  --cw-block: #12070b;
+  --cw-selected: #003f9e;
+  --cw-in-word: #cddffa;
 }
 
 :root[data-a11y-text="large"] body {
@@ -99,6 +108,11 @@
     --tag-bg: #17233a;
     --tag-text: #bfd2ff;
     --focus: #8fb2ff;
+    --cw-open: #3a2e34;
+    --cw-block: #0b0809;
+    --cw-selected: #3f6fd8;
+    --cw-selected-text: #ffffff;
+    --cw-in-word: #253550;
   }
 }
 

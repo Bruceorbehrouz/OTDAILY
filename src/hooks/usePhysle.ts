@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { useLocalStorage } from './useLocalStorage';
 import { PHYSLE_WORDS, PHYSLE_WORD_OFFSET } from '../data/words';
-import { dayOfYear, vancouverDateStr, weekDays } from '../utils/date';
+import { addDays, dayOfYear, vancouverDateStr, weekDays } from '../utils/date';
 import type { PhysleState, PhysleStreak, LetterResult, LetterStatus } from '../types';
 
 const MAX_GUESSES = 6;
@@ -17,6 +17,16 @@ function stateKey(): string {
 
 function getInitialState(): PhysleState {
   return { guesses: [], current: '', done: false, won: false };
+}
+
+/** Reads a past day's saved result so the week strip shows real history. */
+function wasSolvedOn(dateStr: string): boolean {
+  try {
+    const raw = window.localStorage.getItem(`physle_v2_${dateStr}`);
+    return raw ? (JSON.parse(raw) as PhysleState).won === true : false;
+  } catch {
+    return false;
+  }
 }
 
 export function evaluateGuess(guess: string, target: string): LetterResult[] {
@@ -69,9 +79,7 @@ export function usePhysle() {
     if (!state.done) return;
     if (streak.lastDate === today) return;
 
-    const yesterday = new Date();
-    yesterday.setDate(yesterday.getDate() - 1);
-    const yday = yesterday.toLocaleDateString('en-CA', { timeZone: 'America/Vancouver' });
+    const yday = addDays(today, -1);
 
     const newCount = state.won ? (streak.lastDate === yday ? streak.count + 1 : 1) : 0;
     setStreak({
@@ -168,11 +176,11 @@ export function usePhysle() {
     });
   }
 
-  const calendar = weekDays().map(({ label, date }) => ({
+  const calendar = weekDays(today).map(({ label, date }) => ({
     label,
     date,
     isToday: date === today,
-    solved: date === today ? state.won : false,
+    solved: date === today ? state.won : wasSolvedOn(date),
   }));
 
   return {

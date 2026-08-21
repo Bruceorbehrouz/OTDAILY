@@ -12,41 +12,52 @@ interface Props {
 
 type Dir = 'across' | 'down';
 
+function cellKey(r: number, c: number) { return `${r}-${c}`; }
+
+/**
+ * Across and Down clues share numbers (9A and 9D are different clues), so the
+ * clue number alone cannot identify a clue.
+ */
+function clueId(clue: CrosswordClue): string {
+  return `${clue.position}-${clue.orientation}`;
+}
+
+function clueCells(clue: CrosswordClue): { r: number; c: number }[] {
+  return Array.from({ length: clue.answer.length }, (_, i) => ({
+    r: clue.orientation === 'across' ? clue.starty : clue.starty + i,
+    c: clue.orientation === 'across' ? clue.startx + i : clue.startx,
+  }));
+}
+
 function buildGrid(data: CrosswordData) {
-  const grid: (CrosswordClue[] | null)[][] = Array.from({ length: data.rows + 1 }, () =>
-    Array(data.cols + 1).fill(null)
-  );
   const cellClues: Record<string, CrosswordClue[]> = {};
   const cellNumbers: Record<string, number[]> = {};
 
   for (const clue of data.result) {
-    const { answer, startx, starty, orientation } = clue;
-    for (let i = 0; i < answer.length; i++) {
-      const r = orientation === 'across' ? starty : starty + i;
-      const c = orientation === 'across' ? startx + i : startx;
-      const k = `${r}-${c}`;
+    for (const { r, c } of clueCells(clue)) {
+      const k = cellKey(r, c);
       if (!cellClues[k]) cellClues[k] = [];
       cellClues[k].push(clue);
     }
-    const startKey = `${starty}-${startx}`;
+    const startKey = cellKey(clue.starty, clue.startx);
     if (!cellNumbers[startKey]) cellNumbers[startKey] = [];
     cellNumbers[startKey].push(clue.position);
   }
 
-  return { grid, cellClues, cellNumbers };
+  return { cellClues, cellNumbers };
 }
 
 export function CrosswordView({ data }: Props) {
   const weekKey = cwWeekKey();
   const [progress, setProgress] = useLocalStorage<CrosswordProgress>(
     `physio_crossword_${weekKey}`,
-    { userLetters: {}, solvedClues: [] }
+    { userLetters: {} }
   );
 
   const [selectedCell, setSelectedCell] = useState<{ r: number; c: number } | null>(null);
   const [dir, setDir] = useState<Dir>('across');
   const [showCheck, setShowCheck] = useState(false);
-  const [justSolved, setJustSolved] = useState<number[]>([]);
+  const [justSolved, setJustSolved] = useState<string[]>([]);
 
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -54,162 +65,178 @@ export function CrosswordView({ data }: Props) {
     const built = buildGrid(data);
     return { ...built, allCells: new Set(Object.keys(built.cellClues)) };
   }, [data]);
-  const totalClues = data.result.length;
-  const solvedCount = progress.solvedClues.length;
-  const pct = Math.round((solvedCount / totalClues) * 100);
-  const complete = solvedCount === totalClues;
 
-  function cellKey(r: number, c: number) { return `${r}-${c}`; }
+  const userLetters = progress.userLetters;
 
-  function getActiveClue(): CrosswordClue | null {
-    if (!selectedCell) return null;
-    const k = cellKey(selectedCell.r, selectedCell.c);
-    const clues = cellClues[k];
-    if (!clues) return null;
-    return clues.find(cl => cl.orientation === dir) ?? clues[0];
-  }
-
-  function getClueWord(clue: CrosswordClue): string[] {
-    return Array.from({ length: clue.answer.length }, (_, i) => {
-      const r = clue.orientation === 'across' ? clue.starty : clue.starty + i;
-      const c = clue.orientation === 'across' ? clue.startx + i : clue.startx;
-      return progress.userLetters[cellKey(r, c)] ?? '';
-    });
-  }
-
-  function checkClue(clue: CrosswordClue): boolean {
-    const filled = getClueWord(clue);
-    return filled.join('') === clue.answer;
-  }
-
-  function checkSolved() {
-    const solved: number[] = [];
+  /**
+   * Derived from the letters on the board rather than stored alongside them,
+   * so a clue is marked solved the moment its last letter lands.
+   */
+  const solvedIds = useMemo(() => {
+    const solved = new Set<string>();
     for (const clue of data.result) {
-      if (checkClue(clue)) solved.push(clue.position);
+      const filled = clueCells(clue).map(({ r, c }) => userLetters[cellKey(r, c)] ?? '').join('');
+      if (filled === clue.answer) solved.add(clueId(clue));
     }
     return solved;
-  }
+  }, [data, userLetters]);
+
+  const totalClues = data.result.length;
+  const solvedCount = solvedIds.size;
+  const pct = totalClues ? Math.round((solvedCount / totalClues) * 100) : 0;
+  const complete = totalClues > 0 && solvedCount === totalClues;
+
+  // Pulse cells of clues that were just completed.
+  const prevSolved = useRef(solvedIds);
+  useEffect(() => {
+    const newly = [...solvedIds].filter(id => !prevSolved.current.has(id));
+    prevSolved.current = solvedIds;
+    if (!newly.length) return;
+    setJustSolved(newly);
+    const t = setTimeout(() => setJustSolved([]), 600);
+    return () => clearTimeout(t);
+  }, [solvedIds]);
+
+  const getActiveClue = useCallback((): CrosswordClue | null => {
+    if (!selectedCell) return null;
+    const clues = cellClues[cellKey(selectedCell.r, selectedCell.c)];
+    if (!clues) return null;
+    return clues.find(cl => cl.orientation === dir) ?? clues[0];
+  }, [selectedCell, cellClues, dir]);
+
+  const setLetter = useCallback((k: string, letter: string | null) => {
+    setProgress(prev => {
+      const userLetters = { ...prev.userLetters };
+      if (letter === null) delete userLetters[k];
+      else userLetters[k] = letter;
+      return { ...prev, userLetters };
+    });
+  }, [setProgress]);
 
   const handleInput = useCallback((letter: string) => {
     if (!selectedCell) return;
     const k = cellKey(selectedCell.r, selectedCell.c);
     if (!allCells.has(k)) return;
 
-    setProgress(prev => {
-      const next = { ...prev, userLetters: { ...prev.userLetters, [k]: letter.toUpperCase() } };
-      const solved = checkSolved();
-      const newlySolved = solved.filter(p => !prev.solvedClues.includes(p));
-      if (newlySolved.length) {
-        setJustSolved(newlySolved);
-        setTimeout(() => setJustSolved([]), 600);
-      }
-      return { ...next, solvedClues: solved };
-    });
+    setLetter(k, letter.toUpperCase());
 
-    // Advance cursor
+    // Advance the cursor to the next cell of the active clue.
     const ac = getActiveClue();
     if (ac) {
       const idx = ac.orientation === 'across'
         ? selectedCell.c - ac.startx
         : selectedCell.r - ac.starty;
       if (idx < ac.answer.length - 1) {
-        const nr = ac.orientation === 'across' ? selectedCell.r : selectedCell.r + 1;
-        const nc = ac.orientation === 'across' ? selectedCell.c + 1 : selectedCell.c;
-        setSelectedCell({ r: nr, c: nc });
+        setSelectedCell({
+          r: ac.orientation === 'across' ? selectedCell.r : selectedCell.r + 1,
+          c: ac.orientation === 'across' ? selectedCell.c + 1 : selectedCell.c,
+        });
       }
     }
-  }, [selectedCell, allCells, setProgress]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [selectedCell, allCells, setLetter, getActiveClue]);
 
   const handleDelete = useCallback(() => {
     if (!selectedCell) return;
     const k = cellKey(selectedCell.r, selectedCell.c);
-    const hasCurrent = !!progress.userLetters[k];
 
-    if (hasCurrent) {
-      setProgress(prev => {
-        const next = { ...prev, userLetters: { ...prev.userLetters } };
-        delete next.userLetters[k];
-        return { ...next, solvedClues: checkSolved() };
-      });
-    } else {
-      // Move back
-      const ac = getActiveClue();
-      if (ac) {
-        const idx = ac.orientation === 'across'
-          ? selectedCell.c - ac.startx
-          : selectedCell.r - ac.starty;
-        if (idx > 0) {
-          const nr = ac.orientation === 'across' ? selectedCell.r : selectedCell.r - 1;
-          const nc = ac.orientation === 'across' ? selectedCell.c - 1 : selectedCell.c;
-          setSelectedCell({ r: nr, c: nc });
-          const prevKey = cellKey(nr, nc);
-          setProgress(prev => {
-            const next = { ...prev, userLetters: { ...prev.userLetters } };
-            delete next.userLetters[prevKey];
-            return next;
-          });
-        }
+    if (userLetters[k]) {
+      setLetter(k, null);
+      return;
+    }
+
+    // Empty cell — step back and clear the previous one.
+    const ac = getActiveClue();
+    if (!ac) return;
+    const idx = ac.orientation === 'across'
+      ? selectedCell.c - ac.startx
+      : selectedCell.r - ac.starty;
+    if (idx <= 0) return;
+
+    const nr = ac.orientation === 'across' ? selectedCell.r : selectedCell.r - 1;
+    const nc = ac.orientation === 'across' ? selectedCell.c - 1 : selectedCell.c;
+    setSelectedCell({ r: nr, c: nc });
+    setLetter(cellKey(nr, nc), null);
+  }, [selectedCell, userLetters, setLetter, getActiveClue]);
+
+  /** Steps over blocked squares instead of stopping at them. */
+  const move = useCallback((dr: number, dc: number) => {
+    if (!selectedCell) return;
+    let { r, c } = selectedCell;
+    for (let i = 0; i < Math.max(data.rows, data.cols); i++) {
+      r += dr;
+      c += dc;
+      if (r < 1 || r > data.rows || c < 1 || c > data.cols) return;
+      if (allCells.has(cellKey(r, c))) {
+        setSelectedCell({ r, c });
+        return;
       }
     }
-  }, [selectedCell, progress.userLetters, setProgress]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [selectedCell, allCells, data.rows, data.cols]);
 
-  // Keyboard handler
-  useEffect(() => {
-    const handler = (e: KeyboardEvent) => {
+  const handleKeyDown = useCallback((e: KeyboardEvent | React.KeyboardEvent) => {
+    {
       if (!selectedCell) return;
+      if (e.ctrlKey || e.altKey || e.metaKey) return;
       if (e.key === 'Backspace' || e.key === 'Delete') {
         e.preventDefault();
         handleDelete();
       } else if (e.key === 'ArrowRight') {
         e.preventDefault();
         setDir('across');
-        const nr = { r: selectedCell.r, c: Math.min(selectedCell.c + 1, data.cols) };
-        if (allCells.has(cellKey(nr.r, nr.c))) setSelectedCell(nr);
+        move(0, 1);
       } else if (e.key === 'ArrowLeft') {
         e.preventDefault();
         setDir('across');
-        const nr = { r: selectedCell.r, c: Math.max(selectedCell.c - 1, 1) };
-        if (allCells.has(cellKey(nr.r, nr.c))) setSelectedCell(nr);
+        move(0, -1);
       } else if (e.key === 'ArrowDown') {
         e.preventDefault();
         setDir('down');
-        const nr = { r: Math.min(selectedCell.r + 1, data.rows), c: selectedCell.c };
-        if (allCells.has(cellKey(nr.r, nr.c))) setSelectedCell(nr);
+        move(1, 0);
       } else if (e.key === 'ArrowUp') {
         e.preventDefault();
         setDir('down');
-        const nr = { r: Math.max(selectedCell.r - 1, 1), c: selectedCell.c };
-        if (allCells.has(cellKey(nr.r, nr.c))) setSelectedCell(nr);
+        move(-1, 0);
+      } else if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        setDir(d => (d === 'across' ? 'down' : 'across'));
       } else if (/^[a-zA-Z]$/.test(e.key)) {
+        e.preventDefault();
         handleInput(e.key);
       }
+    }
+  }, [selectedCell, handleInput, handleDelete, move]);
+
+  // Physical keyboards work whether or not the proxy input holds focus, but the
+  // input's own handler owns the keys it receives so nothing is applied twice.
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if (e.target === inputRef.current) return;
+      handleKeyDown(e);
     };
     window.addEventListener('keydown', handler);
     return () => window.removeEventListener('keydown', handler);
-  }, [selectedCell, dir, allCells, data, handleInput, handleDelete]);
+  }, [handleKeyDown]);
 
-  function handleCellClick(r: number, c: number) {
-    const k = cellKey(r, c);
-    if (!allCells.has(k)) return;
-    if (selectedCell?.r === r && selectedCell.c === c) {
-      setDir(d => d === 'across' ? 'down' : 'across');
+  function selectCell(r: number, c: number, toggle = true) {
+    if (!allCells.has(cellKey(r, c))) return;
+    if (toggle && selectedCell?.r === r && selectedCell.c === c) {
+      setDir(d => (d === 'across' ? 'down' : 'across'));
     } else {
       setSelectedCell({ r, c });
     }
-    inputRef.current?.focus();
+    // Focusing the proxy input is what opens the on-screen keyboard on phones.
+    inputRef.current?.focus({ preventScroll: true });
   }
 
   function handleRevealWord() {
     const ac = getActiveClue();
     if (!ac) return;
     setProgress(prev => {
-      const next = { ...prev, userLetters: { ...prev.userLetters } };
-      for (let i = 0; i < ac.answer.length; i++) {
-        const r = ac.orientation === 'across' ? ac.starty : ac.starty + i;
-        const c = ac.orientation === 'across' ? ac.startx + i : ac.startx;
-        next.userLetters[cellKey(r, c)] = ac.answer[i];
-      }
-      return { ...next, solvedClues: checkSolved() };
+      const userLetters = { ...prev.userLetters };
+      clueCells(ac).forEach(({ r, c }, i) => {
+        userLetters[cellKey(r, c)] = ac.answer[i];
+      });
+      return { ...prev, userLetters };
     });
   }
 
@@ -219,39 +246,57 @@ export function CrosswordView({ data }: Props) {
   }
 
   function handleClearAll() {
-    setProgress({ userLetters: {}, solvedClues: [] });
+    setProgress({ userLetters: {} });
     setSelectedCell(null);
   }
 
   function isInActiveWord(r: number, c: number): boolean {
     const ac = getActiveClue();
     if (!ac) return false;
-    for (let i = 0; i < ac.answer.length; i++) {
-      const cr = ac.orientation === 'across' ? ac.starty : ac.starty + i;
-      const cc = ac.orientation === 'across' ? ac.startx + i : ac.startx;
-      if (cr === r && cc === c) return true;
-    }
-    return false;
+    return clueCells(ac).some(cell => cell.r === r && cell.c === c);
   }
 
   function cellCheckStatus(r: number, c: number): 'correct' | 'wrong' | null {
     if (!showCheck) return null;
     const k = cellKey(r, c);
-    const letter = progress.userLetters[k];
+    const letter = userLetters[k];
     if (!letter) return null;
     const clues = cellClues[k];
     if (!clues) return null;
-    const expected = clues[0].answer[
-      clues[0].orientation === 'across'
-        ? c - clues[0].startx
-        : r - clues[0].starty
+    const first = clues[0];
+    const expected = first.answer[
+      first.orientation === 'across' ? c - first.startx : r - first.starty
     ];
     return letter === expected ? 'correct' : 'wrong';
   }
 
   const activeClue = getActiveClue();
-  const across = data.result.filter(c => c.orientation === 'across').sort((a,b) => a.position - b.position);
-  const down = data.result.filter(c => c.orientation === 'down').sort((a,b) => a.position - b.position);
+  const across = data.result.filter(c => c.orientation === 'across').sort((a, b) => a.position - b.position);
+  const down = data.result.filter(c => c.orientation === 'down').sort((a, b) => a.position - b.position);
+
+  function renderClueList(clues: CrosswordClue[], orientation: Dir) {
+    return clues.map(cl => {
+      const solved = solvedIds.has(clueId(cl));
+      const isActive = activeClue?.position === cl.position && activeClue.orientation === orientation;
+      return (
+        <button
+          type="button"
+          key={clueId(cl)}
+          className={`cw-ci${solved ? ' done' : ''}${isActive ? ' active-clue' : ''}`}
+          aria-current={isActive ? 'true' : undefined}
+          onClick={() => {
+            setDir(orientation);
+            setSelectedCell({ r: cl.starty, c: cl.startx });
+            inputRef.current?.focus({ preventScroll: true });
+          }}
+        >
+          <span className="cw-ci-n">{cl.position}.</span>
+          <span className="cw-ci-text">{cl.clue}</span>
+          {solved && <span className="cw-ci-tick" aria-hidden="true"><Check /></span>}
+        </button>
+      );
+    });
+  }
 
   return (
     <div className="cw-wrap">
@@ -278,13 +323,16 @@ export function CrosswordView({ data }: Props) {
               <Share2 aria-hidden="true" />
               Share
             </button>
+            <button className="cw-btn cw-btn-danger" onClick={handleClearAll}>
+              Start over
+            </button>
           </div>
         </div>
       ) : (
         <>
           <div className="cw-header">
             <div className="cw-title-row">
-              <div className="cw-title">Crossword</div>
+              <h2 className="cw-title">Crossword</h2>
               <div className="cw-week">Week {weekKey}</div>
             </div>
             <div className="cw-progress-wrap">
@@ -292,65 +340,113 @@ export function CrosswordView({ data }: Props) {
                 <span className="cw-progress-pct">{pct}%</span>
                 <span className="cw-progress-counts">{solvedCount}/{totalClues} clues</span>
               </div>
-              <div className="cw-progress-track">
+              <div
+                className="cw-progress-track"
+                role="progressbar"
+                aria-label="Clues solved"
+                aria-valuemin={0}
+                aria-valuemax={totalClues}
+                aria-valuenow={solvedCount}
+              >
                 <div className="cw-progress-fill" style={{ width: `${pct}%` }} />
               </div>
             </div>
           </div>
 
-          {activeClue && (
-            <div className="cw-active-clue">
-              <span className="cw-active-num">{activeClue.position}{activeClue.orientation === 'across' ? 'A' : 'D'}</span>
-              <span className="cw-active-text">{activeClue.clue}</span>
-              <span className="cw-active-len">({activeClue.answer.length})</span>
-            </div>
-          )}
+          <div className="cw-active-clue">
+            {activeClue ? (
+              <>
+                <span className="cw-active-num">{activeClue.position}{activeClue.orientation === 'across' ? 'A' : 'D'}</span>
+                <span className="cw-active-text">{activeClue.clue}</span>
+                <span className="cw-active-len">({activeClue.answer.length})</span>
+              </>
+            ) : (
+              <span className="cw-active-text cw-active-hint">
+                Pick a square or a clue to start. Tap a selected square again to switch between across and down.
+              </span>
+            )}
+          </div>
 
           <div className="cw-toolbar">
             <button className="cw-btn" onClick={handleCheckAnswers}>Check</button>
-            <button className="cw-btn" onClick={handleRevealWord}>Reveal word</button>
+            <button className="cw-btn" onClick={handleRevealWord} disabled={!activeClue}>Reveal word</button>
             <button className="cw-btn cw-btn-danger" onClick={handleClearAll}>Clear all</button>
           </div>
+
+          {/*
+            Proxy input that carries focus for the grid: it is what raises the
+            on-screen keyboard on phones, so it must stay focusable (never
+            readonly or aria-hidden).
+          */}
+          <input
+            ref={inputRef}
+            className="cw-hidden-input"
+            type="text"
+            value=""
+            inputMode="text"
+            enterKeyHint="next"
+            autoCapitalize="characters"
+            autoCorrect="off"
+            autoComplete="off"
+            spellCheck={false}
+            aria-label={activeClue
+              ? `${activeClue.position} ${activeClue.orientation}: ${activeClue.clue}. ${activeClue.answer.length} letters.`
+              : 'Crossword letter entry'}
+            onChange={e => {
+              // Android soft keyboards often fire only input events, no keydown.
+              const letter = e.target.value.replace(/[^a-zA-Z]/g, '').slice(-1);
+              if (letter) handleInput(letter);
+            }}
+            onKeyDown={handleKeyDown}
+          />
 
           <div className="cw-grid-scroll">
             <div
               className="cw-grid"
+              role="grid"
+              aria-label="Crossword grid"
               style={{
-                gridTemplateColumns: `repeat(${data.cols}, var(--cw-cell-size, 34px))`,
-                gridTemplateRows: `repeat(${data.rows}, var(--cw-cell-size, 34px))`,
-              }}
+                '--cw-cols': data.cols,
+                '--cw-rows': data.rows,
+                gridTemplateColumns: `repeat(${data.cols}, minmax(0, 1fr))`,
+              } as React.CSSProperties}
             >
               {Array.from({ length: data.rows }, (_, ri) =>
                 Array.from({ length: data.cols }, (_, ci) => {
                   const r = ri + 1;
                   const c = ci + 1;
                   const k = cellKey(r, c);
-                  const isActive = allCells.has(k);
+                  const isOpen = allCells.has(k);
                   const isSelected = selectedCell?.r === r && selectedCell.c === c;
                   const inWord = isInActiveWord(r, c);
                   const checkStatus = cellCheckStatus(r, c);
                   const nums = cellNumbers[k] ?? [];
-                  const isSolved = progress.solvedClues.some(pos =>
-                    cellClues[k]?.some(cl => cl.position === pos && cl.orientation === dir)
-                  );
-                  const letter = progress.userLetters[k] ?? '';
+                  const clues = cellClues[k] ?? [];
+                  const isSolved = isOpen && clues.length > 0
+                    && clues.every(cl => solvedIds.has(clueId(cl)));
+                  const pulsing = clues.some(cl => justSolved.includes(clueId(cl)));
+                  const letter = userLetters[k] ?? '';
 
                   return (
                     <div
                       key={k}
                       className={[
                         'cw-cell',
-                        isActive ? 'active' : 'black',
+                        isOpen ? 'open' : 'block',
                         isSelected ? 'selected' : '',
                         inWord && !isSelected ? 'in-word' : '',
                         isSolved && !isSelected ? 'solved' : '',
-                        justSolved.some(pos => cellClues[k]?.some(cl => cl.position === pos)) ? 'just-solved' : '',
+                        pulsing ? 'just-solved' : '',
                         checkStatus === 'correct' ? 'check-correct' : '',
                         checkStatus === 'wrong' ? 'check-wrong' : '',
                       ].filter(Boolean).join(' ')}
-                      onClick={() => handleCellClick(r, c)}
-                      role={isActive ? 'button' : undefined}
-                      aria-label={isActive ? `Row ${r}, Column ${c}` : undefined}
+                      // Keep focus on the proxy input so the keyboard stays up,
+                      // without blocking touch scrolling over the grid.
+                      onMouseDown={e => e.preventDefault()}
+                      onClick={() => { if (isOpen) selectCell(r, c); }}
+                      role={isOpen ? 'gridcell' : 'presentation'}
+                      aria-selected={isOpen ? isSelected : undefined}
+                      aria-label={isOpen ? `Row ${r} column ${c}${letter ? `, ${letter}` : ', empty'}` : undefined}
                     >
                       {nums.length > 0 && (
                         <span className="cw-cell-num">{Math.min(...nums)}</span>
@@ -363,56 +459,14 @@ export function CrosswordView({ data }: Props) {
             </div>
           </div>
 
-          {/* Hidden input for mobile keyboard */}
-          <input
-            ref={inputRef}
-            className="cw-hidden-input"
-            onKeyDown={e => {
-              if (e.key === 'Backspace') { e.preventDefault(); handleDelete(); }
-              else if (/^[a-zA-Z]$/.test(e.key)) { e.preventDefault(); handleInput(e.key); }
-            }}
-            readOnly
-            aria-hidden
-          />
-
           <div className="cw-clues-wrap">
             <div className="cw-clue-col">
               <div className="cw-col-heading">Across</div>
-              {across.map(cl => (
-                <div
-                  key={cl.position}
-                  className={`cw-ci${progress.solvedClues.includes(cl.position) ? ' done' : ''}${activeClue?.position === cl.position && activeClue.orientation === 'across' ? ' active-clue' : ''}`}
-                  onClick={() => {
-                    setDir('across');
-                    setSelectedCell({ r: cl.starty, c: cl.startx });
-                  }}
-                >
-                  <span className="cw-ci-n">{cl.position}.</span>
-                  <span className="cw-ci-text">{cl.clue}</span>
-                  {progress.solvedClues.includes(cl.position) && (
-                    <span className="cw-ci-tick" aria-hidden="true"><Check /></span>
-                  )}
-                </div>
-              ))}
+              {renderClueList(across, 'across')}
             </div>
             <div className="cw-clue-col">
               <div className="cw-col-heading">Down</div>
-              {down.map(cl => (
-                <div
-                  key={cl.position}
-                  className={`cw-ci${progress.solvedClues.includes(cl.position) ? ' done' : ''}${activeClue?.position === cl.position && activeClue.orientation === 'down' ? ' active-clue' : ''}`}
-                  onClick={() => {
-                    setDir('down');
-                    setSelectedCell({ r: cl.starty, c: cl.startx });
-                  }}
-                >
-                  <span className="cw-ci-n">{cl.position}.</span>
-                  <span className="cw-ci-text">{cl.clue}</span>
-                  {progress.solvedClues.includes(cl.position) && (
-                    <span className="cw-ci-tick" aria-hidden="true"><Check /></span>
-                  )}
-                </div>
-              ))}
+              {renderClueList(down, 'down')}
             </div>
           </div>
         </>

@@ -5,9 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node scripts/schedule-articles.mjs --build",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "articles:schedule": "node scripts/schedule-articles.mjs --consume",
+    "articles:plan": "node scripts/schedule-articles.mjs --dry-run"
   },
   "dependencies": {
     "lucide-react": "^1.17.0",
